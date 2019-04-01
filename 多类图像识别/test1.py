@@ -53,8 +53,10 @@ def main1():
     circle_radius = 50
     color = (0, 255, 0)
     line_width = 10
-    src_path = './pic/destop.png'
-    obj_path = './pic/firefox.png'
+    # src_path = './pic/destop.png'
+    # obj_path = './pic/firefox.png'
+    src_path = './2.png'
+    obj_path = './1.png'
     p, circle_center_pos = find_image_cv(obj_path, src_path)
     print(circle_center_pos)
 
@@ -63,6 +65,6 @@ def main1():
     double_click(obj_path, src_path)
 
 if __name__ == "__main__":
-    #main1()
-    main2()
+    main1()
+    #main2()
 

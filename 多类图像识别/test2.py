@@ -39,8 +39,8 @@ def main1():
     circle_radius = 50
     color = (0, 255, 0)
     line_width = 10
-    src_path = './pic/desktop.png'
-    obj_path = './pic/firefox.png'
+    src_path = './1.png'
+    obj_path = './2.png'
     circle_center_pos = find_image_duniang(src_path, obj_path)
     print(circle_center_pos)
     draw_circle(circle_center_pos, circle_radius, color, line_width, src_path)
@@ -58,7 +58,7 @@ def click(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)
 if __name__ == "__main__":
-    #main1()
-    main2()
+    main1()
+    #main2()
     #print(find_image_duniang('./pic/desktop.png', './pic/firefox.png'))
 

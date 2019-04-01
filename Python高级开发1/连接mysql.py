@@ -48,13 +48,13 @@ def thread2(threadName,delay):
 import requests
 from bs4 import BeautifulSoup
 def taobao():
-    url = "https://login.taobao.com/member/login.jhtml?spm=a21bo.2018.201864-2.d1.5af911d9TwsuT4&f=top&redirectURL=http%3A%2F%2Fwww.taobao.com%2F"
+    url = "http://www.doc88.com/p-3317997114127.html"
     req = requests.get(url)
     print(req.text)
-    with open("淘宝text", "w+", encoding='utf-8') as f:
+    with open("毕业设计text", "w+", encoding='utf-8') as f:
         f.write(req.text)
         f.close()
-#taobao()
+taobao()
 def wandao():
     url2 = "https://www.ibiquge.net/13_13330/4327363.html"
     req = requests.get(url2)
@@ -73,4 +73,4 @@ def testimage():
     src="fromurl=http://www.duitang.com/blog"
     req = requests.get(src)
     print(req.text)
-testimage()
+#testimage()

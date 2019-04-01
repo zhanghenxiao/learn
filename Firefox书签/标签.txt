@@ -1,0 +1,136 @@
+﻿https://zmister.com/archives/802.html QT5界面搜索程序。
+
+2018 openCV
+https://blog.csdn.net/wangleixian/article/details/78162469
+https://blog.csdn.net/u012794103/article/details/79072979
+AHK-CSDN_506
+https://blog.csdn.net/liuyukuan/article/details/73936914
+aircv 查找对象信息（坐标）
+https://www.helplib.com/GitHub/article_118432
+AUTOIT(45)
+https://www.cnblogs.com/autotest/p/3262272.html
+BAT 快捷方式命令大全
+https://zhidao.baidu.com/question/3463700.html
+https://www.cnblogs.com/gccbuaa/p/6718758.html
+https://www.cnblogs.com/defen/p/5618226.html
+CSDN博客第一名
+https://blog.csdn.net/maozexijr/article/details/78967806
+Git_使用说明教程
+https://github.com/geeeeeeeeek/git-recipes/wiki/2.1-%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97
+gitea
+https://www.jianshu.com/p/acd5fc63895d
+https://blog.csdn.net/qq_34842671/article/details/70916587
+Jeepool
+https://www.feixiaohao.com/#USD
+https://ulord.jeepool.com/miners/UQ8BHYCCKMkUqW8fMDGRD84CtnGY17zM9p
+micrsoft论坛
+https://social.technet.microsoft.com/Forums/zh-CN/bdb69e1a-bbd9-4ed4-87d6-e44126638857/26159215422148720197368903680721629201962143521368367338220255?forum=winserver8zhcn
+opencv
+https://blog.csdn.net/byxdaz/article/details/676113
+https://blog.csdn.net/firemicrocosm/article/details/48267647
+https://blog.csdn.net/firemicrocosm/article/category/5630349/1?
+https://blog.csdn.net/sunny2038/article/details/9080047
+https://blog.csdn.net/qq_30091945/article/details/78334871
+powershell  转换EXE工具
+https://gallery.technet.microsoft.com/PS2EXE-Convert-PowerShell-9e4e07f1
+powershell 查看计算机BIOS，硬盘信息等
+https://blog.csdn.net/powershell/article/details/1795428
+powershell教程  洪哥笔记
+http://www.splaybow.com/post/powershell-out-file-noclobber.html
+pycharm 激活码
+https://blog.csdn.net/qq_32811489/article/details/78636049
+python Example
+https://www.programcreek.com/python/example/980/
+python opencv 测试成功
+https://www.cnblogs.com/meitian/p/7417582.html
+http://bluewhale.cc/
+http://bluewhale.cc/2017-09-22/use-python-opencv-for-image-template-matching-match-template.html
+python web框架  Flask
+https://blog.csdn.net/zV3e189oS5c0tSknrBCL/article/details/82112854
+python_学习资源
+https://www.w3cschool.cn/python3/python3-mysql.html
+https://github.com/Show-Me-the-Code/python/tree/master/soolx
+http://www.ituring.com.cn/book/tupubarticle/10275
+python3 tkinter
+https://blog.csdn.net/houyanhua1/article/details/78174066
+https://www.cnblogs.com/ssyfj/p/8971750.html
+python3进阶大牛博客
+https://blog.csdn.net/sunhuaqiang1/article/details/72821287
+python适用操作
+https://www.cnblogs.com/aland-1415/p/6849193.html
+https://blog.csdn.net/csdnnews/article/details/80878945
+RCN
+https://www.chainwhy.com/exchange/bitfinex/
+Stack Overflow------very good
+https://stackoverflow.com/
+STM大牛
+https://blog.csdn.net/ybhuangfugui/article/details/52264403
+WIN+R 多个可用命令
+https://www.cnblogs.com/Bob-wei/p/6016181.html
+Windows Powershell ISE
+https://blog.csdn.net/minsenwu/article/details/8787783
+wmic  相关的命令
+https://www.jb51.net/article/49987.htm
+https://www.cnblogs.com/top5/p/3143837.html
+xopy 命令
+https://www.cnblogs.com/yank/p/3926643.html
+错误和异常种类
+https://www.cnblogs.com/zhangyingai/p/7097920.html
+搭建GIT本地服务器
+https://blog.csdn.net/qwer971211/article/details/71156055
+打包exe
+https://www.crifan.com/use_pyinstaller_to_package_python_to_single_executable_exe/
+大牛博客
+https://www.cnblogs.com/ranjiewen/p/6263393.html
+功夫熊猫
+https://www.cnblogs.com/kungfupanda/p/4601947.html
+国内人脸识别公司
+https://cloud.tencent.com/solution/face-recognition?fromSource=gwzcw.186293.186293.186293
+http://ai.baidu.com/
+https://www.megvii.com/#jzl_kwd=41736852109&jzl_ctv=16511707555&jzl_mtt=1&jzl_adt=cl1
+解决技术  网址
+https://segmentfault.com/user/settings?ref=active_success
+可下载大多数用于python的功能模块
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+类似python在线文档
+https://www.example-code.com/python/ftp_download.asp
+孟佳分享
+https://zhuanlan.zhihu.com/p/26345882
+https://jingyan.baidu.com/article/9158e0002c159ea254122821.html
+https://blog.alantsai.net/posts/2015/09/use-ssh-in-windows-for-github
+https://blog.csdn.net/zhouleizhao/article/details/81662266
+https://hackmd.io/features-tw?both
+https://hackmd.io/gQvmMdNqTK2tiW2RPsR5ug?view
+https://www.cnblogs.com/yezuhui/p/6853271.html
+https://www.jianshu.com/p/493b81544f80
+http://www.hahack.com/work/enterprise-class-git-version-control-5/
+https://www.v2ex.com/t/318594
+https://www.lightblue.asia/build-git-server-by-gitea/?doing_wp_cron=1543214744.9597620964050292968750
+https://stackshare.io/stackups/gitblit-vs-gitea-vs-gitlab
+https://www.jianshu.com/p/eefa0b5b4922
+http://www.stmcu.org.cn/document/detail/index/id-218858?trainning
+http://www.stmcu.org.cn/module/forum/thread-615581-1-1.html
+https://zhuanlan.zhihu.com/p/37057908
+https://zhuanlan.zhihu.com/c_154380889
+https://zhuanlan.zhihu.com/p/35407279
+https://www.jianshu.com/p/4a8f4af4e803
+摸拟鼠标键盘
+https://www.jb51.net/article/118588.htm
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook
+识别盘符
+https://blog.csdn.net/clever101/article/details/8618881
+视频网址
+https://www.shiguangkey.com/
+https://chuanke.baidu.com/course/_python%20%20%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90_____.html
+数据分析numpy
+https://www.cnblogs.com/nxld/p/6058572.html
+图灵社区
+http://www.ituring.com.cn/
+微软大大
+https://msdn.microsoft.com/zh-cn/library/windows/hardware/ff550758(v=vs.85).aspx
+微软论坛
+https://gallery.technet.microsoft.com/scriptcenter/
+细致详细博客
+https://www.cnblogs.com/xueweihan/archive/2015/05.html
+字幕软件制作
+https://www.baidu.com/baidu?wd=ACRTIME&tn=monline_dg

@@ -179,7 +179,7 @@ import win32con,win32api,time,re
 from ctypes import *
 from PIL import Image, ImageGrab
 def matchImg(imgsrc, imgobj,confidencevalue=0.8):  # imgsrc=原始图像，imgobj=待查找的图片
-    ImageGrab.grab().save(imgsrc)
+    #ImageGrab.grab().save(imgsrc)
     imsrc = ac.imread(imgsrc)
     imobj = ac.imread(imgobj)
     match_result = ac.find_template(imsrc, imobj)
@@ -193,6 +193,13 @@ def matchImg(imgsrc, imgobj,confidencevalue=0.8):  # imgsrc=原始图像，imgob
         print("未找到目标图片")
     return match_result
 #print(matchImg(imgsrc, imgobj,confidencevalue=0.5))
+def test():
+    imgsrc = './2.png'
+    imgobj = './1.png'
+    s = (matchImg(imgsrc, imgobj, confidencevalue=0.8))
+    print(s)
+test()
+"""
 def main1():
     imgsrc = './imgsrc.png'
     imgobj = './firefox.png'
@@ -205,8 +212,8 @@ def main1():
     bbox2 = (x+(z-x),y,z+300,w)
     ImageGrab.grab(bbox).save('recap.png')  #按照指定坐标截图
     ImageGrab.grab(bbox2).save('recap2.png')
-    #pyautogui.moveTo(z+180,y)
 main1()
+
 def getstring(strpath):
     text = pytesseract.image_to_string(Image.open(strpath))
     print(text)
@@ -217,6 +224,7 @@ def getstring(strpath):
         f.write(text3)
         f.close()
 getstring('./recap2.png')
+
 def double_click(x,y):
     windll.user32.SetCursorPos(x,y)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
@@ -227,3 +235,4 @@ def testclick():
     #(474, 452, 473, 621)
     pyautogui.moveTo(404,480)
 # testclick()
+"""
