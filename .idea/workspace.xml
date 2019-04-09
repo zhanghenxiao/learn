@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Firefox书签/bookmarks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Firefox书签/标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Firefox书签/标签.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图形界面/wx_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图形界面/wx_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多类图像识别/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多类图像识别/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/QR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/baidu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/gir.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/girday.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/itchat.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/redbaidu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/th.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/th1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/th2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/x2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/有趣的机器人/生成个性二维码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/用法框架/类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Autoit_work/create_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_舟炬/user使用语法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_马哥/Dj_user语法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html_婵壳/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html_婵壳/table_menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python高级开发1/连接mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python高级开发1/连接mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多类图像识别/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/多类图像识别/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多类图像识别/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/多类图像识别/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多类图像识别/指定区域截图.py" beforeDir="false" afterPath="$PROJECT_DIR$/多类图像识别/指定区域截图.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +32,9 @@
     <SUITE FILE_PATH="coverage/opencvStudy$feitest2.coverage" NAME="feitest2 Coverage Results" MODIFIED="1547707484308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$python3__1_.coverage" NAME="新需求python3抽奖 (1) Coverage Results" MODIFIED="1547530482308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$nice__1_.coverage" NAME="nice (1) Coverage Results" MODIFIED="1548314236126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/opencvStudy$create_excel.coverage" NAME="create_excel Coverage Results" MODIFIED="1554105271807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$objecttest.coverage" NAME="objecttest Coverage Results" MODIFIED="1542334994046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$settings.coverage" NAME="settings Coverage Results" MODIFIED="1554192245216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥/blog" />
     <SUITE FILE_PATH="coverage/opencvStudy$prize.coverage" NAME="prize Coverage Results" MODIFIED="1547428689039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Prize" />
     <SUITE FILE_PATH="coverage/opencvStudy$passfeitest1.coverage" NAME="passfeitest1 Coverage Results" MODIFIED="1547789503148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$moudletest.coverage" NAME="moudletest Coverage Results" MODIFIED="1542355259598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
@@ -72,6 +51,7 @@
     <SUITE FILE_PATH="coverage/opencvStudy$wx_1.coverage" NAME="wx_1 Coverage Results" MODIFIED="1552461336059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图形界面" />
     <SUITE FILE_PATH="coverage/opencvStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1547004138960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$retest.coverage" NAME="retest Coverage Results" MODIFIED="1540259102509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554192171545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥" />
     <SUITE FILE_PATH="coverage/opencvStudy$image.coverage" NAME="image Coverage Results" MODIFIED="1547801634358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
     <SUITE FILE_PATH="coverage/opencvStudy$aircv_PILdevice.coverage" NAME="aircv PIL图像识别执行对应device方法 Coverage Results" MODIFIED="1548826244742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$fujitsu.coverage" NAME="fujitsu Coverage Results" MODIFIED="1550231538390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
@@ -85,32 +65,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="读取.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python高级开发1/读取.py">
+      <file leaf-file-name="user使用语法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django_舟炬/user使用语法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="275">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python高级开发1/nice.py">
+      <file leaf-file-name="VIR.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django_舟炬/VIR.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django_马哥/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="200">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="连接mysql.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python高级开发1/连接mysql.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django_马哥/blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="2975">
+              <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Html_婵壳/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table_menu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Html_婵壳/table_menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#1538#1984#0" />
-                <element signature="e#2056#2145#0" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +126,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -139,15 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/savaimg.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/moudletest.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/English.py" />
-        <option value="$PROJECT_DIR$/testimage.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/2moudletest.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/3objecttest.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/1retestgood.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/读取抽奖名单.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/demand(需求)验证.py" />
         <option value="$PROJECT_DIR$/strimg.py" />
         <option value="$PROJECT_DIR$/Python高级开发1/Tkinter.py" />
         <option value="$PROJECT_DIR$/Python高级开发1/抽奖.py" />
@@ -190,6 +186,15 @@
         <option value="$PROJECT_DIR$/多类图像识别/test2.py" />
         <option value="$PROJECT_DIR$/多类图像识别/test1.py" />
         <option value="$PROJECT_DIR$/Python高级开发1/连接mysql.py" />
+        <option value="$PROJECT_DIR$/Dj/user/models.py" />
+        <option value="$PROJECT_DIR$/Dj/blog/settings.py" />
+        <option value="$PROJECT_DIR$/Dj/Dj_user语法.py" />
+        <option value="$PROJECT_DIR$/Autoit_work/create_excel.py" />
+        <option value="$PROJECT_DIR$/Dj_马哥/Dj_user语法.py" />
+        <option value="$PROJECT_DIR$/Dj_舟炬/user使用语法.py" />
+        <option value="$PROJECT_DIR$/Html_婵壳/list.html" />
+        <option value="$PROJECT_DIR$/Html_婵壳/table-menu.py" />
+        <option value="$PROJECT_DIR$/Html_婵壳/table_menu.html" />
       </list>
     </option>
   </component>
@@ -202,11 +207,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="25" />
-    <option name="y" value="6" />
-    <option name="width" value="1562" />
-    <option name="height" value="961" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="537" />
+    <option name="y" value="35" />
+    <option name="width" value="1356" />
+    <option name="height" value="885" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,13 +229,7 @@
             </path>
             <path>
               <item name="opencvStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencvStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Python高级开发1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencvStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencvStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="用法框架" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -239,10 +238,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -272,45 +273,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.连接mysql">
-    <configuration name="类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencvStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用法框架" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用法框架/类方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="指定区域截图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencvStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多类图像识别" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多类图像识别/指定区域截图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.table_menu.html">
+    <configuration name="list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/opencvStudy/Html_婵壳/list.html" />
+    <configuration name="table_menu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/opencvStudy/Html_婵壳/table_menu.html" />
     <configuration name="微信聊天机器人" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,6 +290,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="create_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencvStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Autoit_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Autoit_work/create_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencvStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dj_马哥" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dj_马哥/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,7 +352,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="新需求python3抽奖" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,31 +360,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python高级开发1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dj_马哥/blog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python高级开发1/新需求python3抽奖.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="新需求python3抽奖" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencvStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\succful\Desktop\opencvStudy\Python高级开发1\新需求python3抽奖.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dj_马哥/blog/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,39 +390,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencvStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多类图像识别" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多类图像识别/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.类方法" />
-      <item itemvalue="Python.指定区域截图" />
-      <item itemvalue="Python.test2" />
-      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.微信聊天机器人" />
       <item itemvalue="Python.连接mysql" />
+      <item itemvalue="Python.create_excel" />
+      <item itemvalue="JavaScript Debug.list.html" />
+      <item itemvalue="JavaScript Debug.table_menu.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.table_menu.html" />
+        <item itemvalue="JavaScript Debug.list.html" />
+        <item itemvalue="Python.create_excel" />
         <item itemvalue="Python.连接mysql" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.指定区域截图" />
-        <item itemvalue="Python.类方法" />
       </list>
     </recent_temporary>
   </component>
@@ -455,30 +419,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="6" width="1562" height="961" extended-state="1" />
+    <frame x="176" y="137" width="1356" height="885" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937685" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18037975" side_tool="true" weight="0.40661687" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" weight="0.2573443" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937685" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32937685" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" weight="0.6395864" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1927555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1550926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.22037423" weight="0.33219567" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.056921087" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.059413582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.2777778" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.46645367" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.22037423" weight="0.33219567" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,90 +473,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73050">
-          <caret line="2971" selection-start-line="2971" selection-end-line="2971" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/axes/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12075">
-          <caret line="516" column="50" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/大数据分析/数据可视化(Data_visualization).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45725">
-          <caret line="1829" selection-start-line="1829" selection-end-line="1829" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/artist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6750">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm_matplotlib_backend/backend_interagg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/figure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59325">
-          <caret line="2373" selection-start-line="2373" selection-end-line="2373" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74275">
-          <caret line="2971" selection-start-line="2971" selection-end-line="2971" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/axes/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12900">
-          <caret line="516" column="50" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/axes/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12075">
-          <caret line="516" column="50" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1821" column="26" lean-forward="true" selection-start-line="1821" selection-start-column="26" selection-end-line="1821" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/artist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm_matplotlib_backend/backend_interagg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -637,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,11 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#99#112#0" expanded="true" />
-            <element signature="e#290#620#1" />
-            <element signature="e#1684#2071#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,23 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11753">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#9238#14993#0" />
-            <element signature="e#15095#18988#0" />
-            <element signature="e#19111#19251#0" />
-            <element signature="e#19282#19478#0" />
-            <element signature="e#19509#19687#0" />
-            <element signature="e#19719#19957#0" />
-            <element signature="e#19987#20185#1" />
-            <element signature="e#20246#20505#0" />
-            <element signature="e#20621#21545#0" />
-            <element signature="e#21581#23018#0" />
-            <element signature="e#27312#28486#0" />
-            <element signature="e#28649#31819#0" />
-            <element signature="e#31848#32796#0" />
-            <element signature="e#32826#33880#0" />
-            <element signature="e#35572#35730#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-          <folding>
-            <element signature="e#99#121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,14 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="147" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="e#106#328#1" />
-            <element signature="e#354#580#1" />
-            <element signature="e#587#1330#1" />
-            <element signature="e#1351#2745#1" />
-            <element signature="e#2757#3868#1" />
-            <element signature="e#3894#4581#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,12 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="192" column="24" lean-forward="true" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
-          <folding>
-            <element signature="e#4755#4773#0" expanded="true" />
-            <element signature="e#5742#6244#0" />
-            <element signature="e#6177#6447#0" />
-            <element signature="e#6501#6800#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,10 +671,10 @@
         <state relative-caret-position="-300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python高级开发1/读取.py">
+    <entry file="file://$PROJECT_DIR$/Python高级开发1/连接mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="-2">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -839,13 +685,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python高级开发1/连接mysql.py">
+    <entry file="file://$PROJECT_DIR$/Python高级开发1/读取.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_马哥/user/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_马哥/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_马哥/Dj_user语法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autoit_work/create_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_舟炬/user使用语法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_舟炬/VIR.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_马哥/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_马哥/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_舟炬/jieguo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Html_婵壳/table-menu.py" />
+    <entry file="file://$PROJECT_DIR$/Html_婵壳/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Html_婵壳/table_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#1538#1984#0" />
-            <element signature="e#2056#2145#0" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
