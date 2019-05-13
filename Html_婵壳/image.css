@@ -1,0 +1,14 @@
+
+body{
+    background-image: url("PW.jpg");
+    /* background-repeat: repeat-y; 以y轴铺 */
+    /*background-repeat: no-repeat; <!--关闭铺满，默认是铺满 -->*/
+    background-repeat: no-repeat;
+    /*background-position: 600px 100px;  <!--偏移坐标 -->*/
+    background-position: right top;
+    /* x:left center right
+       y:top center bottom
+    */
+    /* height: 1500px;    加长页面  */
+    background: bisque;
+}

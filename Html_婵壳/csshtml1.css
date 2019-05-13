@@ -1,0 +1,68 @@
+/*
+遗留问题：继承原则有点模糊
+记得在html处加上作为关联<link rel="stylesheet" href="csshtml.css">
+选择器作用：通过选择器=>html元素 样式=》元素
+4个大类
+ 基本选择器
+ 组合
+ 属性
+ 伪元素
+
+基本选择器
+ *通配符（所有的都会加） 标签div id选择(#txt) class(.txt)
+ 优先原则
+ 选择器优先级 * <div <class < id
+ 同类优先级：代码由上至下执行
+ 样式：外部样式在css文件中，内部样式在html head中 ，内联样式在boby中
+    外部 内部 内联
+    注意：带有important语句  最后执行
+ 继承原则
+    跟文字 文本 样式 可以被继承
+
+组合选择器：
+    分组选择器 div,p{}
+    嵌套选择器 div p{} (p只要在div里都会生效)
+    子选择器  div>p{} (p的父级必须是div才会生效)
+    相邻选择器 div+p{必须是平级}
+
+属性选择器
+    基本属性[属性] p[title]{}
+    基本属性[属性=值] p[title=“球球”]{}
+    基本属性[属性 ~=值]（包含 只有这个需空格） p[title ~="qiuqiu"]{}
+    基本属性[属性^=值]（开始） p[title^="球球"]
+    基本属性[属性￥=值](结束)
+伪元素选择器（不是自己写的代码）
+    p::after{
+        content:"before"
+        font-size:10px
+    }
+    p::before{}
+
+*/
+
+
+
+
+/*
+*{
+    font-size: 30px;
+}
+div{
+    color: red;
+    width: 40px;
+    height: 60px;
+    background: aliceblue;
+}
+#txt{
+    font-size: 60px;
+}
+div.class1{
+    color: red;
+}
+
+class1{
+    color: red;
+}
+*/
+
+

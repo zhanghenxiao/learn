@@ -1,0 +1,35 @@
+body{
+    /* font-family: "宋体" */
+    font-family: "微软雅黑";
+    font-size: 30px;
+    /* font-style: italic;  斜体 */
+
+}
+
+
+/* letter-spacing: 20px 字符间距 */
+/* word-spacing: 2px 空格距离 */
+/* text-decoration: line-through; 下划线 text-decoration: overline; 上划线*/
+/* 文字对齐的方式text-align:  */
+/* 缩进 text-indent */
+/* 英文大小写字母  text-transform: uppercase */
+/* 垂直对齐 vertical-align: bottom */
+/* 环绕图片 文字排序 float: left; */
+/* a{}链接的几个状态  */
+
+.txt1{
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+.txt2{
+    letter-spacing: -5px;
+    word-spacing: 2px;
+    text-decoration: overline; 
+   
+}
+
+img{
+    vertical-align: top
+}

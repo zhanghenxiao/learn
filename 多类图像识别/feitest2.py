@@ -52,7 +52,7 @@ def main2():
     double_click(obj_path, src_path)
 
 if __name__ == "__main__":
-    #main1()
-    main2()
+    main1()
+    #main2()
 
 

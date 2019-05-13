@@ -24,7 +24,7 @@ def matchImg(imgsrc, imgobj):  # imgsrc=原始图像，imgobj=待查找的图片
 #print(matchImg(imgsrc, imgobj,confidencevalue=0.5))
 def main1():
 
-    imgobj = './firefox.png'
+    imgobj = './edge.png'
     imgsrc = './imgsrc.png'
     s = (matchImg(imgsrc, imgobj))
     #print(s)
@@ -32,7 +32,7 @@ def main1():
     x,y,z,w =(s['rectangle'][0][0], s['rectangle'][0][1], s['rectangle'][1][1], s['rectangle'][2][0])
     bbox = (x,y,z,w)
     ImageGrab.grab(bbox).save('recap.png')
-#main1()
+main1()
 
 def winr():
     # print(pyautogui.size())  #获取屏幕分辨率

@@ -1,0 +1,27 @@
+/*内容*/
+/*内边距  padding 顺时针*/
+/*盒子框 指的是盒子本身的框：border*/
+/*外边距: margin */
+
+/* margin 重叠问题解决
+二个div平行时：
+    1.folat-left
+    2.display:inline-block
+二个div嵌套时：
+    1.overflow: hidden; 超出隐藏
+    2.padding 
+    3.border */
+
+
+.box1 {
+    border: 1px solid gold;
+    padding: 50px 50px ;
+    margin: 30px 30px 30px;
+}
+
+
+.box2 {
+    border: 1px solid greenyellow;
+    padding: 10px;  
+    
+}
