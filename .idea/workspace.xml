@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoit_work/create_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autoit_work/create_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" beforeDir="false" afterPath="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/有趣的机器人/QR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/有趣的机器人/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/有趣的机器人/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" beforeDir="false" afterPath="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,67 +17,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="数据可视化利器 Coverage Results" MODIFIED="1557899813561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$testimage.coverage" NAME="testimage Coverage Results" MODIFIED="1542339951488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$demand__.coverage" NAME="demand(需求)验证 Coverage Results" MODIFIED="1545207217776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$fujitsu_image.coverage" NAME="fujitsu_image Coverage Results" MODIFIED="1547709862123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$fanshe_moudle1.coverage" NAME="fanshe_moudle1 Coverage Results" MODIFIED="1541051764779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$lottery.coverage" NAME="lottery Coverage Results" MODIFIED="1545878048163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../抽奖UI/Lottery" />
-    <SUITE FILE_PATH="coverage/opencvStudy$chuangcan.coverage" NAME="chuangcan Coverage Results" MODIFIED="1535508501084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencvStudy$__strimg.coverage" NAME="(字符串)strimg Coverage Results" MODIFIED="1547696390183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1553147369752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
-    <SUITE FILE_PATH="coverage/opencvStudy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1553147348944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
     <SUITE FILE_PATH="coverage/opencvStudy$cvopen.coverage" NAME="cvopen Coverage Results" MODIFIED="1556520071528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$CSDN.coverage" NAME="CSDN Coverage Results" MODIFIED="1542078380632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$set_corner.coverage" NAME="set_corner Coverage Results" MODIFIED="1548911759611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../set_corner" />
-    <SUITE FILE_PATH="coverage/opencvStudy$feitest2.coverage" NAME="feitest2 Coverage Results" MODIFIED="1555896297989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
     <SUITE FILE_PATH="coverage/opencvStudy$python3__1_.coverage" NAME="新需求python3抽奖 (1) Coverage Results" MODIFIED="1547530482308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$nice__1_.coverage" NAME="nice (1) Coverage Results" MODIFIED="1548314236126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/opencvStudy$create_excel.coverage" NAME="create_excel Coverage Results" MODIFIED="1554885768791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
-    <SUITE FILE_PATH="coverage/opencvStudy$objecttest.coverage" NAME="objecttest Coverage Results" MODIFIED="1542334994046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$create_excel.coverage" NAME="create_excel Coverage Results" MODIFIED="1558406904083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$settings.coverage" NAME="settings Coverage Results" MODIFIED="1554192245216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥/blog" />
     <SUITE FILE_PATH="coverage/opencvStudy$prize.coverage" NAME="prize Coverage Results" MODIFIED="1547428689039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Prize" />
     <SUITE FILE_PATH="coverage/opencvStudy$passfeitest1.coverage" NAME="passfeitest1 Coverage Results" MODIFIED="1547789503148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$moudletest.coverage" NAME="moudletest Coverage Results" MODIFIED="1542355259598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$nice.coverage" NAME="nice Coverage Results" MODIFIED="1548377415433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_one1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$testnumpy.coverage" NAME="testnumpy Coverage Results" MODIFIED="1550720331315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$widget.coverage" NAME="widget Coverage Results" MODIFIED="1539332828857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pyqt4" />
+    <SUITE FILE_PATH="coverage/opencvStudy$feitest1.coverage" NAME="feitest1 Coverage Results" MODIFIED="1547715112789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencvStudy$5__.coverage" NAME="5数据分析师就应该自己爬数据(去哪儿) Coverage Results" MODIFIED="1558947128558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
+    <SUITE FILE_PATH="coverage/opencvStudy$vector.coverage" NAME="vector Coverage Results" MODIFIED="1548293748095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/opencvStudy$mysql.coverage" NAME="连接mysql Coverage Results" MODIFIED="1553152072348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554192171545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥" />
+    <SUITE FILE_PATH="coverage/opencvStudy$aircv_PILdevice.coverage" NAME="aircv PIL图像识别执行对应device方法 Coverage Results" MODIFIED="1555895191916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
+    <SUITE FILE_PATH="coverage/opencvStudy$5.coverage" NAME="5数据分析师就应该自己爬数据 Coverage Results" MODIFIED="1558317490041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
+    <SUITE FILE_PATH="coverage/opencvStudy$python3.coverage" NAME="新需求python3抽奖 Coverage Results" MODIFIED="1548221609744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1533706906094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencvStudy$Tkinter.coverage" NAME="界面Tkinter Coverage Results" MODIFIED="1546996924371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="语音 Coverage Results" MODIFIED="1558929629223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
+    <SUITE FILE_PATH="coverage/opencvStudy$lottery.coverage" NAME="lottery Coverage Results" MODIFIED="1545878048163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../抽奖UI/Lottery" />
+    <SUITE FILE_PATH="coverage/opencvStudy$chuangcan.coverage" NAME="chuangcan Coverage Results" MODIFIED="1535508501084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencvStudy$__strimg.coverage" NAME="(字符串)strimg Coverage Results" MODIFIED="1547696390183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencvStudy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1553147348944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
+    <SUITE FILE_PATH="coverage/opencvStudy$feitest2.coverage" NAME="feitest2 Coverage Results" MODIFIED="1555896297989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
+    <SUITE FILE_PATH="coverage/opencvStudy$nice__1_.coverage" NAME="nice (1) Coverage Results" MODIFIED="1548314236126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/opencvStudy$1.coverage" NAME="1爬虫十大易错点 Coverage Results" MODIFIED="1558071497460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
+    <SUITE FILE_PATH="coverage/opencvStudy$objecttest.coverage" NAME="objecttest Coverage Results" MODIFIED="1542334994046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$testnumpy.coverage" NAME="testnumpy Coverage Results" MODIFIED="1550720331315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$savaimg.coverage" NAME="savaimg Coverage Results" MODIFIED="1542336755686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$1retestgood.coverage" NAME="1retestgood Coverage Results" MODIFIED="1541377621624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$3objecttest.coverage" NAME="3objecttest Coverage Results" MODIFIED="1543887514359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$feitest1.coverage" NAME="feitest1 Coverage Results" MODIFIED="1547715112789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1555484369539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$2222.coverage" NAME="2222 Coverage Results" MODIFIED="1533776820797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencvStudy$vector.coverage" NAME="vector Coverage Results" MODIFIED="1548293748095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
-    <SUITE FILE_PATH="coverage/opencvStudy$mysql.coverage" NAME="连接mysql Coverage Results" MODIFIED="1553152072348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$wx_1.coverage" NAME="wx_1 Coverage Results" MODIFIED="1552461336059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图形界面" />
     <SUITE FILE_PATH="coverage/opencvStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1547004138960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$retest.coverage" NAME="retest Coverage Results" MODIFIED="1540259102509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554192171545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥" />
     <SUITE FILE_PATH="coverage/opencvStudy$image.coverage" NAME="image Coverage Results" MODIFIED="1547801634358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
     <SUITE FILE_PATH="coverage/opencvStudy$fujitsu.coverage" NAME="fujitsu Coverage Results" MODIFIED="1550231538390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
-    <SUITE FILE_PATH="coverage/opencvStudy$aircv_PILdevice.coverage" NAME="aircv PIL图像识别执行对应device方法 Coverage Results" MODIFIED="1555895191916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
     <SUITE FILE_PATH="coverage/opencvStudy$strimg.coverage" NAME="strimg Coverage Results" MODIFIED="1545102730640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$_Data_visualization_.coverage" NAME="数据可视化(Data_visualization) Coverage Results" MODIFIED="1551752424589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/大数据分析" />
     <SUITE FILE_PATH="coverage/opencvStudy$111.coverage" NAME="111 Coverage Results" MODIFIED="1537876491381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$retestgood.coverage" NAME="retestgood Coverage Results" MODIFIED="1540776606708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$python3.coverage" NAME="新需求python3抽奖 Coverage Results" MODIFIED="1548221609744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
-    <SUITE FILE_PATH="coverage/opencvStudy$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1533706906094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencvStudy$Tkinter.coverage" NAME="界面Tkinter Coverage Results" MODIFIED="1546996924371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
+    <SUITE FILE_PATH="coverage/opencvStudy$2pandsexcel.coverage" NAME="2用pands代替excel Coverage Results" MODIFIED="1558947207568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
+    <SUITE FILE_PATH="coverage/opencvStudy$iv.coverage" NAME="iv Coverage Results" MODIFIED="1558944408353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="opencvStudy" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="说明的.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py">
+      <file leaf-file-name="iv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Autoit_work/iv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state>
+              <caret line="232" column="41" selection-start-line="232" selection-start-column="41" selection-end-line="232" selection-end-column="41" />
+              <folding>
+                <element signature="e#134#3132#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1十大易错点.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py">
+      <file leaf-file-name="2用pands代替excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+              <folding>
+                <element signature="e#149#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4数据可视化利器(商家).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器(商家).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+              <folding>
+                <element signature="e#245#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5数据分析师就应该自己爬数据(去哪儿).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据(去哪儿).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3穷人和富人的差距.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/3穷人和富人的差距.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -83,22 +143,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/zhe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
+      <file leaf-file-name="6找到一个城市有趣的地方.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/pic.html">
+      <file leaf-file-name="1爬虫十大易错点（豆瓣).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1爬虫十大易错点（豆瓣).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="84">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#98#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +177,8 @@
       <find>js</find>
       <find>formlist</find>
       <find>re</find>
+      <find>'Blurr EliteBook 1040 G5'</find>
+      <find>Win10</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,16 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../nice.py" />
-        <option value="$PROJECT_DIR$/Python高级开发1/nice.py" />
-        <option value="$PROJECT_DIR$/(字符串)strimg.py" />
-        <option value="$PROJECT_DIR$/fujitsu_image.py" />
-        <option value="$PROJECT_DIR$/feitest2.py" />
-        <option value="$PROJECT_DIR$/feitest1.py" />
-        <option value="$PROJECT_DIR$/passfeitest1.py" />
-        <option value="$PROJECT_DIR$/../fujitsu_image/image.py" />
-        <option value="$PROJECT_DIR$/数据分析/vector.py" />
-        <option value="$PROJECT_DIR$/../test_one1/nice.py" />
         <option value="$PROJECT_DIR$/aircv PIL图像识别执行对应device方法.py" />
         <option value="$PROJECT_DIR$/Python高级开发1/test" />
         <option value="$PROJECT_DIR$/指定区域截图.py" />
@@ -147,7 +195,6 @@
         <option value="$PROJECT_DIR$/大数据分析/维度基础(Dimension_based).py" />
         <option value="$PROJECT_DIR$/大数据分析/数据可视化(Data_visualization).py" />
         <option value="$PROJECT_DIR$/有趣的机器人/生成个性二维码.py" />
-        <option value="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" />
         <option value="$PROJECT_DIR$/图形界面/wx_1.txt" />
         <option value="$PROJECT_DIR$/图形界面/wx_1.py" />
         <option value="$PROJECT_DIR$/多类图像识别/指定区域截图.py" />
@@ -162,7 +209,6 @@
         <option value="$PROJECT_DIR$/Html_婵壳/list.html" />
         <option value="$PROJECT_DIR$/Html_婵壳/table-menu.py" />
         <option value="$PROJECT_DIR$/Html_婵壳/table_menu.html" />
-        <option value="$PROJECT_DIR$/Autoit_work/create_excel.py" />
         <option value="$PROJECT_DIR$/Html_婵壳/csshtml.css" />
         <option value="$PROJECT_DIR$/Html_婵壳/css.html" />
         <option value="$PROJECT_DIR$/Html_婵壳/css1.html" />
@@ -177,9 +223,21 @@
         <option value="$PROJECT_DIR$/Html_婵壳/font.css" />
         <option value="$PROJECT_DIR$/Autoit_work/cvopen.py" />
         <option value="$PROJECT_DIR$/Html_婵壳/box.css" />
-        <option value="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/数据可视化利器.py" />
+        <option value="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/4数据分析师就应该自己爬数据.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/1爬虫十大易错点.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据.py" />
+        <option value="$PROJECT_DIR$/Autoit_work/create_excel.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据(去哪儿).py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/speech.py" />
+        <option value="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" />
+        <option value="$PROJECT_DIR$/Autoit_work/语音.py" />
+        <option value="$PROJECT_DIR$/Autoit_work/iv.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/3穷人和富人的差距.py" />
+        <option value="$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py" />
       </list>
     </option>
   </component>
@@ -193,10 +251,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="961" />
-    <option name="y" value="198" />
-    <option name="width" value="1333" />
-    <option name="height" value="935" />
+    <option name="x" value="690" />
+    <option name="y" value="75" />
+    <option name="width" value="1667" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,12 +262,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="opencvStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencvStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opencvStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencvStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Autoit_work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencvStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +288,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,17 +301,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\succful\Desktop\opencvStudy\Autoit_work" />
+      <recent name="C:\Users\succful\Desktop\opencvStudy\数据分析_大鹏\课件重点内容" />
+      <recent name="C:\Users\succful\Desktop\opencvStudy\多类图像识别" />
+      <recent name="C:\Users\succful\Desktop\opencvStudy" />
+      <recent name="C:\Users\succful\Desktop\opencvStudy\大数据分析" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\succful\Desktop\opencvStudy\test_pyqt4" />
       <recent name="C:\Users\succful\Desktop\opencvStudy\Python高级开发1" />
       <recent name="C:\Users\succful\Desktop\opencvStudy" />
-      <recent name="C:\Users\succful\Desktop\opencvStudy\pic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\succful\Desktop\opencvStudy\多类图像识别" />
-      <recent name="C:\Users\succful\Desktop\opencvStudy" />
-      <recent name="C:\Users\succful\Desktop\opencvStudy\大数据分析" />
-      <recent name="C:\Users\succful\Desktop\opencvStudy\Python高级开发1" />
       <recent name="C:\Users\succful\Desktop\opencvStudy\pic" />
     </key>
   </component>
@@ -267,7 +330,7 @@
   <component name="RunManager" selected="JavaScript Debug.zhe.html">
     <configuration name="pic.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/opencvStudy/数据分析_大鹏/pic.html" />
     <configuration name="zhe.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/opencvStudy/数据分析_大鹏/zhe.html" />
-    <configuration name="说明的" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="语音" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,18 +338,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/W3cschool/每天一个小程序" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Autoit_work" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Autoit_work/语音.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="数据可视化利器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2用pands代替excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,13 +362,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/数据可视化利器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="数据可视化利器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5数据分析师就应该自己爬数据(去哪儿)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,7 +381,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/数据可视化利器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据(去哪儿).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,7 +406,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="cvopen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,26 +419,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Autoit_work/cvopen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Autoit_work/iv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.cvopen" />
-      <item itemvalue="Python.说明的" />
-      <item itemvalue="JavaScript Debug.pic.html" />
-      <item itemvalue="Python.数据可视化利器" />
+      <item itemvalue="Python.iv" />
+      <item itemvalue="Python.5数据分析师就应该自己爬数据(去哪儿)" />
+      <item itemvalue="Python.语音" />
+      <item itemvalue="Python.2用pands代替excel" />
       <item itemvalue="JavaScript Debug.zhe.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.zhe.html" />
-        <item itemvalue="Python.数据可视化利器" />
-        <item itemvalue="JavaScript Debug.pic.html" />
-        <item itemvalue="Python.说明的" />
-        <item itemvalue="Python.cvopen" />
+        <item itemvalue="Python.2用pands代替excel" />
+        <item itemvalue="Python.5数据分析师就应该自己爬数据(去哪儿)" />
+        <item itemvalue="Python.iv" />
+        <item itemvalue="Python.语音" />
       </list>
     </recent_temporary>
   </component>
@@ -402,36 +465,61 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="198" width="1333" height="935" extended-state="0" />
-    <editor active="true" />
+    <frame x="690" y="75" width="1667" height="964" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30898204" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18037975" side_tool="true" weight="0.40661687" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937685" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32937685" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" visible="true" weight="0.3241895" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16575019" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.07619796" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.28217822" />
-      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.46645367" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32942554" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32806805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" weight="0.3105023" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32806805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5330927" visible="true" weight="0.18170504" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32953548" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.014934661" />
+      <window_info id="Structure" order="1" sideWeight="0.46690735" side_tool="true" visible="true" weight="0.18170504" />
+      <window_info id="Favorites" order="2" sideWeight="0.46689498" side_tool="true" weight="0.19041693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.51414514" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.46645367" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.22037423" weight="0.302994" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.22037423" weight="0.15714286" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -443,164 +531,10 @@
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="55" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python高级开发1/nice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python高级开发1/读取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_马哥/user/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_马哥/user/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_马哥/Dj_user语法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_舟炬/jieguo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Html_婵壳/table-menu.py" />
-    <entry file="file://$PROJECT_DIR$/Django_舟炬/user使用语法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_舟炬/VIR.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_马哥/blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_马哥/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31500">
-          <caret line="1264" selection-start-line="1264" selection-end-line="1264" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlwt/CompoundDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Html_婵壳/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Html_婵壳/table_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17675">
-          <caret line="709" selection-start-line="709" selection-end-line="709" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autoit_work/create_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/ZCN7IHD7/class_t3.py" />
-    <entry file="file://$PROJECT_DIR$/Autoit_work/send_mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/passfeitest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/111.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/firefox.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/aircv PIL图像识别执行对应device方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/2222.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/多类图像识别/case_gui.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -681,13 +615,6 @@
         <state relative-caret-position="-957" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Html_婵壳/box.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -704,47 +631,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析_大鹏/pic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="1675">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/数据可视化利器.py" />
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/图表详情说明.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/4数据分析师就应该自己爬数据.py" />
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/课件重点内容/GIS.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/课件重点内容/四步-数据爬虫.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/课件重点内容/三步-行业研究方法论.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/课件重点内容/二步-描述性统计分析.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1694318306/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="3622" column="11" selection-start-line="3622" selection-start-column="11" selection-end-line="3622" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1爬虫十大易错点.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3270">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据.py" />
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器(豆瓣).py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="1619" selection-start-line="1619" selection-end-line="1619" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autoit_work/create_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/win32com/gen_py/C866CA3A-32F7-11D2-9602-00C04F8EE628x0x5x4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="2758" selection-start-line="2758" selection-end-line="2758" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="74" column="20" selection-start-line="58" selection-start-column="4" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/speech.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autoit_work/语音.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autoit_work/iv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="232" column="41" selection-start-line="232" selection-start-column="41" selection-end-line="232" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#134#3132#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1爬虫十大易错点（豆瓣).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#98#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="e#149#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析_大鹏/zhe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="325">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/数据可视化利器.py">
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器(商家).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="623">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding>
-            <element signature="e#175#212#0" expanded="true" />
+            <element signature="e#245#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/图表详情说明.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py">
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据(去哪儿).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="575">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py">
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/3穷人和富人的差距.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
