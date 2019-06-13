@@ -221,42 +221,25 @@ def read_case(platform,os,ostype,preinstall):
 
 contorllist = {"2013 Bucket 3 HP Client Security Manager":"env.HP_Client_Security_Manager","HP Collaboration Keyboard":"env.HP_Collaboration_Keyboard","HP Connection Optimizer":"env.HP_Connection_Optimizer",
                "HP Documentation":"env.HP_Documentation","HP Mac Address Manager":"env:HP_Mac_Address_Manager","HP Notifications":"env:HP_Notifications",
-               "HP Support Assistant":"evn.HP_Support_Assistant","HP Sure Run":"env.HP_Sure_Run","HP Sure Recover":"HP_Sure_Recover"}
+               "HP Support Assistant":"evn.HP_Support_Assistant","HP Sure Run":"env.HP_Sure_Run","HP Sure Recover":"HP_Sure_Recover","HP Sure Click":""}
+# print(len(contorllist))
 class function():
     def contorl(self):
         print("=                   =======================")
     def system(self):   # 打开sav
         pass
 fu = function()
-fu.contorl()
+
 def runcase():
     testcase = read_case(platform = 'Blurr\nEliteBook 1040 G5',os = "Win10 \n19h1",ostype = '64.0',preinstall = 'Preinstall')
-    # print(testcase)
     print(type(testcase))
-    for i in testcase:
+    for \
+            i in testcase:
         if i in contorllist:
             fu.contorl()
-runcase()
+# runcase()
 
 
-# test = ['2013 Bucket 3 HP Client Security Manager', 'BCU FPR F10 Reset', 'Bing Search for IE11']
-# a  = 'A'
-# print(a.lower())
-# incontest = ['HP Client Security Manager']
-# def contorl(i):
-#
-#     pass
-# def device(i):
-#
-#     pass
-# for i in test:
-#     print(i.lower())
-
-# a = "2013 Bucket 3 HP Client Security Manager"
-# for i in contorllist:
-#     print(i.replace(' ','_'))
-# if '' in str(a):
-#     print()
 
 
 

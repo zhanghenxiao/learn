@@ -2,7 +2,7 @@
 
 #第 0000 题： 将你的 QQ 头像（或者微博头像）右上角加上红色的数字，类似于微信未读信息数量那种提示效果。 类似于图中效果 --------
 #-------- ImageDraw Moudle --------
-图片上画线条
+#图片上画线条
 import sys
 from PIL import Image,ImageDraw
 
@@ -12,7 +12,7 @@ draw.line((0, 0) + im.size, fill=128, width=5)
 draw.line((0, im.size[1], im.size[0], 0), fill=128)
 draw.line((0,im.size[1]/2)+(im.size[0]/2,im.size[1]), fill=128, width=5)
 im.show()
-图片上写字
+#图片上写字
 from PIL import Image, ImageDraw, ImageFont
 # get an image
 base = Image.open('th.jpg').convert('RGBA')

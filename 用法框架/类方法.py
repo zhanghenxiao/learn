@@ -26,16 +26,34 @@ A.func2()
 A.func3()     #静态方法无需实例化
 A().func3()   #也可以实例化后调用
 """
+# class test(object):
+#     def __init__(self,w,lst,):
+#         self.w = w
+#         self.lst = lst
+#     @classmethod
+#     def onestr(cls,e):
+#         w = e.split()
+#         return cls(w,2)
+# t = test.onestr("12 3")
+# print(t.w)
+
 class test(object):
-    def __init__(self,w,lst,):
-        self.w = w
-        self.lst = lst
+    def __init__(self,name,age):
+        self.name = name
+        self.age  = age
+    def study(self,study_name):
+        print("%s正在学习%s"%(self.name,study_name))
+    @staticmethod
+    def st():
+        print("1000")
     @classmethod
-    def onestr(cls,e):
-        w = e.split()
-        return cls(w,2)
-t = test.onestr("12 3")
-print(t.w)
+    def cl(cls):
+        print("cl")
+# w  = test("张先生",20)
+test.st()
+test.cl()
+
+
 
 
 
