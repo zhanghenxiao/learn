@@ -24,14 +24,22 @@ def matchImg(imgsrc, imgobj):  # imgsrc=原始图像，imgobj=待查找的图片
 #print(matchImg(imgsrc, imgobj,confidencevalue=0.5))
 def main1():
 
-    imgobj = './edge.png'
-    imgsrc = './imgsrc.png'
-    s = (matchImg(imgsrc, imgobj))
+    # imgobj = './edge.png'
+    # imgsrc = './imgsrc.png'
+    # s = (matchImg(imgsrc, imgobj))
     #print(s)
-    print(s['rectangle'][0][0],s['rectangle'][0][1],s['rectangle'][1][1],s['rectangle'][2][0])
-    x,y,z,w =(s['rectangle'][0][0], s['rectangle'][0][1], s['rectangle'][1][1], s['rectangle'][2][0])
-    bbox = (x,y,z,w)
-    ImageGrab.grab(bbox).save('recap.png')
+    imgsrc = './4823.png'
+    # for i in range(8):
+    imgobj = './0.png'
+    s = (matchImg(imgsrc, imgobj))
+    print(s)
+    if (s['confidence']) > 0.85:
+        print()
+
+    #print(s['rectangle'][0][0],s['rectangle'][0][1],s['rectangle'][1][1],s['rectangle'][2][0])
+    # x,y,z,w =(s['rectangle'][0][0], s['rectangle'][0][1], s['rectangle'][1][1], s['rectangle'][2][0])
+    # bbox = (x,y,z,w)
+    # ImageGrab.grab(bbox).save('recap.png')
 main1()
 
 def winr():

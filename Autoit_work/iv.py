@@ -233,8 +233,7 @@ fu = function()
 def runcase():
     testcase = read_case(platform = 'Blurr\nEliteBook 1040 G5',os = "Win10 \n19h1",ostype = '64.0',preinstall = 'Preinstall')
     print(type(testcase))
-    for \
-            i in testcase:
+    for i in testcase:
         if i in contorllist:
             fu.contorl()
 # runcase()

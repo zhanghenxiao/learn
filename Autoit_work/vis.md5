@@ -1,0 +1,2142 @@
+##### **version : 1.2.18**
+
+**date : 2019/07/23**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+​    
+
+**Update/Add: 於vis_server\server.py serverApi.py增加 儲存/載入 參數功能**
+
+ 
+
+(1)於vis_server\serverApi.py\class VisConfig(object)增加 儲存/載入 參數功能
+
+​    (1.1)新增 VisConfig::save_config()
+
+​    (1.2)新增 VisConfig::load_config()
+
+(2)相映於vis_server\serverApi.py\class VisServerApi(object)
+
+​    (2.1)新增 VisServerApi::save()
+
+​    (2.2)新增 VisServerApi::load()
+
+(3)相映於vis_server\server.py
+
+​    (3.1)重購 VIS server 啟動時自動載入 參數文件(config.txt)
+
+​    (3.2)重購 VIS server 結束時自動儲存 參數文件(config.txt)
+
+​    
+
+範例 : config.txt 
+
+​    (json格式文件)參數 由原本只記錄 four corner座標,擴增為紀錄17個參數.
+
+​    結束時自動儲存 當前的參數, 啟動時自動載入 之前的參數.
+
+   
+
+昨日的問題, 關於 log的幾種不同的篩選顯示  設定 :
+
+​    
+
+​        logzero.logfile(log_full_name, loglevel=logging.DEBUG)
+
+​        logzero.loglevel(logging.DEBUG)
+
+​    
+
+​        logzero.logfile(log_full_name, loglevel=logging.INFO)
+
+​        logzero.loglevel(logging.INFO)
+
+​    
+
+​        logzero.logfile(log_full_name, loglevel=logging.WARNING)
+
+​        logzero.loglevel(logging.WARNING)
+
+​    
+
+​        logzero.logfile(log_full_name, loglevel=logging.ERROR)
+
+​        logzero.loglevel(logging.ERROR)
+
+​    
+
+​        logzero.logfile(log_full_name, loglevel=logging.CRITICAL)
+
+​        logzero.loglevel(logging.CRITICAL)
+
+  
+
+------
+
+  
+
+##### **version : 1.2.17**
+
+**date : 2019/07/22**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+​    
+
+update : 增加 VIS server/client指定 photo_mode 圖片模式
+
+(1)  增加 VIS server/client指定 photo_mode 圖片模式
+
+Ø   photo_mode 圖片模式參數,預設為 2
+
+Ø   0: Not capture, for screenshot. 不啟用攝像頭,直接讀取tmp_img_file
+
+Ø   1: SingleFrame, 啟用攝像頭單張拍照模式
+
+Ø   2: Continuous, 啟用攝像頭連續攝影錄像取照模式
+
+(1.2) 
+
+​    範例(一) : 取得所有 共用/預設 參數
+
+​        cfg = api.get_config()
+
+​        print('config: {}'.format(cfg))
+
+​    範例(二) : 設定 共用/預設 參數
+
+​        report = api.set_config(tmp_img_file='./log/dummy.bmp', photo_mode=0) # 可以指定路徑
+
+​        report = api.set_config(tmp_img_file='./log/dummy.png', photo_mode=0) # 可以使用png格式
+
+​        report = api.set_config(tmp_img_file='./log/FLIR.bmp', photo_mode=2) # 切換為攝像頭取照模式
+
+​    
+
+
+
+**version : 1.2.17**
+
+**date : 2019/07/22**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+​    
+
+增加VIS server/client指定 tmp_img_file圖片的路徑
+
+(1)  增加VIS server/client指定 tmp_img_file圖片的路徑 功能
+
+Ø   新增 縮放模板參數 tmp_img_file
+
+Ø   預設為 tmp.bmp
+
+ 
+
+​    範例(一) : 取得所有 共用/預設 參數
+
+​        cfg = api.get_config()
+
+​        print('config: {}'.format(cfg))
+
+​    範例(二) : 設定 共用/預設 參數
+
+​        report = api.set_config(tmp_img_file='./log/dummy.bmp') # 可以指定路徑
+
+​        report = api.set_config(tmp_img_file='./log/dummy.png') # 可以使用png格式
+
+​    
+
+
+
+ 
+
+Dear Jack,
+
+如昨日所交談，希望vis可以新增  不通過camera截屏，直接讀取template找圖的功能。
+
+希望可以通過config設置vis._tmp_img_file圖片的路徑和不使用screenshot找圖，thanks。
+範例 :
+
+在 亮 與 暗 的不同情況下, 因曝光時間 短à長 影響 成像的速度 : FPS由27.8à0.7Hz.
+
+
+(1)   可以將 光學玻璃鏡頭 調到各種狀況 : 最大,中間,最小
+
+(2)   使用 Exposure Auto , 觀察光線 明à暗 或 暗à明 時Exposure Time變化,
+
+(3)   Auto  Exposure Time Limit設定可以適應更大的自動曝光範圍, 但會增加自動調整曝光的時間
+
+(4)   即使 AutoExposure_Off, Gain(增益)仍然會自動調整
+
+(5)   結論 : 光學玻璃鏡頭 需要適當調整; 避免曝光時間的影響,則可以減少cam_num_images數值.
+
+​    
+
+api.set_config(photo_mode = 2, cam_exposure_time = -1, cam_auto_exposure_time_upper = 100000) 
+
+相當於調整下列(畫紅線)的參數
+
+
+**version : 1.2.16**
+
+**date : 2019/06/25**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+​    
+
+(1)    於vis_server\serverApi.py\class VisConfig(object) 增加 調節曝光時間 參數
+
+n   新增 VisConfig::set_config() 的 調節曝光時間 參數
+
+n   cam_exposure_time = -1  (預設值為-1)
+
+ü   cam_exposure_time <= 0 : 則設定為 自動曝光模式 (Auto Exposure)
+
+ü   cam_exposure_time > 0 : 則設定為 固定曝光時間 (AutoExposure_Off)
+
+ü   cam_exposure_time的範圍: 6 .. 30000000 (6us ~ 30sec)
+
+n   cam_auto_exposure_time_upper = 100000  (預設值為100000)
+
+ü   此設定規範: 自動曝光模式下的最長暴光時間, FLIR上電後預設為15000
+
+n   原本的cam_exposure改為cam_num_images = 10  (預設值為10)
+
+ü   此設定規範: 連續錄影取照,擷取第幾張
+
+ü   預設值為擷取第10張,前9張拋棄
+
+(1)    相映於vis_server\camera.py 增加 調節曝光時間 函數
+
+​    
+
+**範例****(一) : 取得所有 共用/預設 參數**
+
+​        cfg = api.get_config()
+
+​        print('config: {}'.format(cfg))
+
+**範例****(一) : 設定 共用/預設 參數**
+
+​        report = api.set_config(cam_exposure_time=5000) # 固定曝光時間5000
+
+​        report = api.set_config(cam_exposure_time=-1) # 自動曝光模式
+
+​    
+
+
+Dear Jack,
+
+我有遇到camera自動調節曝光時間不理想的情況，如下圖，自動曝光模式下圖像過曝。
+
+把物理光圈調小可以解決，但是windows桌面下圖像又會變得很暗，且測試過程中不能通過程式調節物理光圈。
+
+我又通過camera api調整曝光時間，問題解決。Windows下曝光時間大約為15000,下圖需要的曝光時間約為5000。
+
+請問能否在vis-server裡面新增調節camera曝光時間的功能(關閉自動曝光，改為手動設置曝光時間。)，附件有參考程式。
+![图片包含 屏幕截图, 墙壁, 室内, 监视器  描述已自动生成](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+
+Dear Jack,
+
+ 
+
+LATTE 1.2.15 version 已通過測試。
+
+set_config àOK
+
+get_config àOK
+
+photo_mode2 à圖片曝光較為合適
+
+縮放找圖(適配不同熒幕解析度) àOK
+
+ 
+
+關於適配不同解析度，我有想到以下方法:
+
+BIOS是固定解析度，所以無需改變scale，winpvt的scale和其他的不一樣，
+
+所以可以在BIOS和winpvt的公共方法裡設置獨立的scale，這樣就不會被外部的scale影響。
+
+而其他方法則使用公共的scale，實現適配不同解析度，我近期會更新LATTE_Project的方法。
+
+ 
+
+現在的圖片模板在縮放後，找圖會降低置信度(match_rate)，降低的比例還尚可接受，只能等後面
+
+在經常使用適配不同解析度過程中考察置信度降低的影響會不會很大，到時再找解決方法。效果如下圖。
+
+ 
+
+![图片包含 文字, 墙壁, 记分牌, 匾  描述已自动生成](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+
+ 
+
+Dear auto team members,
+
+ 
+
+LATTE 1.2.15版本已可使用，請盡快更新到15版本，且更新latte_project2到最新commit. 謝謝
+
+
+**version : 1.2.15**
+
+**date : 2019/06/20**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+​    
+
+**增加** **camera4corner2.py (design by Wang.Frank 王鵬)**
+
+更新詳情：
+
+ 
+
+Camera4corner->原定點工具   現在支持兩種模式
+
+1．  定點模式->默認打開
+
+2．  截圖模式->按M鍵來回切換模式
+
+ 
+
+截圖模式 功能介紹
+
+ 
+
+1．  實時顯示camera截圖，如果顯示的窗口太大，可滑動滑鼠滾輪進行顯示屏幕不同區域（左上，右上，左下，右下，中部）
+
+2．  框選截圖區域，利用滑鼠左鍵點擊兩個點，會自動繪製矩形區域，再點擊附件區域可以調節矩形框
+
+3．  框選完成後，如果想要取消框選，按C鍵清除繪製圖形
+
+4．  框選完成後，按S鍵保存截圖，程序會彈出如下圖的GUI，選擇保存地址(只需選擇一次)，輸入圖片名（默認為當前時間），點’確定’就ok啦
+
+5．  兩種模式都是按M鍵切換，按Q或Esc退出，點右上角的X關閉窗口應該不好用
+
+6．  截圖模式下，有一個小窗口用來顯示窗口的信息，顯示的矩形的左上，右下點，和矩形的寬/高，方便測算截圖的像素點（比如偏移多少像素點進行滑鼠點擊）
+
+ 
+
+框選後，按S鍵彈出保存圖片界面
+
+![图片包含 屏幕截图  描述已自动生成](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+
+ 
+
+信息小窗口
+
+![图片包含 物体, 天空  描述已自动生成](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+
+​    
+
+**於****vis_server\serverApi.py增加class VisConfig(object)處理共用/預設 參數**
+
+(1)    FLIR照相 預設為 連續錄影取照, 避免暴光對焦問題
+
+(2)    於vis_server\serverApi.py增加class VisConfig(object)
+
+n   新增 VisConfig::set_config()
+
+n   新增 VisConfig::get_config()
+
+(3)    相映於vis_server\serverApi.py\class VisServerApi(object)
+
+n   新增"SET_CORNER"指令, VisServerApi::_api_set_corner()
+
+n   新增"GET_CORNER"指令, VisServerApi::_api_get_corner()
+
+(4)    相映於vis_client\client.py\class VisClientApi(object)
+
+n   新增 VisClientApi::set_config()
+
+n   新增 VisClientApi::get_config()
+
+\1.       範例(一) : 取得所有 共用/預設 參數
+
+cfg = api.get_config()
+
+print('config: {}'.format(cfg))
+
+\2.       範例(一) : 設定 共用/預設 參數
+
+\# photo_mode : 1(單張取照) , 2(連續錄影取照)
+
+\# scale_set=[[1, 1]] : 以1:1模板搜尋, 不放大縮小
+
+report = api.set_config(photo_mode=1, scale_set=[[1, 1]])
+
+​    
+Dear Jack,
+
+請問 vis  1.2.15 版本什麼時候release。。 bios testing 裡沒有 1.2.15的.whl
+
+現在曝光問題和scale的問題挺多的，1.2.15的vis 有助於解決這兩個問題，望知悉。
+
+ 
+
+**version : 1.2.15**
+
+**date : 2019/05/17**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+範例(一) : 取得所有 共用/預設 參數
+
+cfg = api.get_config()
+
+print('config: {}'.format(cfg))
+
+範例(一) : 設定 共用/預設 參數
+
+\# photo_mode : 1(單張取照) , 2(連續錄影取照)
+
+\# scale_set=[[1, 1]] : 以1:1模板搜尋, 不放大縮小
+
+report = api.set_config(photo_mode=1, scale_set=[[1, 1]])
+
+
+
+**version : 1.2.15**
+
+**date : 2019/05/17**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+
+於vis_server\serverApi.py增加class VisConfig(object)處理共用/預設 參數:
+
+(1)     於vis_server\serverApi.py增加class VisConfig(object)
+
+n   新增 VisConfig::set_config()
+
+n   新增 VisConfig::get_config()
+
+(2)     相映於vis_server\serverApi.py\class VisServerApi(object)
+
+n   新增"SET_CORNER"指令, VisServerApi::_api_set_corner()
+
+n   新增"GET_CORNER"指令, VisServerApi::_api_get_corner()
+
+(3)     相映於vis_client\client.py\class VisClientApi(object)
+
+n   新增 VisClientApi::set_config()
+
+n   新增 VisClientApi::get_config()
+
+
+
+
+我之前 想過 另一種方式 : (在 LATTE-Project中 自動調參)
+
+(1)   先記錄  原始模板的機器 參數 : 寬 , 高 , 比例
+
+(2)   取得  待測機的 參數 : 寬 , 高 , 比例
+
+n   或者  待測機測試過程改變 參數 : 比例
+
+(3)   根據 上述 計算出 scale_set
+
+
+
+
+\0.      我剛把 萬能參數(13個) 更新到 1.2.14版, 並已上傳到git.
+
+Ø   原本client端 的 5個預設參數, 改放在server端 (13個萬能參數), 減少scale_set自client傳輸到 server
+
+Ø   若不使用縮放功能, 於client端 設定scale_set=[[1,1]]
+
+ 
+
+1．  ....用FHD_125做模板，縮放后效果會不會稍好一點(match_rate更接近不縮放的情況) ….
+
+Ø  可以 . (萬能參數可以涵蓋)
+
+ 
+
+2．  ....能否..增一個可修改的屬性，用來設定scale，然後所有image相關的方法都調用這個scale，....
+
+Ø  在 env.py 或 common模塊裡設定  列表變數.
+
+Ø  例如: 
+
+ü  scale_Unchange = [ [1,1] ]  # 不使用縮放
+
+ü  scale_HD100_to_FHD100 = [ [1,1], [0.889,0.889], [0.711,0.711] ]
+
+ü  scale_FHD125_to_HD100 = [ [1,1], [1.124,1.125], [1.406,1.406] ]
+
+ü  scale_HD100_to_All = [ [1,1], [0.889,0.889], [1.067,1.067], [0.711,0.711], [0.356,0.356] ]
+
+ü  scale_FHD125_to_All = [ [1,1], [1.124,1.125], [1.2,1.2], [1.406,1.406], [0.5,0.5] ]
+
+ü  …. (按 excel表 擴增)
+
+ü  scale_All_to_All = None # 不設定, server端 預設使用 萬能參數(13個)
+
+ü  調用範例:  api.find_image(env.FHD_125_winkey, scale_set= scale_FHD125_to_HD100)
+
+ 
+
+3．  現在server端里預設了….，未達到match_rate時會用下一個scale值去匹配，會造成性能的損耗，而且有可能會出現，圖片原本并不存在熒幕中，縮放后卻與某個圖案相似，結果匹配到的情況。
+
+Ø  Server端 搜尋到圖片, 便會回傳, 不會再耗時尋找
+
+Ø  萬能參數(13個)最差狀況 : 找不到圖片 會耗損 2~3秒
+
+Ø  使用上述 2. 的方式, 減少耗時
+
+ 
+
+
+Dear Jack,
+
+1． 我收集了一下18,19年HP商務機的config表(詳情請參考附件),發現接近90%的機台都是FHD，我在想預設模板為FHD會不會以後更方便?
+
+而且FHD125%與其他(解析度和比例)之間的縮放比例小數位更少，與FHD_150的比例為1：1.2，與HD_100的比例為1:1.125，
+
+所以用FHD_125做模板，縮放后效果會不會稍好一點(match_rate更接近不縮放的情況)?
+
+ 
+
+2． 自己設置scale的方式很麻煩，換一台解析度不同的機台，所有程式碼的scale參數都要修改。能否在client端裡面新增一個可修改的屬性，用來設定scale，然後所有image相關的方法都調用這個scale，因為每次運行程式過程中解析度並不會變。
+
+ 
+
+3．現在server端里預設了5個scale值，未達到match_rate時會用下一個scale值去匹配，會造成性能的損耗，而且有可能會出現，圖片原本并不存在熒幕中，縮放后卻與某個圖案相似，結果匹配到的情況。
+
+
+​    
+
+彙整後 的 萬能參數 :
+
+[ [1,1], [0.889,0.889], [1.067,1.067], [0.711,0.711], [0.356,0.356], [1.124,1.125], [1.2,1.2], [1.406,1.406], [0.5,0.5], [0.937,0.938], [0.833,0.833], [2.811,2.813], [2,2] ]
+
+​    
+
+| 待測機            | (系統圖標 隨比例變化)                     |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+| ----------------- | ----------------------------------------- | ---- | ---- | ------ | --------- | --------- | ------- | --------- | --------- | ------- | --------- | --------- | ------- | --------- | --------- | ------- | ----- | ----- |
+| 將原模板 寬度換算 | = (待測機比例/模板比例)*(模板寬/待測機寬) |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+| 將原模板 高度換算 | = (待測機比例/模板比例)*(模板高/待測機高) |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+|                   |                                           |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+|                   |                                           |      |      | 待測機 |           |           | 待測機  |           |           | 待測機  |           |           | 待測機  |           |           | 待測機  |       |       |
+| 模板              |                                           |      |      | HD_100 | 1366      | 768       | FHD_125 | 1920      | 1080      | FHD_150 | 1920      | 1080      | UHD_250 | 3840      | 2160      | UHD_300 | 3840  | 2160  |
+|                   | 比例                                      | 寬   | 高   | 比例   | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬    | 高    |
+| HD_100            | 100%                                      | 1366 | 768  | 100%   | **1**     | **1**     | 125%    | **0.889** | **0.889** | 150%    | **1.067** | **1.067** | 250%    | 0.889     | 0.889     | 300%    | 1.067 | 1.067 |
+| FHD_125           | 125%                                      | 1920 | 1080 | 100%   | **1.124** | **1.125** | 125%    | 1         | 1         | 150%    | **1.2**   | **1.2**   | 250%    | 1         | 1         | 300%    | 1.2   | 1.2   |
+| FHD_150           | 150%                                      | 1920 | 1080 | 100%   | **0.937** | **0.938** | 125%    | **0.833** | **0.833** | 150%    | 1         | 1         | 250%    | 0.833     | 0.833     | 300%    | 1     | 1     |
+| UHD_250           | 250%                                      | 3840 | 2160 | 100%   | 1.124     | 1.125     | 125%    | 1         | 1         | 150%    | 1.2       | 1.2       | 250%    | 1         | 1         | 300%    | 1.2   | 1.2   |
+| UHD_300           | 300%                                      | 3840 | 2160 | 100%   | 0.937     | 0.938     | 125%    | 0.833     | 0.833     | 150%    | 1         | 1         | 250%    | 0.833     | 0.833     | 300%    | 1     | 1     |
+|                   |                                           |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+|                   |                                           |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+| 待測機            | (winpvt工具圖標 不隨比例變化)             |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+| 將原模板 寬度換算 | = (待測機比例/模板比例)*(模板寬/待測機寬) |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+| 將原模板 高度換算 | = (待測機比例/模板比例)*(模板高/待測機高) |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+|                   |                                           |      |      |        |           |           |         |           |           |         |           |           |         |           |           |         |       |       |
+|                   |                                           |      |      | 待測機 |           |           | 待測機  |           |           | 待測機  |           |           | 待測機  |           |           | 待測機  |       |       |
+| 模板              |                                           |      |      | HD_100 | 1366      | 768       | FHD_125 | 1920      | 1080      | FHD_150 | 1920      | 1080      | UHD_250 | 3840      | 2160      | UHD_300 | 3840  | 2160  |
+|                   | 比例                                      | 寬   | 高   | 比例   | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬        | 高        | 比例    | 寬    | 高    |
+| HD_100            | 100%                                      | 1366 | 768  | 100%   | 1         | 1         | 125%    | **0.711** | **0.711** | 150%    | 0.711     | 0.711     | 250%    | **0.356** | **0.356** | 300%    | 0.356 | 0.356 |
+| FHD_125           | 125%                                      | 1920 | 1080 | 100%   | **1.406** | **1.406** | 125%    | 1         | 1         | 150%    | 1         | 1         | 250%    | **0.5**   | **0.5**   | 300%    | 0.5   | 0.5   |
+| FHD_150           | 150%                                      | 1920 | 1080 | 100%   | 1.406     | 1.406     | 125%    | 1         | 1         | 150%    | 1         | 1         | 250%    | 0.5       | 0.5       | 300%    | 0.5   | 0.5   |
+| UHD_250           | 250%                                      | 3840 | 2160 | 100%   | **2.811** | **2.813** | 125%    | 2         | 2         | 150%    | **2**     | **2**     | 250%    | 1         | 1         | 300%    | 1     | 1     |
+| UHD_300           | 300%                                      | 3840 | 2160 | 100%   | 2.811     | 2.813     | 125%    | 2         | 2         | 150%    | 2         | 2         | 250%    | 1         | 1         | 300%    | 1     | 1     |
+
+ 
+
+ 
+
+範例 (二) : 以FHD_125(1920x1080 125%)為模板, UHD_300(3840x2160 300%)為待測機
+
+​    
+
+| 待測機  | (系統圖標 隨比例變化)         |      |      |        |        |        |         |      |      |         |      |      |         |      |      |         |      |      |
+| ------- | ----------------------------- | ---- | ---- | ------ | ------ | ------ | ------- | ---- | ---- | ------- | ---- | ---- | ------- | ---- | ---- | ------- | ---- | ---- |
+|         |                               |      |      |        |        |        |         |      |      |         |      |      |         |      |      |         |      |      |
+|         |                               |      |      | 待測機 |        |        | 待測機  |      |      | 待測機  |      |      | 待測機  |      |      | 待測機  |      |      |
+| 模板    |                               |      |      | HD_100 | 1366   | 768    | FHD_125 | 1920 | 1080 | FHD_150 | 1920 | 1080 | UHD_250 | 3840 | 2160 | UHD_300 | 3840 | 2160 |
+|         | 比例                          | 寬   | 高   | 比例   | 寬     | 高     | 比例    | 寬   | 高   | 比例    | 寬   | 高   | 比例    | 寬   | 高   | 比例    | 寬   | 高   |
+| FHD_125 | 125%                          | 1920 | 1080 | 100%   | 1.1245 | 1.125  | 125%    | 1    | 1    | 150%    | 1.2  | 1.2  | 250%    | 1    | 1    | 300%    | 1.2  | 1.2  |
+|         |                               |      |      |        |        |        |         |      |      |         |      |      |         |      |      |         |      |      |
+| 待測機  | (winpvt工具圖標 不隨比例變化) |      |      |        |        |        |         |      |      |         |      |      |         |      |      |         |      |      |
+|         |                               |      |      |        |        |        |         |      |      |         |      |      |         |      |      |         |      |      |
+|         |                               |      |      | 待測機 |        |        | 待測機  |      |      | 待測機  |      |      | 待測機  |      |      | 待測機  |      |      |
+| 模板    |                               |      |      | HD_100 | 1366   | 768    | FHD_125 | 1920 | 1080 | FHD_150 | 1920 | 1080 | UHD_250 | 3840 | 2160 | UHD_300 | 3840 | 2160 |
+|         | 比例                          | 寬   | 高   | 比例   | 寬     | 高     | 比例    | 寬   | 高   | 比例    | 寬   | 高   | 比例    | 寬   | 高   | 比例    | 寬   | 高   |
+| FHD_125 | 125%                          | 1920 | 1080 | 100%   | 1.4056 | 1.4063 | 125%    | 1    | 1    | 150%    | 1    | 1    | 250%    | 0.5  | 0.5  | 300%    | 0.5  | 0.5  |
+
+​    
+
+def step42(api, env):
+
+​    try:
+
+​        p = api.find_image(env.FHD_125_winkey, scale_set=[[1.2,1.2],[1,1],[1.125,1.125],[1.406,1.406],[0.5,0.5]]) # 以FHD_125為模板, UHD_300為待測機, 找系統圖標 隨比例變化
+
+​        if p.is_valid():
+
+​            print( 'find_image : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​        del(p)
+
+​    except RequestException as e:
+
+​        print( 'rERROR : find_image ...{}'.format(e.message) )
+
+ 
+
+def step43(api, env):
+
+​    try:
+
+​        p = api.find_image(env.FHD_125_winpvt_save_icon, scale_set=[[1,1],[1.125,1.125],[1.2,1.2],[1.406,1.406],[0.5,0.5]]) # 以FHD_125為模板, UHD_300為待測機, 找winpvt工具圖標 不隨比例變化
+
+​        if p.is_valid():
+
+​            print( 'find_image : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​        del(p)
+
+​    except RequestException as e:
+
+​        print( 'rERROR : find_image ...{}'.format(e.message) )
+
+​    
+
+ 
+
+Thanks !
+
+Jack Hung
+ Inventec Corporation
+ TEL: +886-2-28810721
+ Ext: 21635
+ E-Mail: <Hung.Jack@inventec.com>
+
+**Confidentiality Note** 本郵件含有英業達公司機密資訊、或受法律保護之資料，惟有原發信人指定之收信人得閱讀或使用本郵件之內容。如您並非被指定之收信人，請立即將本郵件及所有附件予以刪除；請勿揭露、儲存或使用本郵件之任何資訊，並請您立即告知原發信人本郵件的傳遞錯誤。謝謝您的合作。
+ This e-mail transmission and any attachments contain information from Inventec Corporation. The information is confidential and/or privileged and intended to be solely for the use of the individuals or entity named in this e-mail transmission. If you are not the intended recipient, be aware that any disclosure, saving or use of the contents of this e-mail transmission and attachments is strictly prohibited. If you have received this email transmission in error, please notify us immediately, and delete the e-mail and attachments. We greatly appreciate your cooperation.
+
+ 
+
+**From:** Hung.Jack 洪孟佳 IEC1 
+ **Sent:** Wednesday, May 15, 2019 12:35 PM
+ **Subject:** RE: LATTE (Pre-Release 1.2.14)
+
+ 
+
+ 
+
+範例:
+
+​    
+
+def step32(api, env):
+
+​    try:
+
+​        p = api.find_image(env.HD_100_winkey) # 以HD_100為模板, UHD_300為待測機, 找系統圖標 隨比例變化
+
+​        if p.is_valid():
+
+​            print( 'find_image : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​        del(p)
+
+​    except RequestException as e:
+
+​        print( 'rERROR : find_image ...{}'.format(e.message) )
+
+ 
+
+def step33(api, env):
+
+​    try:
+
+​        p = api.find_image(env.HD_100_winpvt_save_icon) # 以HD_100為模板, UHD_300為待測機, 找winpvt工具圖標 不隨比例變化
+
+​        if p.is_valid():
+
+​            print( 'find_image : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​        del(p)
+
+​    except RequestException as e:
+
+​        print( 'rERROR : find_image ...{}'.format(e.message) )
+
+​    
+
+**version : 1.2.14**
+
+**date : 2019/05/15**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+增加VIS server/client指定 縮放模板參數 scale_set :
+
+(1)     增加VIS server/client指定 縮放模板參數 scale_set 功能
+
+Ø   新增 縮放模板參數 scale_set
+
+Ø   預設以 HD_100(1366x768 100%) 為模板標準尺寸
+
+Ø   預設對應 HD_100,FHD_125,FHD_150,UHD_250,UHD_300 縮放比例[x,y]數值為
+
+n   scale_set = [[1,1],[1.067,1.067],[0.889,0.889],[0.711,0.711],[0.356,0.356]]
+
+| 待測機            | (系統圖標 隨比例變化)                     |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+| ----------------- | ----------------------------------------- | ---- | ---- | ------ | ---- | ---- | ------- | ------ | ------ | ------- | ------ | ------ | ------- | ------ | ------ | ------- | ------ | ------ |
+| 將原模板 寬度換算 | = (待測機比例/模板比例)*(模板寬/待測機寬) |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+| 將原模板 高度換算 | = (待測機比例/模板比例)*(模板高/待測機高) |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+|                   |                                           |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+|                   |                                           |      |      | 待測機 |      |      | 待測機  |        |        | 待測機  |        |        | 待測機  |        |        | 待測機  |        |        |
+| 模板              |                                           |      |      | HD_100 | 1366 | 768  | FHD_125 | 1920   | 1080   | FHD_150 | 1920   | 1080   | UHD_250 | 3840   | 2160   | UHD_300 | 3840   | 2160   |
+|                   | 比例                                      | 寬   | 高   | 比例   | 寬   | 高   | 比例    | 寬     | 高     | 比例    | 寬     | 高     | 比例    | 寬     | 高     | 比例    | 寬     | 高     |
+| HD_100            | 100%                                      | 1366 | 768  | 100%   | 1    | 1    | 125%    | 0.8893 | 0.8889 | 150%    | 1.0672 | 1.0667 | 250%    | 0.8893 | 0.8889 | 300%    | 1.0672 | 1.0667 |
+|                   |                                           |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+| 待測機            | (winpvt工具圖標 不隨比例變化)             |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+| 將原模板 寬度換算 | = (待測機比例/模板比例)*(模板寬/待測機寬) |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+| 將原模板 高度換算 | = (待測機比例/模板比例)*(模板高/待測機高) |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+|                   |                                           |      |      |        |      |      |         |        |        |         |        |        |         |        |        |         |        |        |
+|                   |                                           |      |      | 待測機 |      |      | 待測機  |        |        | 待測機  |        |        | 待測機  |        |        | 待測機  |        |        |
+| 模板              |                                           |      |      | HD_100 | 1366 | 768  | FHD_125 | 1920   | 1080   | FHD_150 | 1920   | 1080   | UHD_250 | 3840   | 2160   | UHD_300 | 3840   | 2160   |
+|                   | 比例                                      | 寬   | 高   | 比例   | 寬   | 高   | 比例    | 寬     | 高     | 比例    | 寬     | 高     | 比例    | 寬     | 高     | 比例    | 寬     | 高     |
+| HD_100            | 100%                                      | 1366 | 768  | 100%   | 1    | 1    | 125%    | 0.7115 | 0.7111 | 150%    | 0.7115 | 0.7111 | 250%    | 0.3557 | 0.3556 | 300%    | 0.3557 | 0.3556 |
+
+ 
+
+
+**version : 1.2.13**
+
+**date : 2019/05/14**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+**update/fix :**
+
+(1)     fix the playload , in vis_client/client.py/class VisClient(object)::find_image()
+
+(2)     update find corner , in vis_server/serverApi.py/class VisServerApi(object)::find_corner()
+
+
+
+
+
+
+**version : 1.2.13**
+
+**date : 2019/05/09**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+**擴增****DUMMY及INTERNAL Camera單張拍照 :**
+
+(1)     對應 FLIR Camera 單張拍照功能,擴增DUMMY及INTERNAL Camera
+
+Ø   增加camera_dummy.py及camera_internal.py的camera.class Camera()::take_a_photo() 單張拍照
+
+(2)     serverAPI.py/class VisServerApi()::get_screenshot() 改採用take_a_photo() 單張拍照
+
+**增加****temp-image自定義參數,修改corner功能 :**
+
+(1)         增加Camera擷圖(tmp.bmp)的自定義文件名稱(--tempimage), 型態:字串, 預設值:"tmp.bmp"
+
+Ø   使用 VISserver.exe --help 查閱參數 --tempimage
+
+Ø   以便於將不同的Camera擷圖設定為對應的暫存文件
+
+n   範例: 執行不同的 VIS Server
+
+u   VISserver.exe 192.168.1.104 8080 --listenport 8081 --camera 0 --cameratype "FLIR" --tempimage "./log/tmp_FLIR0.bmp" --config "./log/config_flir0.txt" 
+
+u   VISserver.exe 192.168.1.105 8080 --listenport 8082 --camera 1 --cameratype "FLIR" --tempimage "./log/tmp_FLIR1.bmp" --config "./log/config_flir1.txt" 
+
+u   VISserver.exe 192.168.1.106 8080 --listenport 8083 --camera 0 --cameratype "INTERNAL" --tempimage "./log/tmp_INT0.bmp" --config "./log/config_int0.txt" 
+
+u   VISserver.exe 192.168.1.107 8080 --listenport 8084 --camera 1 --cameratype "INTERNAL" --tempimage "./log/tmp_INT1.bmp" --config "./log/config_int1.txt" 
+
+u   VISserver.exe 192.168.1.108 8080 --listenport 8085 --cameratype "DUMMY" --tempimage "./log/tmp_DUMMY.bmp" --config "./log/config_dummy.txt" 
+
+(2)         修改 vis_server/serverAPI.py的 find_corner()功能
+
+Ø   修改 Load及Save corner-configuration file (config.txt)的輔助信息
+
+Ø   恢復 Skywatch LATTE VIS原有的 矩形檢查判斷
+
+Ø   增加 vis_utils/camera4corner.py的 find_corner()及get_corner()錯誤處理
+
+(3)         修改 vis_server/server.py的 asyncio.sleep()時間, 由1sec減少為0.1sec
+
+​    
+
+同時執行 2個 VIS Server 及 Client :
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+
+​    
+
+
+| **LATTE   VIS**                        | **client.py**                 | **description**   **功能說明**                              |                                                             |                                                              |                                            |
+| -------------------------------------- | ----------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
+| **version   1.2.12**                   | **function**   **函數名稱**   | **necessary   parameters**   **必要參數**                   | **optional   parameters**   **可選參數**                    | **return**   **回傳**                                        |                                            |
+| **Find   Image**                       | find_image()                  | string: image_path                                          | dictionary: {match_rate=0.75, similar=-1, search_area=None} | (Point)    ((Point), similarity)                             | Find one image, respond the coordinate     |
+| find_first_of_images()                 | string: image_path            | dictionary: {match_rate=0.75, similar=-1, search_area=None} | (Point)    ((Point), similarity)                            | Find all images one by one, respond the coordinate of first image   found |                                            |
+| find_images()                          | string: image_path            | dictionary: {match_rate=0.75, similar=-1, search_area=None} | [(Point),   ...]    [((Point), similarity), ...]            | Find all images, respond coordinates of all images           |                                            |
+| **Wait   Image**                       | wait_image()                  | string: image_path                                          | dictionary: {match_rate=0.75, search_area=None}             | (Point)                                                      | Find one image, wait the image appear      |
+| wait_first_of_images()                 | string: image_path            | dictionary: {match_rate=0.75, search_area=None}             | (Point)                                                     | Find all images one by one, wait the first one of images appear |                                            |
+| wait_images()                          | string: image_path            | dictionary: {match_rate=0.75, search_area=None}             | [(Point),   ...]                                            | Find all images, wait any one image appear                   |                                            |
+| **Wait   Image Disappear**             | wait_image_disappear()        | string: image_path                                          | dictionary: {match_rate=0.75, search_area=None}             | (x:-1,y:-1)                                                  | Find image, wait the image disappear       |
+|                                        |                               |                                                             | ('x':-1,'y':-1)                                             | Find all images one by one, wait the first one of images   disappear |                                            |
+| wait_images_disappear()                | string: image_path            | dictionary: {match_rate=0.75, search_area=None}             | [(x:-1,y:-1), …]                                            | Find all images, wait all images disappear                   |                                            |
+| **Wait   Image then Mouse-move/click** | click_mouse_button_at_image() | string: image_path                                          | dictionary: {match_rate=0.75, search_area=None}             | (Point)                                                      | Find one image, mouse-move/click the image |
+| click_mouse_button_at_images()         | string: image_path            | dictionary: {match_rate=0.75, search_area=None}             | (Point)                                                     | Find all images one by one, mouse-move/click the first to be found |                                            |
+|                                        |                               |                                                             | [(Point), …]                                                | Find all images, mouse-move/click all                        |                                            |
+
+ 
+
+| **A.**       **ONE image****模式** **:**                     |      |      |      |      |      |      |
+| ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| n     find_image() , wait_image() , wait_image_disappear() ,   click_mouse_button_at_image() |      |      |      |      |      |      |
+| n     傳遞 單張模版圖片 到server, server搜尋後回饋.          |      |      |      |      |      |      |
+| **B.**       **FIRST of images****模式** **:**               |      |      |      |      |      |      |
+| n     find_first_of_images() , wait_first_of_images() ,   click_mouse_button_at_images() |      |      |      |      |      |      |
+| n     每次傳遞 單張模版圖片 到server, server搜尋後回饋; 若未尋到,再傳下一張模版圖片. |      |      |      |      |      |      |
+| n     優勢 : 在 畫面已出現 的情況. 多張模版圖中, 若前張已搜尋到, 則不需再傳後面其他模版圖, 節省傳輸量. |      |      |      |      |      |      |
+| n     劣勢 : 在 畫面尚未出現 的情況(等待時間較久). 則多張模版圖會重複循環傳輸, 浪費傳輸量. |      |      |      |      |      |      |
+| **C.**       **ALL of images****模式** **:**                 |      |      |      |      |      |      |
+| n     find_images() , wait_images() , wait_images_disappear() |      |      |      |      |      |      |
+| n     一次傳遞 所有模版圖片 到server, server搜尋後回饋.      |      |      |      |      |      |      |
+| n     優勢 : 在 畫面尚未出現 的情況(等待時間較久). 多張模版圖一次傳輸,   server可重複循環搜尋, 節省傳輸量. |      |      |      |      |      |      |
+| n     劣勢 : 在 畫面已出現 的情況. 多張模版圖全部傳輸,   server全部搜尋, 若前張已搜尋到, 浪費傳輸量及時間. |      |      |      |      |      |      |
+|                                                              |      |      |      |      |      |      |
+|                                                              |      |      |      |      |      |      |
+
+
+
+**version : 1.2.12**
+
+**date : 2019/05/08**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+(1) 增加VIS server/client指定找圖區域 功能
+
+​    (1.1) 新增在給定區域內找圖的功能, 找到后還是返回在整個熒幕上的坐標點
+
+​    (1.2) 範例:
+
+​    
+
+​        def step34(api, env):
+
+​            img_list = [env.sq_img,env.cy_img,env.tr_img,env.cr_img]
+
+​            dis_list = [(1321.5,691.5), (362,691.5), (344,152), (1321.5,155)]
+
+​            try:
+
+​                p_list = api.find_images( img_list, match_rate=0.65, similar=1, **search_area=(Point(100,100),Point(2000,1200))** )
+
+​                for (p,sim),(dis_x,dis_y) in zip(p_list,dis_list):
+
+​                    if p.is_valid():
+
+​                        distance = ((p.x-dis_x)**2 + (p.y-dis_y)**2)**0.5 
+
+​                        print( 'find_images : x:{}, y:{}, similarity:{}, distance: {}'.format(p.x,p.y,sim,distance) )
+
+​                    else:
+
+​                        print( 'not found from api.find_images()' )
+
+​                del(p_list)
+
+​            except RequestException as e:
+
+​                print( 'rERROR : find_images ...{}'.format(e.message) )
+
+​            del(img_list)
+
+​            del(dis_list)
+
+​    
+
+這個不難做, 採用 遮罩(mask).
+
+我先想一下, 如何 定義與傳遞 參數.
+
+
+
+
+Dear Jack,
+因Camera獲取的圖像為灰階圖且畫質一般，所以經常遇到好幾個圖案很相似的情況，有時甚至遇到找圖A，結果熒幕上的圖B識別率比圖A更高。。
+
+所以希望能夠新增在給定區域內找圖的功能，找到后還是返回在整個熒幕上的坐標點，下面的例子和概念圖供您參考。
+
+ 
+
+指定找圖區域
+
+api.find_image(Env.WINKEY, (Point(20, 20), Point(1000, 1000)))
+
+ 
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+
+ 
+
+
+**version : 1.2.11**
+
+**date : 2019/05/08**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**    
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+​    (1) 增加 FLIR Camera 單張拍照功能.
+
+​        (1.1) 原有 camera.class Camera()::acquire_image() 連續攝影錄像取照模式易產生Image data is incomplete錯誤
+
+​        (1.2) 增加 camera.class Camera()::take_a_photo() 單張拍照模式
+
+​    
+
+​    (2) serverAPI.py/class VisServerApi()::get_screenshot() 改採用FLIR Camera單張拍照功能
+
+
+
+
+​
+**version : 1.2.10**
+
+**date : 2019/04/30**
+
+**VIS - LATTE (Automatic LApTop TEsting Robot)**    
+
+ 
+
+<http://183.230.197.230:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+(1) 修正 FLIR Camera的重啟功能.
+
+  (1.0) 當 FLIR Camera(camera.py)錯誤時, 反饋錯誤信息 "FLIR camera image status: XX"
+
+  (1.1) 並且於 serverAPI.py/class VisServerApi()::get_screenshot()中 重啟FLIR Camera
+
+​    
+
+(2) serverAPI.py/class VisServerApi()::find_corner() 採用OTSU自适应阈值处理
+
+​    
+
+
+關於 FLIR Camera的“Image incomplete with image status XX”問題 , 
+
+若發生此問題, 麻煩 跟蹤下列事項:
+
+(1)   確認 程序版本, 提供 LATTE server 及 project端的log
+
+|                  | 版本 | 32/64 位 |
+| ---------------- | ---- | -------- |
+| python           | ?    | ?        |
+| SpinnakerSDK     | ?    | ?        |
+| spinnaker_python | ?    | ?        |
+| vis_server       | ?    | n/a      |
+
+(2)   先不要插拔 camera USB, 退出 vis server程序
+
+(3)   執行Win10中 Spinnaker SDK的 SpinView
+
+Ø   ![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
+
+(4)   按下列4步驟 操作. 用FLIR自帶的 工具啟動並關閉Camera, 擷取下圖(我要確認 Firmware 及 Message)
+
+Ø   ![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)
+
+(5)   重新啟動vis server程序, 繼續 剛才的 LATTE project程序
+
+
+
+
+Dear Jack,
+
+ 
+
+Server端log請參考附件，感謝。
+
+
+另外, 請把server端 的log文件 也給我.
+
+
+這個就是我說的…FLIR似乎有問題
+
+(1)  這是FLIR camera內部內存出錯, 須將 camera 重啟 (插拔USB)
+
+Dear Jack,
+
+Harrit今天在跑程式的時候遇到了附件圖片中的bug, camera一直找圖不回傳。我們在問題出現后手動關閉了server, 產生的Log如附件2。
+
+
+
+**version : 1.2.9**
+
+**date : 2019/04/26**
+
+**install files :**  Release/vis_client-1.2.9-py3-none-any.whl , Release/vis_server-1.2.9-py3-none-any.whl
+
+<http://10.96.3.65:3000/Inventec/bios_testing/commit/6af56776cf1f696bdbfa1aba08ceef6416e63dda>
+
+​    
+
+<http://10.96.3.65:3000/Inventec/bios_testing/commit/9010f56cf57841cb0775de906d9ccabbac9b6106>
+
+​    (1) 增加 輸入參數similar, 回傳 similarity數據. 若無similar輸入參數,則與舊版同(向下兼容)
+
+​      (1.0) 涉及 vis_client/client.py/class VisClientApi(object)
+
+​      (1.1) find_image(image_path, **kargs)
+
+​      (1.2) find_first_of_images(image_path, **kargs)
+
+​      (1.3) find_images(image_path, **kargs)
+
+​        **kargs :
+
+​        {match_rate=0.75}, the threshold for image similarity
+
+​        {similar=-1}, disable(<0) enable(1) , return the similarity if enable
+
+​      (1.4) 相映更改 vis_server/serverAPI.py/class VisServerApi(object)
+
+​        _api_find_image()
+
+​        _api_find_images()
+
+​    
+
+​    (2) 關閉TimeoutError()及ValueError() 拋出異常, 改以座標點(-1,-1)回傳
+
+​      (2.0) 涉及 vis_client/client.py/class VisClientApi(object)
+
+​      (2.1) wait_image()
+
+​      (2.2) wait_first_of_images()
+
+​      (2.3) wait_images() ....................以座標點列表[(-1,-1),...]回傳
+
+​      (2.4) wait_image_disappear()
+
+​      (2.5) wait_images_disappear() ..........以座標點列表[(-1,-1),...]回傳
+
+​      (2.6) get_image_string_reference()
+
+​      (2.7) click_mouse_button_at_image()
+
+​      (2.8) click_mouse_button_at_images()
+
+​    
+
+… Lib\site-packages\vis_utils\camera4corner.py增加 按鍵 “a” , 自動捕捉邊框(4個角 點位置座標)
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)
+
+
+
+**version : 1.2.7**
+
+**date : 2019/04/19**
+
+​    VIS - LATTE (Automatic LApTop TEsting Robot)
+
+​    
+
+​    (1) 擴增STM32/HID-Keyboard (hid.py) 的 HID_Usage_Page:7
+
+​      (1.1) class EmulateKey: , 擴增 按鍵值 定義;
+
+​      (1.2) KeyMapping = {...} , 擴增 按鍵值 定義.
+
+​    (2) 修改 class VisClientApi :: press_keys()
+
+​      (2.1) press_keys(duration, *keys, **kargs)
+
+​        duration > 0 , 代表按住duration時間後釋放;
+
+​        duration <= 0 , 代表持續一直按住不放.
+
+​      (2.2) 相對應修改 class class VisServerApi :: def _api_key_press()
+
+​    (3) 增加 OCR 辨識的 自定義參數(config) , 型態:字串, 無預設值
+
+​      (3.1) VisClientApi::get_image_string(x1, y1, x2, y2, config):
+
+​      (3.2) VisClientApi::get_image_all_string(threshold_set, config)
+
+​    
+
+ref:  (config)
+
+\# python3.5 tesseract-ocr 验证码识别错误解决方案
+
+<https://www.jianshu.com/p/f3b054dbf798>
+
+\# pytesseract psm 选项参数
+
+<https://blog.csdn.net/qq_26877377/article/details/81775000>
+
+<https://blog.csdn.net/huitailangyz/article/details/80390090>
+
+\# Command Line Usage
+
+<https://github.com/tesseract-ocr/tesseract/wiki/Command-Line-Usage>
+
+​    
+
+**version : 1.2.7**
+
+**date : 2019/04/18**
+
+​    VIS - LATTE (Automatic LApTop TEsting Robot)
+
+​    
+
+​    (1) 擴增STM32/HID-Keyboard (hid.py) 的 HID_Usage_Page:7
+
+​      (1.1) class EmulateKey: , 擴增 按鍵值 定義;
+
+​      (1.2) KeyMapping = {...} , 擴增 按鍵值 定義.
+
+​    (2) 修改 class VisClientApi :: press_keys()
+
+​      (2.1) press_keys(duration, *keys, **kargs)
+
+​        duration > 0 , 代表按住duration時間後釋放;
+
+​        duration <= 0 , 代表持續一直按住不放.
+
+​      (2.2) 相對應修改 class class VisServerApi :: def _api_key_press()
+
+​    
+
+
+
+**version : 1.2.6**
+
+**date : 2019/04/02**
+
+<http://10.96.3.65:3000/Inventec/bios_testing/src/branch/master/Release>
+
+ 
+
+更新 serverApi.py/find_corner() 及 hid.py/loadJsonFile() 功能. 
+
+(1) serverApi.py/find_corner()
+
+  (1.1) 增加開啟 边界腐蚀 計算,以便適應開燈環境.
+
+  (1.2) 適應openCV 4.0 與 3.4 版本的cv2.findContours()不同反饋.
+
+(2) hid.py/loadJsonFile()
+
+  (2.1) STM32 GPIO的控制文件(hid_table.json),控制鍵名稱支援英文大小寫.
+
+  採用json格式:
+
+​      {
+
+​        "控制鍵名稱(英文大小寫)":[ "stm32port(需按關鍵字,字串)", stm32pin(整數0-15), "註釋(utf-8)"],
+
+​      }
+
+  (2.2)hid_table.json放置位置與 config.txt相同.
+
+  (2.3)使用 VISserver --help 查閱參數 --hidtable
+
+<http://10.96.3.65:3000/Inventec/bios_testing/commit/d8ad4f0af4874639fa0e1c2ad742cecac9bc3f71>
+
+ 
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)  ![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)
+
+
+
+​    
+
+
+**version : 1.2.6**
+
+**date : 2019/03/31**
+
+ 
+
+(1)     from old (ver:1.2.5) change to new (ver:1.2.6).
+
+Ø   改變 Skywatch-VIS的 目錄;功能模組名稱
+
+ 
+
+(2)     增加支援 STM32 GPIO的控制文件(hid_table.json)
+
+Ø   採用json (文字)格式:
+
+​      {
+
+​        "控制鍵名稱(小寫)":[ "stm32port(字串)", stm32pin(整數0-15), "註釋(utf-8)"],
+
+​      }
+
+Ø   hid_table.json放置位置與 config.txt相同
+
+Ø   使用 VISserver.exe --help 查閱參數 --hidtable
+
+
+
+
+Dear Jack Sir,
+
+ 
+
+回復如下，請查看，謝謝！~
+
+ 
+
+\1.    新的 computron機器
+
+àWin10系統還沒安裝，還在申請Key中，預計會裝RS4 image（17134），但不清楚OS版本是什麼
+
+ 
+
+\2.    新安裝的 版本為何
+
+l   Python 版本為何
+
+à目前使用的python版本為：3.6.5
+
+l   Python module 版本為何 (用 pip list -v 列出)
+
+à 具體資訊如附件
+
+ 
+
+PS：
+
+您最新發佈的hid.py檔中的電磁鐵與氣閥對應的位置與我們目前使用的有差異，目前已按我們需求修改了（如:附件hid.py中# 對應電磁鐵&# 控制氣閥部分）
+
+ 
+
+
+問幾件事:
+
+1. 新的      computron機器
+
+l   是否已安裝好win10,  是 企業版 還是 專業版 
+
+\2.    新安裝的 版本為何
+
+l   Python 版本為何
+
+l   Python module 版本為何 (用 pip list -v 列出)
+
+\3.    我想要改變 Skywatch-VIS的 功能模組名稱
+
+l   會影響的指令:
+
+| **currently**                          | **new**                                     |
+| -------------------------------------- | ------------------------------------------- |
+| from bios_client.client                | from vis_client.client                      |
+| from bios_client.client import BiosApi | from vis_client.client import VisClientApi  |
+| api = BiosApi('http://localhost:8080') | api = VisClientApi('http://localhost:8080') |
+
+l   架構如下:
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image029.jpg)
+
+
+
+
+**version : 1.2.5**
+
+**date : 2019/03/21**
+
+ 
+
+​    更正 image_show 功能
+
+​    
+
+​    (1) image_show 參數, 顯示搜尋的模版圖片, 於下次搜尋圖片時自動關閉.
+
+​      范例:
+
+​        api = BiosApi('http://localhost:8080', image_show=1) #啟用 image_show
+
+​        api = BiosApi('http://localhost:8080') #不啟用 image_show=0
+
+ 
+
+
+
+
+範例:
+
+ 
+
+**def step14(api, env):**
+
+​    **p = api.find_image(env.find_images_0)**
+
+​    **if p.is_valid():**
+
+​        **print( 'image : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **else:**
+
+​        **print( 'not found image' )**
+
+​    **del(p)**
+
+​             
+
+**def step15(api, env):**
+
+​    **img_list = [env.find_images_1,env.find_images_3,env.find_images_2]**
+
+​    **p = api.find_first_of_images(img_list)**
+
+​    **if p.is_valid():**
+
+​        **print( 'find_first_of_images : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **else:**
+
+​        **print( 'not found images' )**
+
+​    **del(p)**
+
+​    **del(img_list)**
+
+​    **time.sleep(1)**
+
+ 
+
+**def step16(api, env):**
+
+​    **img_list = [env.find_images_1,env.find_images_2,env.find_images_3]**
+
+​    **p_list = api.find_images(img_list)**
+
+​    **for p in p_list:**
+
+​        **if p.is_valid():**
+
+​            **print( 'Find IMAGEs : x:{}, y:{}'.format(p.x,p.y) )**
+
+​        **else:**
+
+​            **print( 'not found image' )**
+
+​    **del(img_list)**
+
+​    **del(p_list)**
+
+ 
+
+**def step17(api, env):**
+
+​    **img_list = [env.find_images_1, env.find_images_2, env.find_images_3]**
+
+​    **##p_list = api.wait_images(img_list, 0 \* TimeDuration.Second, api.click_keys, "f10")**
+
+​    **p_list = api.wait_images(img_list, 20 \* TimeDuration.Second, api.click_keys, "f10")**
+
+​    **for p in p_list:**
+
+​        **if p.is_valid():**
+
+​            **print( 'Wait IMAGEs : x:{}, y:{}'.format(p.x,p.y) )**
+
+​        **else:**
+
+​            **print( 'not found images' )**
+
+​    **del(img_list)**
+
+​    **del(p_list)**
+
+​    **time.sleep(1)**
+
+ 
+
+**def step18(api, env):**
+
+​    **img_list = [env.find_images_1, env.find_images_2, env.find_images_3]**
+
+​    **##p_list = api.wait_images_disappear(img_list, 0 \* TimeDuration.Second, api.click_keys, "f1")**
+
+​    **p_list = api.wait_images_disappear(img_list, 20 \* TimeDuration.Second, api.click_keys, "f1")**
+
+​    **for p in p_list:**
+
+​        **print( 'Wait_disappear IMAGEs : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **del(img_list)**
+
+​    **del(p_list)**
+
+​    **time.sleep(1)**
+
+ 
+
+**def step19(api, env):**
+
+​    **p = api.click_mouse_button_at_image(env.find_images_3, 1, "none")**
+
+​    **if p.is_valid():**
+
+​        **print( 'click_mouse : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **else:**
+
+​        **print( 'not found image for click_mouse' )**
+
+​    **del(p)**
+
+ 
+
+**def step20(api, env):**
+
+​    **img_list = [env.find_images_3, env.find_images_2, env.find_images_1]**
+
+​    **p = api.click_mouse_button_at_images(img_list, 1, "none")**
+
+​    **if p.is_valid():**
+
+​        **print( 'IMAGES click_mouse : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **else:**
+
+​        **print( 'IMAGES not found image for click_mouse' )**
+
+​    **del(p)**
+
+​    **del(img_list)**
+
+​    **time.sleep(1)**
+
+ 
+
+**def step21(api, env):**
+
+​    **img_list = [env.find_images_2, env.find_images_3, env.find_images_1]**
+
+​    **p = api.wait_first_of_images(img_list, 20 \* TimeDuration.Second, api.click_keys, "f2")**
+
+​    **if p.is_valid():**
+
+​        **print( 'Wait First IMAGEs : x:{}, y:{}'.format(p.x,p.y) )**
+
+​    **else:**
+
+​        **print( 'not found images' )**
+
+​    **del(p)**
+
+​    **del(img_list)**
+
+​    **time.sleep(1)**
+
+ 
+
+**version : 1.2.5**
+
+**date : 2019/03/21**
+
+(1)       補充 BIOSServer.py --help 的使用描述;
+
+(2)       更改 apiserver.py / find_corner() 功能, 
+
+Ø   更改 4個座標點的排列順序 查找方法;
+
+(3)       增加 camera_dummy.py ,
+
+Ø   提供給 BIOSServer.py 增加 --cameratype DUMMY 參數,
+
+Ø   不啟動攝像,只讀取tmp.bmp;
+
+(4)       更改 apiserver.py / start() 功能, 
+
+Ø   web.Application(client_max_size=16*1024*1024)
+
+Ø   增加 server 的最大接收信息至 16M-bytes;
+
+(5)       增加 apiserver.py / FIND_IMAGES 功能,
+
+Ø   "FIND_IMAGES": self._api_find_images,
+
+Ø   多模板圖查找;
+
+(6)       修正 client.py / duration 時間延遲功能;
+
+(7)       修正 client.py 文檔的 function 註釋;
+
+(8)       增加 client.py 的 image 查找功能,
+
+Ø   find_first_of_images()
+
+Ø   find_images()
+
+Ø   wait_first_of_images()
+
+Ø   wait_images()
+
+Ø   wait_images_disappear()
+
+Ø   click_mouse_button_at_images()
+
+​    
+
+| **LATTE   VIS   version 1.2.5**        | **client.py**                 | **description**                                              |                                            |
+| -------------------------------------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
+| **function**                           | **return**                    |                                                              |                                            |
+| **Find   Image**                       | find_image()                  | (Point)                                                      | Find one image, respond the coordinate     |
+| find_first_of_images()                 | (Point)                       | Find all images one by one, respond the coordinate of first image   found |                                            |
+| find_images()                          | [(Point), …]                  | Find all images, respond coordinates of all images           |                                            |
+| **Wait   Image**                       | wait_image()                  | (Point)                                                      | Find one image, wait the image appear      |
+| wait_first_of_images()                 | (Point)                       | Find all images one by one, wait the first one of images appear |                                            |
+| wait_images()                          | [(Point), …]                  | Find all images, wait any one image appear                   |                                            |
+| **Wait   Image Disappear**             | wait_image_disappear()        | (x:-1,y:-1)                                                  | Find image, wait the image disappear       |
+|                                        | ('x':-1,'y':-1)               | Find all images one by one, wait the first one of images   disappear |                                            |
+| wait_images_disappear()                | [(x:-1,y:-1), …]              | Find all images, wait all images disappear                   |                                            |
+| **Wait   Image then Mouse-move/click** | click_mouse_button_at_image() | (Point)                                                      | Find one image, mouse-move/click the image |
+| click_mouse_button_at_images()         | (Point)                       | Find all images one by one, mouse-move/click the first to be found |                                            |
+|                                        | [(Point), …]                  | Find all images, mouse-move/click all                        |                                            |
+
+ 
+
+**A.**   **ONE image****模式** **:**
+
+n   find_image() , wait_image() , wait_image_disappear() , click_mouse_button_at_image()
+
+n   傳遞 單張模版圖片 到server, server搜尋後回饋.
+
+**B.**   **FIRST of images****模式** **:**
+
+n   find_first_of_images() , wait_first_of_images() , click_mouse_button_at_images()
+
+n   每次傳遞 單張模版圖片 到server, server搜尋後回饋; 若未尋到,再傳下一張模版圖片.
+
+n   優勢 : 在 畫面已出現 的情況. 多張模版圖中, 若前張已搜尋到, 則不需再傳後面其他模版圖, 節省傳輸量.
+
+n   劣勢 : 在 畫面尚未出現 的情況(等待時間較久). 則多張模版圖會重複循環傳輸, 浪費傳輸量.
+
+**C.**   **ALL of images****模式** **:**
+
+n   find_images() , wait_images() , wait_images_disappear()
+
+n   一次傳遞 所有模版圖片 到server, server搜尋後回饋.
+
+n   優勢 : 在 畫面尚未出現 的情況(等待時間較久). 多張模版圖一次傳輸, server可重複循環搜尋, 節省傳輸量.
+
+n   劣勢 : 在 畫面已出現 的情況. 多張模版圖全部傳輸, server全部搜尋, 若前張已搜尋到, 浪費傳輸量及時間.
+
+ 
+
+| **LATTE   VIS   version 1.2.5** | **description** |      |
+| ------------------------------- | --------------- | ---- |
+|                                 |                 |      |
+| **Image**                       | one image       |      |
+| first   image                   |                 |      |
+| all images                      |                 |      |
+
+ 
+
+![cid:image002.png@01D4DFF0.797087B0](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image031.gif)
+
+​    
+
+
+只有click_mouse_button_at_images() 採用 first image模式 (節省傳輸量), 
+
+其餘 xxx_images() 皆採用 ALL image模式 (傳輸量較大),
+
+ 
+
+| **LATTE   VIS   version 1.2.5** | **description** |      |
+| ------------------------------- | --------------- | ---- |
+|                                 |                 |      |
+| **Image**                       | one image       |      |
+| first   image                   |                 |      |
+| all images                      |                 |      |
+
+ 
+
+![img](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image032.gif)
+
+ 
+
+ 
+
+紅色是增加的功能,
+
+ 
+
+| **LATTE   VIS   version 1.2.5**        | **client.py**                 | **description**                                              |                                      |
+| -------------------------------------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------ |
+| **function**                           | **return**                    |                                                              |                                      |
+| **Find   Image**                       | find_image()                  | (Point)                                                      | Find one image                       |
+|                                        | (Point)                       | The first image found                                        |                                      |
+| find_images()                          | [(Point), …]                  | Find all images                                              |                                      |
+| **Wait   Image**                       | wait_image()                  | (Point)                                                      | Find image, wait the image appear    |
+|                                        | (Point)                       | Find the first image, wait any one image appear              |                                      |
+| wait_images()                          | [(Point), …]                  | Find all images, wait any one image appear                   |                                      |
+| **Wait   Image Disappear**             | wait_image_disappear()        | (x:-1,y:-1)                                                  | Find image, wait the image disappear |
+|                                        | ('x':-1,'y':-1)               | Find images, wait any one image disappear                    |                                      |
+| wait_images_disappear()                | [(x:-1,y:-1), …]              | Find all images, wait all images disappear                   |                                      |
+| **Wait   Image then Mouse-move/click** | click_mouse_button_at_image() | (Point)                                                      | Find image, mouse-click the image    |
+| click_mouse_button_at_images()         | (Point)                       | Find all images one by one, mouse-move/click the first to be found |                                      |
+|                                        | [(Point), …]                  | Find all images, mouse-move/click all                        |                                      |
+
+ 
+
+​    
+
+範例:
+
+ 
+
+def step14(api, env):
+
+​    p = api.find_image(env.find_images_0)
+
+​    if p.is_valid():
+
+​        print( 'image : x:{}, y:{}'.format(p.x,p.y) )
+
+​    else:
+
+​        print( 'not found image' )
+
+​    del(p)
+
+ 
+
+def step15(api, env):
+
+​    img_list = [env.find_images_1,env.find_images_2,env.find_images_3]
+
+​    p_list = api.find_images(img_list)
+
+​    for p in p_list:
+
+​        if p.is_valid():
+
+​            print( 'Find IMAGEs : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​    del(img_list)
+
+​    del(p_list)
+
+ 
+
+def step16(api, env):
+
+​    img_list = [env.find_images_1, env.find_images_2, env.find_images_3]
+
+​    \##p_list = api.wait_images(img_list, 0 * TimeDuration.Second, api.click_keys, "f10")
+
+​    p_list = api.wait_images(img_list, 20 * TimeDuration.Second, api.click_keys, "f10")
+
+​    for p in p_list:
+
+​        if p.is_valid():
+
+​            print( 'Wait IMAGEs : x:{}, y:{}'.format(p.x,p.y) )
+
+​        else:
+
+​            print( 'not found image' )
+
+​    del(img_list)
+
+​    del(p_list)
+
+​    time.sleep(1)
+
+ 
+
+def step17(api, env):
+
+​    img_list = [env.find_images_1, env.find_images_2, env.find_images_3]
+
+​    \##p_list = api.wait_images_disappear(img_list, 0 * TimeDuration.Second, api.click_keys, "f1")
+
+​    p_list = api.wait_images_disappear(img_list, 20 * TimeDuration.Second, api.click_keys, "f1")
+
+​    for p in p_list:
+
+​        print( 'Wait_disappear IMAGEs : x:{}, y:{}'.format(p.x,p.y) )
+
+​    del(img_list)
+
+​    del(p_list)
+
+​    time.sleep(1)
+
+ 
+
+def step18(api, env):
+
+​    p = api.click_mouse_button_at_image(env.find_images_3, 1, "none")
+
+​    if p.is_valid():
+
+​        print( 'click_mouse : x:{}, y:{}'.format(p.x,p.y) )
+
+​    else:
+
+​        print( 'not found image for click_mouse' )
+
+​    del(p)
+
+ 
+
+def step19(api, env):
+
+​    img_list = [env.find_images_3, env.find_images_2, env.find_images_1]
+
+​    p = api.click_mouse_button_at_images(img_list, 1, "none")
+
+​    if p.is_valid():
+
+​        print( 'IMAGES click_mouse : x:{}, y:{}'.format(p.x,p.y) )
+
+​    else:
+
+​        print( 'IMAGES not found image for click_mouse' )
+
+​    del(p)
+
+​    del(img_list)
+
+​    time.sleep(1)
+
+​    
+
+ 
+
+**From:** Wang.Frank 王鵬 ICC 
+ **Sent:** Thursday, March 21, 2019 8:29 AM
+ **To:** Hung.Jack 洪孟佳 IEC1
+ **Cc:** Jiang.Xue-juan 江雪娟 ICC; Bao.Loc.b 包家南 ICC
+ **Subject:** 答复: LATTE : find_images()
+
+ 
+
+Dear Jack,
+
+ 
+
+1.要改為如下, 是嗎? ->是的
+
+2.需求如下, 是嗎? ->是的
+
+3、4 -> 我們這邊自己加功能
+
+ 
+
+
+另:
+
+\1.     我發現Skywatch 的 apiserver.py 有限制, client 傳遞給 server的信息大小有限制(1M-bytes)
+
+n   api.find_image(env.LargeImage) 
+
+需要更改apiserver.py
+
+   **async def start(self, port, loop=None):**
+
+​        if loop is None:
+
+​            loop = asyncio.get_event_loop()
+
+ 
+
+​        logger.info("Connecting to HID ...")
+
+​        await self._hid.connect()
+
+​        logger.info("HID is connected")
+
+​        \# <https://blog.csdn.net/bird333/article/details/80658172>
+
+​        logger.info("Starting web server ...")
+
+​        self._app = web.Application(**client_max_size=1024\**3**)  # transfer size, max to 1G-bytes
+
+​        self._app.router.add_post(r'/api/run', self.api_handler)
+
+​        await loop.create_server(
+
+​            self._app.make_handler(), host="0.0.0.0", port=port)
+
+​        logger.info("Web server is started")
+
+ 
+
+
+\1.     …發現一個小問題，文檔注釋中形參類型錯誤，會引起pycharm錯誤提示…
+
+l   要改為如下, 是嗎?
+
+​    
+
+​    def find_images(self, images_path, match_rate=0.75):
+
+​        """ find all subimages
+
+ 
+
+​        Args:
+
+​            images_path(list): images path used to match
+
+​            match_rate : the threshold for image similarity
+
+​        Returns:
+
+​            list of (dict):
+
+​        """
+
+​    
+
+\2.     …希望新增另一場景的find_images…
+
+l   需求如下, 是嗎?
+
+​    
+
+def find_image(self, image_path, match_rate=0.75):             # 原本的  function
+
+​    return Point   #only one (Point)
+
+ 
+
+def find_all_images(self, images_path, match_rate=0.75):   # 新增的  function
+
+​    return Point_list   #list of all (Point)s
+
+ 
+
+def find_one_images(self, images_path, match_rate=0.75):  # 新增的  function
+
+​    return Point   #only one first (Point)
+
+ 
+
+​    
+
+\3.     …確認圖片存在后用click_mouse_button去點擊圖片…
+
+l   需求如下, 是嗎?
+
+​    
+
+```
+P = api. find_one_images (env.WINKEY):
+
+api.click_mouse_buttons(P, 1, 'left')
+
+```
+
+\4.     …touch function…
+
+l   類似3的需求, 先放在 win_help module
+
+ 
+
+Dear Jack,
+
+ 
+
+1．Find_images() function 已通過調試，功能正常。
+
+ 
+
+只發現一個小問題，文檔注釋中形參類型錯誤，會引起pycharm錯誤提示。
+
+![图片包含 物体  描述已自动生成](file:///C:/Users/succful/AppData/Local/Temp/msohtmlclip1/01/clip_image033.jpg)
+
+ 
+
+錯誤由以下代碼引起，str改為list后錯誤提示消失。
+
+ 
+
+**def** find_images(self, images_path, **kargs):
+​     *""" find all subimages     Args:         images_path(str): images path used to match*
+
+ 
+
+ 
+
+2．現在的find_images是返回所有圖片的查找結果，希望新增另一場景的find_images，偽碼如下：
+
+ 
+
+```
+def find_images(images_list):
+
+    for image in images_list:
+
+        if image.matchRate>0.75:
+
+            return Point(image.x,image.y)
+
+    else:
+
+            return Point(-1,-1)
+這個find_images的調用方法就和find_image的調用方法一致了。找到一張圖片就可以返回，節省程序運行時間，且調用更加方便。
+和上一個find_images function可以並存，因為有時候也需要匹配所有圖片，兩個方法各有優缺點，然後也都需要。
+if api.find_images(image_list,match_rate=0.8).is_valid:
+
+    pass
+else:
+
+    pass
+ 
+ 
+3．希望在client或apiserver裡面能夠新增attribute(實例屬性)存儲最後一個有效的坐標點。
+因為目前的找圖并點擊的方式存在冗餘操作,確認圖片存在后用click_mouse_button去點擊圖片，又會找一次圖。
+if api.find_images(env.WINKEY):
+
+    api.click_mouse_button_at_image(env.WINKEY, 1, 'left')
+ 
+如果能存儲最後一個有效坐標，可以直接點擊最後一個坐標中心點
+ 
+if api.find_images(env.WINKEY):
+
+    api.click_mouse_buttons(api.Point, 1, 'left')
+ 
+ 
+```
+
+4.希望加入touch function
+
+這個我們自己也可以寫，但是能加在client裡面，能用api調用更好。下面的代碼供您參考。
+
+```
+def touch(image_path, match_rate=0.75):
+
+    point = api.find_images(image_path, match_rate)
+
+    if point.is_valid():
+
+        api.click_mouse_buttons(point, 1, 'left')
+
+    else:
+
+        raise Exception("Can't find image!")
+ 
+想法比較多，寫得也有點亂，請您見諒，感謝。
+```
+
+
+如下:
+
+\1.      按 fimd_image() 複製一份 find_images()
+
+\2.      先試一下, 是不是所需要的功能.
+
+​    
+
+**----- client.py -----**
+
+**class BiosClient(object):**
+
+ 
+
+​    def find_images(self, images_path, match_rate=0.75):
+
+​    …
+
+ 
+
+**class BiosApi(object):**
+
+ 
+
+​    def find_images(self, images_path, **kargs):
+
+​    …
+
+ 
+
+**----- apiserver.py -----**
+
+**class ApiServer(object):**
+
+​    def __init__(self, camera, hid, f):
+
+​        self._width = 1920
+
+​        self._height = 1080
+
+​        self._app = None
+
+​        self._hid = hid
+
+​        self._camera = camera
+
+​        self._cmd_mapping = {
+
+​            "GET_STRING": self._api_get_string,
+
+​            "GET_ALL_STRING": self._api_get_all_string,
+
+​            "FIND_IMAGE": self._api_find_image,
+
+​            "FIND_IMAGES": self._api_find_images,
+
+​            "CAPTURE_IMAGE": self._api_capture_image,
+
+​            "RAW_IMAGE": self._api_raw_image,
+
+​            "GET_LAST_IMAGE": self._api_get_last_image,
+
+​            "HID_COMMAND": self._api_hid_command,
+
+​            "KEY_CLICK": self._api_key_click,
+
+​            "KEY_PRESS": self._api_key_press,
+
+​            "KEY_RELEASE": self._api_key_release,
+
+​            "MOUSE_CLICK": self._api_mouse_click,
+
+​            "FIND_CORNER": self._api_find_corner,
+
+​            "SET_CORNER": self._api_set_corner,
+
+​            "GET_CORNER": self._api_get_corner,
+
+​            "SEND_WORD": self._api_send_word,
+
+​        }
+
+ 
+
+ 
+
+​    async def _api_find_images(self, request, content):
+
+​    …
+
+ 
+
+**-----** **範例** **: test_case.py -----**
+
+def step_0(api, env):
+
+​    p = api.find_image(env.find_images_1)
+
+​    if p.is_valid():
+
+​        print( 'image : x:{}, y:{}'.format(p.x,p.y) )
+
+ 
+
+def step_1(api, env):
+
+​    img_list = [env.find_images_1, env.find_images_2]
+
+​    p_list = api.find_images(img_list)
+
+​    for p in p_list:
+
+​        if p.is_valid():
+
+​            print( 'IMAGEs : x:{}, y:{}'.format(p.x,p.y) )
+
+​r privileged and intended to be solely for the use of the individuals or entity named in this e-mail transmission. If you are not the intended recipient, be aware that any disclosure, saving or use of the contents of this e-mail transmission and attachments is strictly prohibited. If you have received this email transmission in error, please notify us immediately, and delete the e-mail and attachments. We greatly appreciate your cooperation.
+
+ 

@@ -24,6 +24,7 @@ def two():
     df = pd.Series([1,23,4])
     print(df)
 
+    #参考    https: // segmentfault.com / a / 1190000018177573
     #print(df['key'].str.upper()) #把这列改成大写
     # print(df['key'].str.startswith('a'))  #判断起始是否为a
     #print(df['key'].tolist())    #输出到列表中
@@ -33,7 +34,8 @@ def two():
     # print(df[df['price']>130]['price'].mean())   #布尔类型索引 > 130 ,均值
     # print((df[df['price']>130])&([df['price']>1]))  #可双重条件（暂未成功）
     # print(df['price'].sum())  #和
-
+    #print(df.ix[:, ['商品名称', '价格']].values)   #会输出一个列表
+    #df['数量'][df['商品名称'] == sale] -= int(cout)  #数量减去
     #pandas 套路,创建数据，分组，去重。替换  #注意创建时必须时列表
     # data = {'name':['a','b','c'],
     #         'age':[14,15,15],

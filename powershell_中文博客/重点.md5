@@ -1,0 +1,115 @@
+Add-Content   向txt添加内容
+
+Get-Alias -name ls  查询别名所指的真实cmdlet命令
+
+Get-Alias 查看可用的别名
+
+ ls variable: 查看正在使用的变量
+
+Get-Help about_Automatic_variables  查看自动化变量（打开powershell 就会自动加载的变量）
+
+
+
+**$$**
+ 包含会话所收到的最后一行中的最后一个令牌。
+
+**$?**
+ 包含最后一个操作的执行状态。如果最后一个操作成功，则包含 TRUE，失败则包含 FALSE。
+
+**$^**
+ 包含会话所收到的最后一行中的第一个令牌。
+
+**$_**
+ 包含管道对象中的当前对象。在对管道中的每个对象或所选对象执行操作的命令中，可以使用此变量。
+
+**$Args**
+ 包含由未声明参数和/或传递给函数、脚本或脚本块的参数值组成的数组。
+ 在创建函数时可以声明参数，方法是使用 param 关键字或在函数名称后添加以圆括号括起、逗号
+ 分隔的参数列表。
+
+**$ConsoleFileName**
+ 包含在会话中最近使用的控制台文件 (.psc1) 的路径。在通过 PSConsoleFile 参数启动
+ Windows PowerShell 或使用 Export-Console cmdlet 将管理单元名称导出到控制台文件
+ 时，将填充此变量。
+
+在使用不带参数的 Export-Console cmdlet 时，它自动更新在会话中最近使用的控制台文件。
+ 可以使用此自动变量确定要更新的文件。
+
+**$Error**
+ 包含错误对象的数组，这些对象表示最近的一些错误。最近的错误是该数组中的第一个错误对象
+ ($Error[0])。
+
+
+
+ls env:  查找环境变量
+
+Get-Variable a  查看一个变量的全部信息。
+
+Format-List *    对于任何一个对象都可以使用Format-List * 查看它所有的属性和方法。
+
+$num = 1..5  创建数组
+
+$num -is [array]   判断是否为数组
+
+$num[($num.Count-1)..0]  将数组逆序输出
+
+PowerShell中对数组进行插入、删除、添加数组元素的操作是很不方便，而且效率也是很低下的
+
+$num+= '6'    添加数组元素
+
+[System.Collections.ArrayList]$arraylist = $num
+
+$arraylist.Add(9)     添加数组元素
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
