@@ -56,6 +56,8 @@ def shangjia():
     )
 
     bar.render('C:\\Users\\succful\\Desktop\\opencvStudy\\数据分析_大鹏\\shangjia.html') #保存
+
+shangjia()
 #折线图
 def zhe():
     v1 = [5, 20, 36, 10, 75, 90]

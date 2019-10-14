@@ -28,7 +28,7 @@ def two():
     #print(df['key'].str.upper()) #把这列改成大写
     # print(df['key'].str.startswith('a'))  #判断起始是否为a
     #print(df['key'].tolist())    #输出到列表中
-    # print(df[['price','name']]) #多列索引
+    # print(df[['price','name']]) #多列索引 同时输出键名
     #print(df.head(1),'head')  #获取第几条数据
     # print(df.iloc[:5])  #行索引  特征筛选，df.loc[]
     # print(df[df['price']>130]['price'].mean())   #布尔类型索引 > 130 ,均值
@@ -60,6 +60,13 @@ def two():
     # # test = test.astype('int')  #转换数据类型 int
     # print(test)
     # test.to_excel("./2_1") #导出到excel
+    # https://www.kesci.com/home/project/5cd2b2b2e2889b002bbd6e8b/code
+    # 3、Pandas套路总结¶
+		# 数据类型问题，series和dataframe
+		# 去重.duplicated
+		# 替换 .replace
+		# 分组 .groupby
+		# 合并  merge
 two()
 
 

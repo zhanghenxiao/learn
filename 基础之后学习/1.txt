@@ -1,0 +1,6 @@
+TITLE: Intel Management Engine Driver
+VERSION: 11.7.0.1045
+DESCRIPTION:
+
+This package provides the Intel(R) Management Engine Components Driver for supported desktop models that are running a supported operating system.
+PURPOSE: Critical

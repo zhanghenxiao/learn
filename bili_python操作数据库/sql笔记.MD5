@@ -1,0 +1,66 @@
+##### 可使用图形管理 Navicat  创建数据库  表
+
+​	创建表时 注意添加主键  和选择自动递增和选择utf-8
+
+​	F5 为刷新键
+
+##### ![1570600092779](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1570600092779.png)
+
+![1570600123880](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1570600123880.png)
+
+
+
+##### 添加数据 
+
+​	注意符号的使用！！！！！！！
+
+​	INSERT INTO `school` VALUE(1,'张三2','男',NOW());
+
+​	INSERT INTO `school`(`name`,`sex`,`in_time`) VALUES
+​		('张三2','男',NOW()),
+​		('张三2','男',NOW()),
+​		('张三2','男',NOW())
+​	;
+
+##### 查找数据
+
+​	SELECT * FROM `school`;
+
+​	SELECT `name` ,`sex` FROM `school`;
+
+​	SELECT `name` ,`sex` FROM `school` WHERE `sex`='男';
+
+​	SELECT `id`,`name` ,`sex` FROM `school` WHERE `sex`='男' ORDER BY `id` DESC;  倒序
+
+​	SELECT `id`,`name` ,`sex` FROM `school` WHERE `sex`='男' LIMIT 0,2; 分页
+
+##### 修改删除数据（where 很关键）
+
+​	UPDATE `school` set `sex`='女' WHERE `sex`='男';
+
+​	DELETE FROM `school` WHERE `id`=2;
+
+
+
+
+
+INSERT INTO `news`(`title`,`img_url`,`content`,`is_valid`,`created_at`) VALUES
+​		('二只老虎定档',
+​		'',
+​		'近日，由李非执导，赵薇监制并主演，葛优、乔杉领衔主演的荒诞喜剧电影《两只老虎》公布了定档预告和一组极具喜感的海报剧照，宣布将于11月29日全国上映，领跑贺岁',
+​		'',
+​		NOW()),
+​		('肖化连夜抵达上海',
+​		'',
+​		'休斯顿火箭队总经理莫雷的涉港不当言论事件持续发酵，而NBA总裁肖华8日的第二次回应仍未道歉',
+​		'',
+​		NOW())
+;
+
+
+
+
+
+
+
+​	

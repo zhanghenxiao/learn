@@ -13,7 +13,7 @@ wenzi = ''.join(res)
 print(wenzi)
 """
 
-#二值化
+#图像处理二值化
 """
 s = cv2.imread("./482.png",cv2.IMREAD_GRAYSCALE)  #二值化处理
 threshold, crop = cv2.threshold(s, 0, 255, cv2.THRESH_OTSU)
@@ -104,3 +104,4 @@ for i in alllist:
         print(i, "九等奖 哈哈哈哈")
     elif len(lang) == 2 and len(lang) == 0:
         print(i, "九等奖 哈哈哈哈")
+

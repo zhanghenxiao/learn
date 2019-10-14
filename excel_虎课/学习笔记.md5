@@ -1,4 +1,6 @@
-切换工作表
+#### EXCEL
+
+##### 切换工作表
 
 ![1564711376957](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1564711376957.png)
 
@@ -6,6 +8,215 @@
 
 
 
-层叠窗口
+##### 层叠窗口
 
 ![1564711179693](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1564711179693.png)
+
+##### 单元格格式应用讲解
+
+![1566181307623](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566181307623.png)
+
+##### 文本数值转换技巧
+
+​	![1566264101879](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566264101879.png)
+
+##### 条件格式-突出单元格规则（发生日期F4 切换）
+
+![1566265346063](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566265346063.png)
+
+##### 条件格式-数据条色阶图标
+
+​		![1566348962434](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566348962434.png)
+
+##### 单元格名序列填充技巧
+
+​		![1566350390729](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566350390729.png)
+
+##### 不连续单元格批量填充(查找和选择--定位条件-空白--最后为了数据的稳定性---粘贴选择数值123)
+
+![1566434188527](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566434188527.png)		
+
+数据基础处理
+
+##### 解读单元格定位应用（查找和选择--定位条件）
+
+![1566435229884](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566435229884.png)
+
+
+
+##### 数据分列处理和应用（点击分列）
+
+![1566526150641](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566526150641.png)
+
+
+
+##### 解读选择性粘贴应用（粘贴链接）
+
+![1566530108577](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566530108577.png)
+
+##### 格式刷与超链接应用（双击点格式刷）
+
+![1566532027970](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566532027970.png)
+
+##### 数据合并-同行多列内容（按F4锁定）
+
+![1567040709504](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567040709504.png)
+
+##### 数据保护方法
+
+​	自定义保护隐藏（常规→其他数据格式→自定义→通用格式保护→；；；）
+
+​	保护工作表（选中全部→常规→其他数据格式→保护→取消勾选
+
+​				选中需要保护得数据选择勾选保护→审阅→保护工作表→输入密码）
+
+​	保护工作薄（对sheet掩藏）
+
+![1567042025865](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567042025865.png)
+
+
+
+##### 解读组及分类汇总
+
+![1567129843115](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567129843115.png)
+
+##### 查找替换高级应用
+
+![1567130406958](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567130406958.png)
+
+##### 查找替换高级应用
+
+![1567131296645](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567131296645.png)
+
+
+
+##### 快捷键组合及应用
+
+下拉框（ALT+方向键向下）
+
+全部选中（ctrl+shfit+方向键向右+方向键向下)
+
+![1567471576435](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1567471576435.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 公式整理==========
+
+百分比（=A5/A$6）
+
+和（=SUM(A5:A8)）
+
+判断是否为数值（=ISNUMBER）
+
+判断是否为文本（=ISTXT）
+
+合并同行多列内容（=CONCATENATE(A1,$E$1,B1,$E$1,C1,$E$1）需按F4锁定"E1"
+
+
+
+
+
+#### PPT
+
+##### 界面介绍及快捷操作设置（文字，形状，图片，）
+
+![1566955986775](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566955986775.png)
+
+![1566956310183](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566956310183.png)
+
+
+
+![1566956367244](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1566956367244.png)
+
+###### Word	
+
+word快捷键：F8,新建Ctrl+N，替换ctrl+H,清除超链接ctrl+shift+f9
+
+​	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
