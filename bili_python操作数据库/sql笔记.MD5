@@ -59,6 +59,16 @@ INSERT INTO `news`(`title`,`img_url`,`content`,`is_valid`,`created_at`) VALUES
 
 
 
+##### orm 建表
+
+参考链接：https://www.cnblogs.com/chengege/articles/11099001.html
+
+
+
+##### Bootstrap 响应式布局
+
+​	适合中小企业，PC端手机端都有很好的展示效果
+
 
 
 

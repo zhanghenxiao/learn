@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #id1{
+            width: 200px;
+            height: 200px;
+            background: saddlebrown;
+        }
+
+        #id2 {
+             width: 200px;
+            height: 200px;
+            border: solid 5px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id = "id1">aaa</div>
+    <div id = "id2">bbb</div>
+    <form>
+        <input type="text">
+        <input type="submit" value="提交">
+    </form>
+    <script type="text/javascript">
+        var oid1 = document.getElementById('id1');
+        var oform = document.getElementsByTagName("form")[0];
+        var oinput = document.getElementsByTagName("input");
+
+            oid1.onclick = function (e) {
+                // alert(this.innerText);
+                // alert(10000);
+                var elog = e || event;
+                console.log(elog.clientX,elog.y)
+
+            }
+
+            // oid1.onmouseover = function () {
+            //     alert(this.innerText);
+            // }
+
+            // oid1.onmousedown = function () {
+            //     alert('mousedown')
+            // }
+
+            // oid1.onmouseup = function () {
+            //     alert('onmouseup')
+            // }
+            // oform.onsubmit = function () {  //表单提交触发函数
+            //     console.log('submit');
+            //     return false;
+            // }
+
+            // oinput[0].onfocus = function () { //文本框提交触发函数
+            //     console.log('onfocus');
+            //     return false;
+            // }
+            // oinput[0].onblur = function () { //文本框失去焦点触发函数
+            //     console.log('blur');
+            //     return false;
+            // }
+            // oinput[0].onchange = function () { //文本框变化触发函数
+            //     console.log('change');
+            //     return false;
+            // }
+            // oinput[0].oninput = function () { //文本框输入触发函数
+            //     console.log('input');
+            //     return false;
+            // }
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+

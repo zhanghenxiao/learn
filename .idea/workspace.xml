@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/opencvStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opencvStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel_虎课/学习笔记.md5" beforeDir="false" afterPath="$PROJECT_DIR$/excel_虎课/学习笔记.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylint.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础之后学习/effective_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础之后学习/effective_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础之后学习/login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础之后学习/学习资料总结文档.md5" beforeDir="false" afterPath="$PROJECT_DIR$/基础之后学习/学习资料总结文档.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多类图像识别/get_imagestr.py" beforeDir="false" afterPath="$PROJECT_DIR$/多类图像识别/get_imagestr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/13下载图片.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析_大鹏/13下载图片.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel与8与9相似.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel与8与9相似.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器(商家).py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析_大鹏/4数据可视化利器(商家).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/pic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析_大鹏/zhe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoit_work/运维文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/Connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/Connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/sql笔记.MD5" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/sql笔记.MD5" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +23,7 @@
     <SUITE FILE_PATH="coverage/opencvStudy$fanshe_moudle1.coverage" NAME="fanshe_moudle1 Coverage Results" MODIFIED="1541051764779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$play_opencv.coverage" NAME="play_opencv Coverage Results" MODIFIED="1559271328789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1553147369752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
+    <SUITE FILE_PATH="coverage/opencvStudy$fr.coverage" NAME="fr Coverage Results" MODIFIED="1573783528950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
     <SUITE FILE_PATH="coverage/opencvStudy$cvopen.coverage" NAME="cvopen Coverage Results" MODIFIED="1556520071528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$6.coverage" NAME="6找到一个城市有趣的地方 Coverage Results" MODIFIED="1559014258778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$CSDN.coverage" NAME="CSDN Coverage Results" MODIFIED="1542078380632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
@@ -58,14 +53,14 @@
     <SUITE FILE_PATH="coverage/opencvStudy$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1533706906094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$Tkinter.coverage" NAME="界面Tkinter Coverage Results" MODIFIED="1546996924371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$index.coverage" NAME="index Coverage Results" MODIFIED="1564040683694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础之后学习" />
-    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="抓取唱吧尘四 Coverage Results" MODIFIED="1569460267454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$mysql_orm.coverage" NAME="mysql_orm Coverage Results" MODIFIED="1571022430435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
+    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="类方法 Coverage Results" MODIFIED="1572231510997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
     <SUITE FILE_PATH="coverage/opencvStudy$2pandsexcel89.coverage" NAME="2用pands代替excel与8与9相似 Coverage Results" MODIFIED="1559096021624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$lottery.coverage" NAME="lottery Coverage Results" MODIFIED="1545878048163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../抽奖UI/Lottery" />
     <SUITE FILE_PATH="coverage/opencvStudy$chuangcan.coverage" NAME="chuangcan Coverage Results" MODIFIED="1535508501084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$__strimg.coverage" NAME="(字符串)strimg Coverage Results" MODIFIED="1547696390183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencvStudy$show_np.coverage" NAME="show_np Coverage Results" MODIFIED="1561959005781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coursera/Python玩转数据_南京大学" />
-    <SUITE FILE_PATH="coverage/opencvStudy$Connection.coverage" NAME="Connection Coverage Results" MODIFIED="1570840660529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
+    <SUITE FILE_PATH="coverage/opencvStudy$Connection.coverage" NAME="Connection Coverage Results" MODIFIED="1571473223541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
     <SUITE FILE_PATH="coverage/opencvStudy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1553147348944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
     <SUITE FILE_PATH="coverage/opencvStudy$10.coverage" NAME="10豆瓣影评分析 Coverage Results" MODIFIED="1559110406716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$feitest2.coverage" NAME="feitest2 Coverage Results" MODIFIED="1555896297989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
@@ -84,7 +79,7 @@
     <SUITE FILE_PATH="coverage/opencvStudy$wx_1.coverage" NAME="wx_1 Coverage Results" MODIFIED="1552461336059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图形界面" />
     <SUITE FILE_PATH="coverage/opencvStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1564378195636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础之后学习" />
     <SUITE FILE_PATH="coverage/opencvStudy$vim_main.coverage" NAME="vim_main Coverage Results" MODIFIED="1566973015288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechat" />
-    <SUITE FILE_PATH="coverage/opencvStudy$falsk_test.coverage" NAME="falsk_test Coverage Results" MODIFIED="1570852030021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
+    <SUITE FILE_PATH="coverage/opencvStudy$falsk_test.coverage" NAME="falsk_test Coverage Results" MODIFIED="1571036879944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
     <SUITE FILE_PATH="coverage/opencvStudy$retest.coverage" NAME="retest Coverage Results" MODIFIED="1540259102509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$image.coverage" NAME="image Coverage Results" MODIFIED="1547801634358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
     <SUITE FILE_PATH="coverage/opencvStudy$fujitsu.coverage" NAME="fujitsu Coverage Results" MODIFIED="1550231538390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fujitsu_image" />
@@ -117,108 +112,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10词云图豆瓣影评分析.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/10词云图豆瓣影评分析.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-              <folding>
-                <element signature="e#100#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bili_python操作数据库/Connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-              <folding>
-                <element signature="e#49#407#0" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="falsk_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_python操作数据库/falsk_test.py">
+      <file leaf-file-name="函数.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/函数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="250">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql_orm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bili_python操作数据库/mysql_orm.py">
+      <file leaf-file-name="操作ini.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用法框架/操作ini.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数组使用.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DOM模型.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="类方法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用法框架/类方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="事件详解3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cookie操作.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="正则表达式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-              <folding>
-                <element signature="e#890#914#0" expanded="true" />
-                <element signature="e#968#1793#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/sql/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7325">
-              <caret line="298" selection-start-line="298" selection-end-line="298" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deprecations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/util/deprecations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/orm/mapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34050">
-              <caret line="1396" selection-start-line="1396" selection-end-line="1396" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6找到一个城市有趣的地方.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/requests/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="抓取飞全民K歌.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析_大鹏/抓取飞全民K歌.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-              <folding>
-                <element signature="e#99#115#0" expanded="true" />
-                <element signature="e#529#1441#0" />
-                <element signature="e#3020#3766#0" />
-                <element signature="e#3787#4542#0" />
-              </folding>
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -229,6 +208,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -261,16 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/1十大易错点.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/4数据分析师就应该自己爬数据.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/1爬虫十大易错点.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据.py" />
-        <option value="$PROJECT_DIR$/Autoit_work/create_excel.py" />
-        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/speech.py" />
-        <option value="$PROJECT_DIR$/有趣的机器人/微信聊天机器人.py" />
-        <option value="$PROJECT_DIR$/Autoit_work/语音.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/3穷人和富人的差距.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel与8相似.py" />
@@ -309,9 +279,19 @@
         <option value="$PROJECT_DIR$/数据分析_大鹏/抓取飞全民K歌.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/抓取唱吧尘四.py" />
         <option value="$PROJECT_DIR$/数据分析_大鹏/5数据分析师就应该自己爬数据(去哪儿).py" />
-        <option value="$PROJECT_DIR$/bili_python操作数据库/Connection.py" />
-        <option value="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" />
         <option value="$PROJECT_DIR$/bili_python操作数据库/mysql_orm.py" />
+        <option value="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" />
+        <option value="$PROJECT_DIR$/bili_python操作数据库/test.js" />
+        <option value="$PROJECT_DIR$/bili_python操作数据库/Connection.py" />
+        <option value="$PROJECT_DIR$/用法框架/操作ini.py" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/对象.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html" />
+        <option value="$PROJECT_DIR$/用法框架/fr.py" />
       </list>
     </option>
   </component>
@@ -324,11 +304,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="979" />
-    <option name="y" value="131" />
-    <option name="width" value="1276" />
-    <option name="height" value="921" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="159" />
+    <option name="y" value="166" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -358,7 +338,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -387,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql_orm">
+  <component name="RunManager" selected="Python.fr">
     <configuration name="抓取唱吧尘四" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -426,7 +406,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="抓取飞全民K歌" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,12 +414,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析_大鹏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用法框架" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/抓取飞全民K歌.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用法框架/类方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -478,6 +458,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="fr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencvStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用法框架" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用法框架/fr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,19 +524,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.抓取飞全民K歌" />
       <item itemvalue="Python.抓取唱吧尘四" />
       <item itemvalue="Python.Connection" />
       <item itemvalue="Python.falsk_test" />
       <item itemvalue="Python.mysql_orm" />
+      <item itemvalue="Python.fr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mysql_orm" />
-        <item itemvalue="Python.falsk_test" />
+        <item itemvalue="Python.fr" />
         <item itemvalue="Python.Connection" />
+        <item itemvalue="Python.falsk_test" />
+        <item itemvalue="Python.mysql_orm" />
         <item itemvalue="Python.抓取唱吧尘四" />
-        <item itemvalue="Python.抓取飞全民K歌" />
       </list>
     </recent_temporary>
   </component>
@@ -564,22 +563,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="979" y="131" width="1276" height="921" extended-state="0" />
+    <frame x="159" y="166" width="1036" height="733" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30552545" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18037975" side_tool="true" weight="0.40628386" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32696897" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32577565" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81962025" visible="true" weight="0.31598985" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.16347381" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48051947" visible="true" weight="0.081414476" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81962025" visible="true" weight="0.73833334" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.07430731" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5477707" visible="true" weight="0.19057377" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32870048" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.030427631" />
-      <window_info id="Structure" order="1" sideWeight="0.5194805" side_tool="true" visible="true" weight="0.081414476" />
-      <window_info id="Favorites" order="2" sideWeight="0.37288135" side_tool="true" weight="0.11052976" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.0010245901" />
+      <window_info id="Structure" order="1" sideWeight="0.4386921" side_tool="true" weight="0.14274321" />
+      <window_info id="Favorites" order="2" sideWeight="0.4522293" side_tool="true" visible="true" weight="0.19057377" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.50961536" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.46645367" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -635,66 +634,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/基础之后学习/shop.excel" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/util/_decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlwt/CompoundDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="710" selection-start-line="710" selection-end-line="710" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/index.py" />
-    <entry file="file://$PROJECT_DIR$/多类图像识别/savaimg.py" />
-    <entry file="file://$PROJECT_DIR$/多类图像识别/(字符串)strimg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/login.py" />
-    <entry file="file://$PROJECT_DIR$/多类图像识别/feitest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/aircv PIL图像识别执行对应device方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/a.jpg" />
-    <entry file="file://$PROJECT_DIR$/基础之后学习/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1045873" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/收盘价Dashboard.html" />
     <entry file="file://D:/360极速浏览器下载/libxml2-python-2.6.9/setup.py" />
     <entry file="file://$PROJECT_DIR$/wechat/vim main.py" />
     <entry file="file://$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py">
@@ -827,12 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <folding>
-            <element signature="e#99#115#0" expanded="true" />
-            <element signature="e#529#1441#0" />
-            <element signature="e#3020#3766#0" />
-            <element signature="e#3787#4542#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,35 +806,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析_大鹏/10词云图豆瓣影评分析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="25">
           <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding>
-            <element signature="e#100#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding>
-            <element signature="e#49#407#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/util/deprecations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
+        <state relative-caret-position="336">
           <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/orm/mapper.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34050">
-          <caret line="1396" selection-start-line="1396" selection-end-line="1396" />
+        <state relative-caret-position="20275">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/falsk_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/mysql_orm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -912,21 +853,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/falsk_test.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sqlalchemy/orm/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="34450">
+          <caret line="1412" column="10" selection-start-line="1412" selection-start-column="10" selection-end-line="1412" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/mysql_orm.py">
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件函数(getElementById).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-          <folding>
-            <element signature="e#890#914#0" expanded="true" />
-            <element signature="e#968#1793#0" />
-          </folding>
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_python操作数据库/Connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/操作ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>

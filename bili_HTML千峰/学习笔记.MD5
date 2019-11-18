@@ -1,0 +1,442 @@
+#### HTML5
+
+
+
+![1571187900744](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571187900744.png)
+
+
+
+##### 超链接属性，加target 是在新窗口打开
+
+![1571190479930](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571190479930.png)
+
+##### 无序列表：空心圆，实心圆，方块
+
+![1571190735244](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571190735244.png)
+
+##### 有序列表的表达方式
+
+![1571190867908](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571190867908.png)
+
+##### 把文字变为上标
+
+![1571191131968](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571191131968.png)
+
+##### ../返回上层目录，../../返回上二层目录
+
+##### 表格：表格边框属性，单元格空隙，单元格文字对齐方式
+
+​	th = 加粗并水平居中的td
+
+​	
+
+![1571192681766](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571192681766.png)
+
+![1571192734287](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571192734287.png)
+
+
+
+![1571195776227](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571195776227.png)
+
+
+
+![1571196750513](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571196750513.png)
+
+
+
+##### 表单
+
+![1571197775349](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571197775349.png)
+
+
+
+![1571197800744](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571197800744.png)
+
+![1571204083722](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571204083722.png)
+
+
+
+##### 屏幕拾色器
+
+​	https://www.cr173.com/soft/874940.html
+
+##### 容器：div span
+
+![1571205406242](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571205406242.png)
+
+
+
+![1571205530109](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571205530109.png)
+
+##### 常用命令行高，间距，文字居中
+
+​	line-height:80px,行高
+
+​	margin:0 15px;间距
+
+​	margin-top：15px
+
+​	text-align:center;文字居中
+
+​	align="center" 表格文字对齐居中
+
+​	<colgroup span="5" width="100px"></colgroup>  给所有行加宽度
+
+​	rowspan="4" 合并行
+
+​	colspan="2" 合并列
+
+​	border: solid 1px #000000;  边框
+
+​	border-color:royalblue ;边框颜色
+​	border-width: 10px;边框线大小
+​	border-style: dashed;	边框线风格
+
+​	padding:0 20px ;边框内在大小
+
+​	text-decoration: none;去下划线
+
+​	background-repeat: no-repeat; 背景图不平铺
+
+​	float: left;;左浮动
+
+​	overflow:auto; 浮动调整
+
+​	clear:left/right/both;清除浮动
+
+##### css 选择器
+
+![1571207297551](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571207297551.png)
+
+##### CSS属性简写
+
+![1571379404553](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571379404553.png)
+
+![1571379424675](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571379424675.png)
+
+![1571379453205](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571379453205.png)
+
+![1571379469196](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571379469196.png)
+
+![1571379489374](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571379489374.png)
+
+##### 选择器权重
+
+![1571208798031](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571208798031.png)
+
+
+
+##### 浮动元素
+
+![1571368361877](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571368361877.png)
+
+##### 盒模型
+
+![1571378032332](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571378032332.png)
+
+
+
+#### JS
+
+![1571465374631](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571465374631.png)
+
+![1571463617922](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571463617922.png)
+
+##### 流程语句_单分支语句
+
+![1571877108559](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571877108559.png)
+
+##### 流程语句 switch
+
+![1571877881366](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571877881366.png)
+
+![1571882305585](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571882305585.png)
+
+##### 函数 atguments
+
+![1571896796621](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571896796621.png)
+
+##### 递归
+
+![1571902884455](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1571902884455.png)
+
+##### 数组
+
+数组添加:arr.push  
+
+移除数组末尾元素 arr.pop()
+
+取数组第一个元素 arr.shift()
+
+从数组头部插入元素 arr.unshift()
+
+合并数组 arr.concat()
+
+指定区域生成数组 arr.slice()
+
+删除插入替换元素 arr.splice()
+
+拼接元素  arr.jion()
+
+数组倒叙排序 arr.reverse()
+
+数组顺序排序 arr.sort() 
+
+额外的方法
+
+遍历数组 arr.forEach()
+
+映射  map
+
+归并 reduce
+
+过滤  filter 
+
+某些  some
+
+ 每一项    every 
+
+![1572398851704](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572398851704.png)
+
+##### 字符串
+
+查看最后一个 str.lastindexof
+
+str.search
+
+替换  str.replace()
+
+字符串提取 str.substring()
+
+分割  str.split
+
+##### math对象
+
+四舍五入  math.round()
+
+随机数 math.random()
+
+绝对值 math.abs()
+
+向上取整 math.ceil()
+
+向下取整 math.floor()
+
+x的y次方 math.pow(x,y)
+
+开平方  math.sqrt()
+
+##### 对象
+
+![1572504338151](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572504338151.png)
+
+![1572510001338](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572510001338.png)
+
+![1572836402907](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572836402907.png)
+
+
+
+##### innerHTML 
+
+​	标签间得所有内容
+
+![1572847092541](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572847092541.png)
+
+
+
+##### DOM对象模型
+
+###### 弹窗alert,confirm,prompt
+
+![1572847572556](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572847572556.png)
+
+###### open 方法
+
+![1572848172349](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572848172349.png)
+
+opener方法
+
+![1572851706877](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572851706877.png)
+
+location对象
+
+![1572852277298](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572852277298.png)
+
+history 历史记录
+
+![1572853327805](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572853327805.png)
+
+###### 元素节点属性 getElementByid()
+
+![1572862433828](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572862433828.png)
+
+###### 元素节点  getElementsByTagName()
+
+![1572915163791](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572915163791.png)
+
+###### 获取当前样式的兼容函数
+
+![1572931890114](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572931890114.png)
+
+###### 函数参数区分
+
+![1572933500688](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572933500688.png)
+
+###### 元素节点属性
+
+firstchild 快速当前元素节点子节点的第一个
+
+lastchild 快速找到元素节点子节点的最后一个
+
+![1572935130343](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572935130343.png)
+
+###### 删除空白节点
+
+![1572936805429](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572936805429.png)
+
+###### 元素节点属性
+
+返回属性节点个数
+
+```
+alert(odiv1.attributes.length)
+```
+
+![1572937791364](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572937791364.png)
+
+###### 创建带文本的元素节点
+
+![1572940451250](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572940451250.png)
+
+![1572941030772](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572941030772.png)
+
+将插入的节点插入到旧节点之前
+
+```
+insertBefore
+```
+
+![1572941478306](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1572941478306.png)
+
+##### 事件详解
+
+###### 画板小功能
+
+![1573174024598](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573174024598.png)
+
+###### 发布信息功能
+
+![1573261214207](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573261214207.png)
+
+###### 事件委托
+
+![1573263511559](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573263511559.png)
+
+###### 阻止默认行为
+
+![1573267194148](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573267194148.png)
+
+DOM2级事件
+
+![1573268240497](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573268240497.png)
+
+![1573269178256](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573269178256.png)
+
+###### 常用命令事件函数
+
+var evt = e || event 
+
+document.onkeypress  按下字符键触发
+
+document.onkeydown  按下任意键触发
+
+evt.keyCode      判断是否按某个键
+
+evt.cancelBubble = true  事件流 阻止冒泡
+
+evt.stopPropagation()     事件流 阻止冒泡
+
+evt.preventDefault()         阻止默认行为
+
+evt.returnValue = false()   阻止默认行为
+
+addEventListener("click",bar,false)  监听事件
+
+removeEventListener("click",bar)   取消监听事件
+
+cosole.log(RegExp.$1)
+
+##### Cookie  未看----
+
+##### 正则表达式
+
+![1573554224137](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573554224137.png)
+
+![1573607062109](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573607062109.png)
+
+![1573606792038](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573606792038.png)
+
+![1573624798343](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573624798343.png)
+
+![1573625314699](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573625314699.png)
+
+##### ES6
+
+![1573691731043](C:\Users\succful\AppData\Roaming\Typora\typora-user-images\1573691731043.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 未看
+
+79 秒表得实现
+
+
+
+
+
+
+
+
+

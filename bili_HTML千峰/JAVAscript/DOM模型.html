@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+        <script>
+            // window 三个弹窗 ，执行结果yes
+            // window.confirm('请选择确定和取消');
+            // alert('111111');
+            // prompt('cookie','ss');
+
+            // open函数，执行结果yes
+            // window.onload =function () {
+            //     var obtn = document.getElementById('btn');
+            //     obtn.onclick = function () {
+            //         // open('http:www.baidu.com');
+            //         //open('http:www.baidu.com','腾讯');
+            //         open('http:www.baidu.com',width = "50");
+            //     }
+            // }
+
+            //元素节点属性getElementById，执行结果yes
+            // window.onload =function () {
+            //     var odiv = document.getElementById('div1');
+            //     document.write(odiv.tagName + "<br />");
+            //     document.write(odiv.innerHTML + "<br />");
+            //     document.write(odiv.title);
+            // }
+
+            // 元素节点，执行结果yes
+            //获取页面下得所有li标签
+            // window.onload = function () {
+            //     var ouls = document.getElementsByName('li');
+            //     document.write(ouls) //是一个数组
+            // }
+
+            //获取ul下得所有li标签.执行结果no
+            // window.onload = function () {
+            //     var ouls = document.getElementById('uls');
+            //     var test = ouls.getElementsByTagName('li');
+            //     // document.write(test.length);
+            //     for(var i=0;i<test.length;i++);
+            //         alert(test[i].innerHTML,+ 'mmmm' );
+            // }
+
+            // 获取当前样式，执行结果no
+            window.onload =function () {
+                var odiv1 = document.getElementById('div1');
+                // alert(getStyle(odiv1,"width"));//执行结果no
+                //odiv1.title =  "yyy" //执行结果no
+                // alert(odiv1.childNodes[0].nodeName);
+                // alert(odiv1.childNodes[0].nodeValue);
+                // alert(odiv1.childNodes[0].nodeType)
+                // alert(odiv1.attributes)
+                alert(odiv1.attributes.length);
+
+
+            }
+
+
+
+
+        </script>
+</head>
+<body>
+<div id = 'div1'><em>斜体</em>文本内容<strong>粗体</strong></div>
+    <!--<input type="button" value="按钮" id = 'btn'>-->
+    <!--<div id = 'div1' style="width: 30px" title="cookie"><h1>这是测试</h1></div>-->
+    <!--<ul id = 'uls'>-->
+        <!--<li>1</li>-->
+        <!--<li>2</li>-->
+        <!--<li>3</li>-->
+    <!--</ul>-->
+    <!--<ol>-->
+        <!--<li>4</li>-->
+        <!--<li>5</li>-->
+        <!--<li>6</li>-->
+    <!--</ol>-->
+</body>
+</html>

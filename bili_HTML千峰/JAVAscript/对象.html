@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var peso = Object();
+        peso.name = 'cookie';
+        show = function () {
+            alert(peso.name)
+        };
+        // show();
+        var d  = new Date();
+        //document.write(d.toDateString());
+
+        //执行函数 setInterval() ，执行结果NO
+        // var i = 0;
+        // function set(){
+        //     document.write(i++ +"<br />");
+        // }
+        // window.onload = function () {
+        //     var obtn = document.getElementById('btn');
+        //     obtn.onclick = function () {
+        //         setInterval(set,1000);
+        //     }
+        // }
+
+        //执行函数 innerHTML ，执行结果yes
+        // window.onload = function () {
+        //     // var obtn = document.getElementById('btn');
+        //     var odiv = document.getElementById('div1');
+        //
+        //     odiv.onclick = function () {
+        //         //获取div 标签间得内容
+        //         //document.write(odiv.innerHTML);
+        //         // 修改div 标签间得内容
+        //         odiv.innerHTML = '<h1>我是替换文本</h1>';
+        //     }
+        // }
+
+
+
+    </script>
+</head>
+<body>
+    <div id = 'div1'>斜体</div>
+</body>
+</html>
