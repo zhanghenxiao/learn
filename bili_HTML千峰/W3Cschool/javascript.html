@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <!--<button type="button" onclick="alert('欢迎!')">点我!</button>-->
+     <p id = "demo"> 可改变的字符串</p>
+     <p>"请输入数字。如果输入值不是数字，浏览器会弹出提示框"</p>
+    <input id="in" type="text">
+    <script>
+
+        // document.write('<h1>nice</h1>');
+        function f() {
+            x = document.getElementById("demo");  //查找元素
+            x.innerText = "hello";  //改变内容
+            x.style.color = "#ff0000"  //改变样式
+        }
+        f();
+
+        function f1() {
+            var x = document.getElementById("in").value;
+            if(x==""||isNaN(x)) {
+                alert("不是数字");
+            }
+        }
+    </script>
+    <button type = "button" onclick="f1()">点击这里</button>
+
+</body>
+</html>

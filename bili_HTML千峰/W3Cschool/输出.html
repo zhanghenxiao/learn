@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--<p>我的第一个段落</p>-->
+    <!--<button onclick="myfunction()">点我</button>-->
+    <!--<script>-->
+        <!--function myfunction(){-->
+            <!--document.write(Date())-->
+        <!--}-->
+        <!--a = 5;-->
+        <!--b = 6;-->
+        <!--c = a + b ;-->
+        <!--console.log(c);-->
+
+    <!--</script>-->
+
+    <!--<p id = 'demo'></p>-->
+    <!--<script>-->
+        <!--var length;-->
+        <!--length = 6;-->
+        <!--document.getElementById('demo').innerHTML = length * 10-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var a = 1;-->
+        <!--var b = 2;-->
+        <!--document.write(a + "</br>");-->
+        <!--document.write(b + "</br>");-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--// var cars = new Array();-->
+        <!--// cars[0] = "zero",cars[1] = "one";-->
+        <!--// document.write(cars)-->
+        <!--var cars = new Array(2,2,3);-->
+        <!--// document.write(cars.length);-->
+        <!--for(var i = 0;i<cars.length;i++){-->
+            <!--// document.write(i);-->
+            <!--document.write(cars[i]+"<br>")-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var shoocl = {-->
+            <!--name : "cookie",-->
+            <!--age : 24,-->
+        <!--};-->
+        <!--document.write(shoocl.name+"<br>",shoocl["age"])-->
+    <!--</script>-->
+
+    <!--<button onclick="f('cookie',24)">点击这里</button>-->
+    <!--<script>-->
+        <!--function f(name,age) {-->
+            <!--document.write(age + name)-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+        <!--function f(x) {-->
+            <!--return x-->
+        <!--}-->
+        <!--document.getElementById('demo').innerHTML = f(5)-->
+    <!--</script>-->
+
+    <!--<P id = "demo"></P>-->
+    <!--<button onclick=f()>现在时间是</button>-->
+    <!--<script>-->
+        <!--function f() {-->
+            <!--document.getElementById("demo").innerHTML = Date()-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var txt = " 1234567899y ";-->
+        <!--document.write(txt.trim());-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--a = 6;-->
+        <!--while (a>2) {-->
+            <!--document.write('a'+ "<br>");-->
+            <!--a = a -1 ;-->
+            <!--if (a == 3){-->
+                <!--document.write('100');-->
+                <!--break-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var day=new Date().getDay();-->
+        <!--switch (day){-->
+            <!--case 20:-->
+                <!--document.write('200');-->
+                <!--break;-->
+            <!--case 30:-->
+                <!--document.write('300');-->
+                <!--break;-->
+            <!--default:-->
+                <!--document.write('default')-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var person={fname:"John",lname:"Doe",age:25};-->
+        <!--for (x in person){-->
+            <!--document.write(person[x] + "<br>")-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<p>判断是否为日期</p>-->
+    <!--<p id = "demo"></p>-->
+    <!--<script>-->
+        <!--// var a = "john";-->
+        <!--// document.write(a.constructor)-->
+        <!--// var mydate = new Date();-->
+        <!--// document.getElementById("demo").innerHTML =f(mydate);-->
+        <!--// function f(mydate) {-->
+        <!--//     // return mydate.constructor.toString();-->
+        <!--//     return mydate.constructor.toString().indexOf("Date") >-1-->
+        <!--// }-->
+        <!--var a = '123';-->
+        <!--document.getElementById("demo").innerHTML =f1(a);-->
+            <!--function f1(a) {-->
+                <!--return a.indexOf('2')>0-->
+            <!--}-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var person-->
+        <!--document.write(person)-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--function f() {-->
+            <!--try {-->
+                <!--//获取用户输入的数据-->
+                <!--var x = document.getElementById("demo").value;-->
+                <!--if (x == "") throw "值为空";-->
+                <!--if(isNaN(x)) throw "不是数字";-->
+		        <!--if(x>=10 )     throw "太大";-->
+		        <!--if(x<=5)      throw "太小";-->
+            <!--}-->
+            <!--//e 接受throw 的错误信息-->
+            <!--catch (e) {-->
+                <!--var y=document.getElementById("ee");-->
+                <!--y.innerHTML = "错误" + e-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+    <!--<p>请输入一个数字</p>-->
+    <!--<input id = "demo" type="text">-->
+    <!--<button type = button  onclick="f()">测试输入</button>-->
+    <!--<p id="ee"></p>-->
+
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+        <!--var text = '{"employees":[' +-->
+            <!--'{"firstName":"John","lastName":"Doe" },' +-->
+            <!--'{"firstName":"Anna","lastName":"Smith" },' +-->
+            <!--'{"firstName":"Peter","lastName":"Jones" }]}';-->
+        <!--obj = JSON.parse(text);-->
+        <!--document.getElementById("demo").innerHTML =-->
+        <!--obj.employees[1].firstName + " " + obj.employees[1].lastName;-->
+    <!--</script>-->
+
+    <!--<p>函数可以自动调用：</p>-->
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+        <!--(function () {-->
+        <!--document.getElementById("demo").innerHTML = "Hello! 我是自己调用的";-->
+    <!--})();-->
+    <!--</script>-->
+
+    <!--<p>查找最大的数。</p>-->
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+    <!--x = findMax(1, 123, 500, 115, 44, 88);-->
+
+    <!--function findMax() {-->
+        <!--var i, max = arguments[0];-->
+        <!--document.write(i);-->
+
+        <!--if(arguments.length < 2)-->
+            <!--// document.write(arguments.length);-->
+            <!--return max;-->
+
+        <!--for (i = 0; i < arguments.length; i++) {-->
+            <!--if (arguments[i] > max) {-->
+                <!--max = arguments[i];-->
+            <!--}-->
+        <!--}-->
+        <!--return max;-->
+    <!--}-->
+    <!--document.getElementById("demo").innerHTML = x;-->
+    <!--</script>-->
+
+    <!--<p>计算所有参数之和：</p>-->
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+        <!--var i=0;sum = 0;-->
+        <!--function f() {-->
+            <!--for(i = 0;i<arguments.length;i++){-->
+                <!--sum +=  arguments[i]-->
+            <!--}-->
+            <!--return sum-->
+            <!--// document.write(arguments.length);-->
+            <!--// document.write(arguments[1])-->
+        <!--}-->
+        <!--document.getElementById("demo").innerHTML = f(1,3,45,6)-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var myobject = {-->
+            <!--last:"done",-->
+            <!--first:"jon",-->
+            <!--end :function () {-->
+                <!--return this.last + "" + this.first-->
+            <!--}-->
+        <!--};-->
+        <!--document.write(myobject.last,myobject.end())-->
+    <!--</script>-->
+
+    <!--<script>-->
+       <!--function myFunction(a, b) {-->
+    <!--return a * b;-->
+    <!--}-->
+    <!--myArray = [10,2];-->
+    <!--myFunction.apply(myObject, myArray);-->
+    <!--</script>-->
+
+    <!--<p>全局变量计数。</p>-->
+    <!--<button type="button" onclick="f1()">到位</button>-->
+    <!--<p id = "demo"> 0 </p>-->
+    <!--<script>-->
+        <!--sum = 0;-->
+        <!--function f() {-->
+            <!--return sum = sum + 1-->
+        <!--}-->
+        <!--function f1() {-->
+            <!--document.getElementById("demo").innerHTML = f()-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<p>你好世界!</p>-->
+    <!--<div id="main">-->
+    <!--<p> DOM 是非常有用的。</p>-->
+    <!--<p>该实例展示了  <b>getElementsByTagName</b> 方法</p>-->
+    <!--</div>-->
+    <!--<script>-->
+        <!--var x=document.getElementById("main");-->
+        <!--var y=x.getElementsByTagName("p");-->
+        <!--document.write('id="main"元素中的第一个段落为：' + y[1].innerHTML);-->
+    <!--</script>-->
+
+    <!--<div onmousedown="mDown(this)" onmouseup="mUp(this)"-->
+         <!--style="background-color:#D94A38;width:90px;height:20px;padding:40px;">Click Me</div>-->
+    <!--<script>-->
+    <!--function mDown(obj)-->
+    <!--{-->
+    <!--obj.style.backgroundColor="#1ec5e5";-->
+    <!--obj.innerHTML="Release Me"-->
+    <!--}-->
+
+    <!--function mUp(obj)-->
+    <!--{-->
+    <!--obj.style.backgroundColor="#D94A38";-->
+    <!--obj.innerHTML="Thank You"-->
+    <!--}-->
+    <!--</script>-->
+
+    <!--<button id = "demo">点我</button>-->
+    <!--<script>-->
+        <!--document.getElementById("demo").addEventListener("click", f);-->
+        <!--function f() {-->
+            <!--alert(" hello girl")-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<p>实例在window对象中使用 addEventListener() 方法。</p>-->
+    <!--<p>尝试重置浏览器的窗口触发 "resize" 事件句柄。</p>-->
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+    <!--window.addEventListener("resize", function(){-->
+        <!--document.getElementById("demo").innerHTML = Math.random();-->
+    <!--});-->
+    <!--</script>-->
+
+    <!--<p>实例演示了在使用 addEventListener() 方法时如何传递参数。</p>-->
+    <!--<p>点击按钮执行计算。</p>-->
+    <!--<button id="myBtn">点我</button>-->
+    <!--<p id="demo"></p>-->
+    <!--<script>-->
+    <!--var p1 = 5;-->
+    <!--var p2 = 7;-->
+    <!--document.getElementById("myBtn").addEventListener("click", function() {-->
+        <!--myFunction(p1, p2);-->
+    <!--});-->
+    <!--function myFunction(a, b) {-->
+        <!--var result = a * b;-->
+        <!--document.getElementById("demo").innerHTML = result;-->
+    <!--}-->
+    <!--</script>-->
+
+    <!--<div id = d> div 元素添加了 onmousemove 事件句柄，鼠标在桔红色的框内移动时会显示随机数。-->
+        <!--<p>点击按钮移除 DIV 的事件句柄。</p>-->
+        <!--<button id = "demo" onclick="f1()">点我</button>-->
+    <!--</div>-->
+    <!--<p id = "suju"></p>-->
+    <!--<script>-->
+        <!--document.getElementById('d').addEventListener("mousemove", f);-->
+        <!--function f() {-->
+            <!--document.getElementById('suju').innerHTML = Math.random();-->
+        <!--}-->
+        <!--function f1() {-->
+            <!--document.getElementById("demo").removeEventListener("mousemove", f)-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<p>对象构造器</p>-->
+    <!--<script>-->
+        <!--function f(firstname,lastname,age,eyecolor) {-->
+            <!--this.firstname = firstname;-->
+            <!--this.lastname = lastname;-->
+            <!--this.age = age;-->
+            <!--this.eyecolor = eyecolor;-->
+        <!--}-->
+        <!--my = new f("zhang","cookie","23","blank");-->
+        <!--document.write('mu name is '+ my.firstname + my.lastname+"</n>");-->
+
+        <!--one = new f("sheng","jone","23","blank");-->
+        <!--document.write("my girl freiend name is " + one.firstname,one.lastname )-->
+    <!--</script>-->
+
+    <script>
+        function f(name,age) {
+            this.name = name;
+            this.age = age;
+            this.changename = changename;
+            function changename(name) {
+                this.name = name
+            }
+        }
+        test = new f("cookie",23);
+        test.changename("jean");
+        document.write(test.name)
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/opencvStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opencvStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/用法框架/cls_sta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoit_work/运维文档.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/Connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/Connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bili_python操作数据库/sql笔记.MD5" beforeDir="false" afterPath="$PROJECT_DIR$/bili_python操作数据库/sql笔记.MD5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QQ截图20181101082654.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/用法框架/fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/用法框架/fr.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +21,8 @@
     <SUITE FILE_PATH="coverage/opencvStudy$fanshe_moudle1.coverage" NAME="fanshe_moudle1 Coverage Results" MODIFIED="1541051764779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$play_opencv.coverage" NAME="play_opencv Coverage Results" MODIFIED="1559271328789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1553147369752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多类图像识别" />
-    <SUITE FILE_PATH="coverage/opencvStudy$fr.coverage" NAME="fr Coverage Results" MODIFIED="1573783528950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
+    <SUITE FILE_PATH="coverage/opencvStudy$fr.coverage" NAME="fr Coverage Results" MODIFIED="1576651520261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
+    <SUITE FILE_PATH="coverage/opencvStudy$cls_sta.coverage" NAME="cls_sta Coverage Results" MODIFIED="1577177720968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
     <SUITE FILE_PATH="coverage/opencvStudy$cvopen.coverage" NAME="cvopen Coverage Results" MODIFIED="1556520071528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Autoit_work" />
     <SUITE FILE_PATH="coverage/opencvStudy$6.coverage" NAME="6找到一个城市有趣的地方 Coverage Results" MODIFIED="1559014258778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$CSDN.coverage" NAME="CSDN Coverage Results" MODIFIED="1542078380632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
@@ -37,6 +36,7 @@
     <SUITE FILE_PATH="coverage/opencvStudy$settings.coverage" NAME="settings Coverage Results" MODIFIED="1554192245216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dj_马哥/blog" />
     <SUITE FILE_PATH="coverage/opencvStudy$prize.coverage" NAME="prize Coverage Results" MODIFIED="1547428689039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Prize" />
     <SUITE FILE_PATH="coverage/opencvStudy$passfeitest1.coverage" NAME="passfeitest1 Coverage Results" MODIFIED="1547789503148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencvStudy$m.coverage" NAME="m Coverage Results" MODIFIED="1577103671542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookie抽奖" />
     <SUITE FILE_PATH="coverage/opencvStudy$moudletest.coverage" NAME="moudletest Coverage Results" MODIFIED="1542355259598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$nice.coverage" NAME="nice Coverage Results" MODIFIED="1548377415433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_one1" />
     <SUITE FILE_PATH="coverage/opencvStudy$widget.coverage" NAME="widget Coverage Results" MODIFIED="1539332828857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pyqt4" />
@@ -54,7 +54,7 @@
     <SUITE FILE_PATH="coverage/opencvStudy$Tkinter.coverage" NAME="界面Tkinter Coverage Results" MODIFIED="1546996924371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python高级开发1" />
     <SUITE FILE_PATH="coverage/opencvStudy$index.coverage" NAME="index Coverage Results" MODIFIED="1564040683694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础之后学习" />
     <SUITE FILE_PATH="coverage/opencvStudy$mysql_orm.coverage" NAME="mysql_orm Coverage Results" MODIFIED="1571022430435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bili_python操作数据库" />
-    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="类方法 Coverage Results" MODIFIED="1572231510997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用法框架" />
+    <SUITE FILE_PATH="coverage/opencvStudy$.coverage" NAME="尾牙晚会抽奖 Coverage Results" MODIFIED="1577102318933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookie抽奖" />
     <SUITE FILE_PATH="coverage/opencvStudy$2pandsexcel89.coverage" NAME="2用pands代替excel与8与9相似 Coverage Results" MODIFIED="1559096021624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析_大鹏" />
     <SUITE FILE_PATH="coverage/opencvStudy$lottery.coverage" NAME="lottery Coverage Results" MODIFIED="1545878048163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../抽奖UI/Lottery" />
     <SUITE FILE_PATH="coverage/opencvStudy$chuangcan.coverage" NAME="chuangcan Coverage Results" MODIFIED="1535508501084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -112,92 +112,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Connection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_python操作数据库/Connection.py">
+      <file leaf-file-name="javascript.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/javascript.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+            <state relative-caret-position="750">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/函数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="操作ini.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/用法框架/操作ini.py">
+      <file leaf-file-name="修改html文本.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/修改html文本.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fr.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="数组使用.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DOM模型.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="类方法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/用法框架/类方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="事件详解3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html">
+      <file leaf-file-name="调用外部文件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/调用外部文件.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cookie操作.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html">
+      <file leaf-file-name="输出.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/输出.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="8800">
+              <caret line="352" column="13" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="正则表达式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html">
+      <file leaf-file-name="对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="300">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cc.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/cc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cls_sta.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/用法框架/cls_sta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51525">
+              <caret line="2064" column="53" selection-start-line="2064" selection-start-column="53" selection-end-line="2064" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -241,14 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据分析_大鹏/6找到一个城市有趣的地方.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/2用pands代替excel与8相似.py" />
-        <option value="$PROJECT_DIR$/W3cschool/每天一个小程序/draw_image.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/10豆瓣影评分析.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/11可视化工具Tableau.py" />
-        <option value="$PROJECT_DIR$/数据分析_大鹏/play_opencv.py" />
-        <option value="$PROJECT_DIR$/用法框架/100Days/1-15day.py" />
         <option value="$PROJECT_DIR$/用法框架/类方法.py" />
         <option value="$PROJECT_DIR$/100ays/1file.txt" />
         <option value="$PROJECT_DIR$/Autoit_work/Intel_RST.py" />
@@ -291,7 +277,15 @@
         <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html" />
         <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html" />
         <option value="$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/W3Cschool/修改html文本.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/W3Cschool/调用外部文件.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/W3Cschool/cc.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/W3Cschool/输出.html" />
+        <option value="$PROJECT_DIR$/bili_HTML千峰/W3Cschool/对象.html" />
+        <option value="$PROJECT_DIR$/cookie抽奖/尾牙晚会抽奖.py" />
+        <option value="$PROJECT_DIR$/cookie抽奖/m.py" />
         <option value="$PROJECT_DIR$/用法框架/fr.py" />
+        <option value="$PROJECT_DIR$/用法框架/cls_sta.py" />
       </list>
     </option>
   </component>
@@ -305,10 +299,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="159" />
-    <option name="y" value="166" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+    <option name="x" value="436" />
+    <option name="y" value="90" />
+    <option name="width" value="1631" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -316,6 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,13 +322,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Games" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -367,8 +361,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fr">
-    <configuration name="抓取唱吧尘四" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cls_sta">
+    <configuration name="尾牙晚会抽奖" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,12 +370,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析_大鹏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookie抽奖" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析_大鹏/抓取唱吧尘四.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie抽奖/尾牙晚会抽奖.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,7 +438,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="falsk_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cls_sta" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -452,12 +446,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bili_python操作数据库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用法框架" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bili_python操作数据库/falsk_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用法框架/cls_sta.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,7 +476,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mysql_orm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="m" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencvStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -490,12 +484,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bili_python操作数据库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookie抽奖" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bili_python操作数据库/mysql_orm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie抽奖/m.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -524,19 +518,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.抓取唱吧尘四" />
       <item itemvalue="Python.Connection" />
-      <item itemvalue="Python.falsk_test" />
-      <item itemvalue="Python.mysql_orm" />
       <item itemvalue="Python.fr" />
+      <item itemvalue="Python.尾牙晚会抽奖" />
+      <item itemvalue="Python.m" />
+      <item itemvalue="Python.cls_sta" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cls_sta" />
+        <item itemvalue="Python.m" />
+        <item itemvalue="Python.尾牙晚会抽奖" />
         <item itemvalue="Python.fr" />
         <item itemvalue="Python.Connection" />
-        <item itemvalue="Python.falsk_test" />
-        <item itemvalue="Python.mysql_orm" />
-        <item itemvalue="Python.抓取唱吧尘四" />
       </list>
     </recent_temporary>
   </component>
@@ -563,23 +557,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="166" width="1036" height="733" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30552545" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18037975" side_tool="true" weight="0.40628386" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32696897" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253012" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81962025" visible="true" weight="0.73833334" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.07430731" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5477707" visible="true" weight="0.19057377" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" weight="0.3997833" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.51719904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.38353196" visible="true" weight="0.07942431" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32870048" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.0010245901" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6342213" />
       <window_info id="Structure" order="1" sideWeight="0.4386921" side_tool="true" weight="0.14274321" />
-      <window_info id="Favorites" order="2" sideWeight="0.4522293" side_tool="true" visible="true" weight="0.19057377" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.50961536" />
+      <window_info id="Favorites" order="2" sideWeight="0.616468" side_tool="true" visible="true" weight="0.07942431" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.39337748" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.46645367" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,75 +627,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/360极速浏览器下载/libxml2-python-2.6.9/setup.py" />
-    <entry file="file://$PROJECT_DIR$/wechat/vim main.py" />
-    <entry file="file://$PROJECT_DIR$/W3cschool/每天一个小程序/说明的.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat/one.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/书籍_计算机视觉/读图.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多类图像识别/get_imagestr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/超市购物.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/effective_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat/vim_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础之后学习/game_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/11可视化工具Tableau.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析_大鹏/3穷人和富人的差距(暂无).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/大数据分析/数据可视化(Data_visualization).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -877,51 +801,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/正则表达式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/用法框架/类方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bili_python操作数据库/Connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="1275">
           <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
         </state>
       </provider>
@@ -940,10 +829,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/DOM模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/数组使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/事件详解3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/JAVAscript/Cookie操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ截图20181101082654.png" />
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/cc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/调用外部文件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/输出.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8800">
+          <caret line="352" column="13" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/javascript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bili_HTML千峰/W3Cschool/修改html文本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="806" column="8" selection-start-line="806" selection-start-column="8" selection-end-line="806" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie抽奖/尾牙晚会抽奖.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="827" column="8" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie抽奖/m.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5963">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51525">
+          <caret line="2064" column="53" selection-start-line="2064" selection-start-column="53" selection-end-line="2064" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="182">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/cls_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
