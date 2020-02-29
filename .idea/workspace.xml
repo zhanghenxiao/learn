@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/用法框架/cookbook/8.1改变对象的字符串显示.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/用法框架/cookbook/内置函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/m.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-Analysis.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-EXE.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-PKG.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-PKG.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-PYZ.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-PYZ.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out00-Tree.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/out01-Tree.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/warnm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/build/m/xref-m.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/cc.xls" beforeDir="false" afterPath="$PROJECT_DIR$/cookie抽奖/cc.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/dist/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/dist/cc.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/dist/m.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/m.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie抽奖/m.spec" beforeDir="false" />
-    </list>
+    <list default="true" id="401de867-1e98-441c-9812-b3e861b684fa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,15 +111,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cls_sta.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/用法框架/cls_sta.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -151,16 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cookbook.md5" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cookbook.md5" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/用法框架/cookbook/cookbook.md5">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="8.1改变对象的字符串显示.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="8.1改变对象的字符串显示.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/用法框架/cookbook/8.1改变对象的字符串显示.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
+            <state relative-caret-position="5">
+              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="e#123#314#1" />
                 <element signature="e#351#680#1" />
@@ -313,11 +286,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="312" />
-    <option name="y" value="11" />
-    <option name="width" value="1488" />
-    <option name="height" value="986" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="416" />
+    <option name="y" value="109" />
+    <option name="width" value="1036" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -342,7 +315,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bili_HTML千峰/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -591,20 +564,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="312" y="11" width="1488" height="986" extended-state="1" />
+    <frame x="416" y="109" width="1036" height="697" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.31560692" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18037975" side_tool="true" weight="0.40628386" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32696897" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253012" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81962025" visible="true" weight="0.31887457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81962025" weight="0.4822695" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.51719904" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5645439" visible="true" weight="0.12955183" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56560284" visible="true" weight="0.18954918" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32870048" />
       <window_info anchor="right" id="SciView" order="3" weight="0.6342213" />
-      <window_info id="Structure" order="1" sideWeight="0.4354561" side_tool="true" visible="true" weight="0.12955183" />
+      <window_info id="Structure" order="1" sideWeight="0.43439716" side_tool="true" visible="true" weight="0.18954918" />
       <window_info id="Favorites" order="2" sideWeight="0.52926826" side_tool="true" weight="0.16727538" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8727545" weight="0.39684328" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.46645367" />
@@ -926,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cookie抽奖/尾牙抽奖/抽奖.py" />
-    <entry file="file://$PROJECT_DIR$/用法框架/cookbook/内置函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/用法框架/fr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -946,9 +913,6 @@
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/用法框架/cookbook/cookbook.md5">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cookie抽奖/尾牙抽奖/prize.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -965,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/用法框架/cookbook/8.1改变对象的字符串显示.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
+        <state relative-caret-position="5">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="e#123#314#1" />
             <element signature="e#351#680#1" />
@@ -991,6 +955,20 @@
             <element signature="e#4715#4762#0" />
             <element signature="e#4738#4762#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/cookbook/内置函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用法框架/cookbook/cookbook.md5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

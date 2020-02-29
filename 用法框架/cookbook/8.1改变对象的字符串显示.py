@@ -5,7 +5,7 @@
 
 
 #格式化默认顺序  format
-
+#格式化
 """
 def cool()
     print("{},{}".format("hello","1"))
@@ -38,7 +38,7 @@ print('p is {0}'.format(p))
 """
 class student():
     pass
-
+ 
 s = student()
 s.name = "cc" #动态给实例绑定一个属性，绑定属性
 s.age = 23

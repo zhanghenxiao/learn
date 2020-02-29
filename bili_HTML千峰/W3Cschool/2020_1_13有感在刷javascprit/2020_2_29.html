@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+</head>
+<body onload = "checkcookie()">
+
+<!--html dom -->
+
+<!--本例查找 id="main" 的元素，然后查找 id="main" 元素中的所有 <p> 元素：-->
+<p>你好世界</p>
+<div id = main>
+    <p> dom 是非常有用得</p>
+    <p> 该实例展示了 <b>getElementsByTagName</b> 方法</p>
+</div>
+<script>
+    var x = document.getElementById("main");
+    var y =  x.getElementsByTagName("p");
+    document.write('id="mian"元素中得第一个段落为：' + y[0].innerHTML
+    //    y[0]为第一个P ,y[1]为第二个P
+    )
+</script>
+<hr>
+
+
+<!--改变HTML样式-->
+<p id="p1">Hello World!</p>
+<p id="p2">Hello World!</p>
+<script>
+    var x  = document.getElementById("p2");
+    x.style.color = "#FF0000";
+    x.style.font = "20";
+    x.style.fontFamily = "Arial";
+</script>
+<hr>
+
+<!--本例改变了 id="id1" 的 HTML 元素的样式，当用户点击按钮时：-->
+<h1 id="id1">我的标题 1</h1>
+<script>
+    var w = document.getElementById("id1");
+</script>
+<button type="button" onclick='w.style.color = "#00FF00"'>点我</button>
+<hr>
+
+<!--在本例中，当用户在 <h1> 元素上点击时，会改变其内容-->
+<h1 onclick="this.innerHTML = 'Pass'">点击文本</h1>
+<hr>
+
+<!--如需向 HTML 元素分配 事件，您可以使用事件属性。-->
+<button type="button" onclick="test()">点我</button>
+<script>
+    function test(){
+        document.getElementById("demo").innerHTML = Date()
+    }
+</script>
+<p id = "demo"></p>
+<hr>
+
+<!--onload 和 onunload 事件会在用户进入或离开页面时被触发。-->
+<!--onload 和 onunload 事件可用于处理 cookie。-->
+<script>
+    function checkcookie() {
+        if (navigator.cookieEnabled==true){
+            alert('cookie yes')
+        }
+        else{
+            alert('cookie no')
+        }
+    }
+</script>
+<hr>
+
+<!--navigator 查看浏览器版本等信息-->
+<script>
+    txt = "<p>浏览器代号：" + navigator.appName +"</p>";
+    txt += "<p>浏览器名称: " +navigator.appVersion + "</p>";
+    txt+= "<p>硬件平台: " + navigator.platform + "</p>";
+    document.getElementById("demo").innerHTML = txt
+</script>
+<p id = "dem"></p>
+<hr>
+
+<!--onchange 事件-->
+<script>
+    function text_value() {
+        var txt = document.getElementById("name");
+        // 注意文本值得处理方式
+        txt.value = txt.value.toUpperCase();
+    }
+</script>
+<input type="text" id="name" onchange="text_value()">
+<p>当你离开输入框后，函数将被触发，将小写字母转为大写字母。</p>
+<hr>
+
+<!--onmouseover 和 onmouseout 事件-->
+<!---->
+<div style="background-color: royalblue;
+    width: 200px; height: 200px;font-style: italic;
+    font-size: 5px;margin:0 auto;text-align: center">mouse over me
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

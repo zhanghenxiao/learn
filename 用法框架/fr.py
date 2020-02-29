@@ -83,6 +83,7 @@ g.price = 123  #执行 @price.setter 修饰的 price 方法，并将 123 赋值�
 del g.price    #执行deleter方法
 
 #原价（Original_price），折扣(discount)
+"""
 class Original_price(object):
     def __init__(self):
         self.Original_price  = 100
@@ -102,12 +103,16 @@ print(o.price)  #获取商品价格
 o.price = 200   #修改商品价格
 print(o.price)  #删除商品原价
 del o.price
-
+"""
 # super() 函数用于调用下一个父类(超类)并返回该父类实例的方法。
 # super 是用来解决多重继承问题的
 
 
-
+import random
+# a=[1,3,5,6,7]
+for i in range(3):
+    w  = random.randrange(0,101,2)
+    print(w,"====")
 
 
 

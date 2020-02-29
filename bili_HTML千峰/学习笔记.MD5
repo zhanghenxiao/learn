@@ -434,6 +434,46 @@ cosole.log(RegExp.$1)
 
 
 
+##### 个人博客所需技能点
+
+需要有显示部分(前端)，数据处理部分(后端)
+前端：HTML，JavaScript，css。
+JS框架：jQuery，angularJS，VueJS等等
+UI框架：UIKIT，bootstrap等等
+
+后端：Java，PHP，Python，JS，Ruby等
+后端框架：Spring(Java)，CodeIgniter，ThinkPHP，laravel，Django，nodeJS，Ruby on rails等
+
+根据需求和自身条件选择合适的方案和技术，多参考类似作品的代码和实现方案，吸取好的方案和想法，更新你的构架方案。
+
+之后开始编码实现。
+先实现前端，设计好你要的样式，写成静态页。
+设计你的后端，让你的网站变得可以数据交互。
+
+测试：进行单元测试和整站测试
+
+上线
+
+
+
+**接下来说一下前端学习路线**
+
+> \1. 精通html,能够书写语意合理，结构清晰，易维护的html结构；
+> \2. 精通css,能够还原视觉设计，并兼容业界承认的主浏览器；
+> \3. 熟悉javascript,了解ECMAscript基础内容，掌握至少两种js框架
+> \4. 对常见的浏览器兼容问题有清晰的理解，并有可靠的解决方案
+> \5. 对性能有一定的要求，了解yahooo的性能优化建议，并可以在项目中有效实施
+> 基础结束之后就可以深入vue  react 框架
+> 然后就是node小程序
+
+作者：Lemon学姐
+
+链接：https://www.zhihu.com/question/364580341/answer/965687687
+
+来源：知乎
+
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 
 
 
