@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>子传父(事件传值)</title>
+<script src="../vue.js"></script>
+<div id="app">
+	father
+	<cookie @myevent="handclick"></cookie>
+</div>
+<script type="text/javascript">
+	Vue.component("cookie",{
+		template:`
+			<div>
+			child
+				<button @click="handclick()">click</button>
+			</div>
+			`,
+			methods:{
+				// 通知父组件
+				handclick(){
+					this.$emit("myevent",100)
+					setInterval(()=>{
+						this.$emit("myevent",100)
+					},1000)
+				},
+			},
+			
+		})
+	
+	var vm = new Vue({
+		el:"#app",
+		data:{
+			
+		},
+		methods:{
+			handclick(data){
+				console.log("等待子组件",data)
+			}
+		}
+		
+	})
+</script>
+</head>
+<body>
+</body>
+</html>

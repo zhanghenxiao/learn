@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>父传子是通过属性传值 props</title>
+<script src="../vue.js"></script>
+<div id="app">
+	<cookie myname = "飞机" :word = "show" :myshow="true"></cookie>
+	<cookie myname = "飞机" :word = "show" :myshow="false"></cookie> 
+	<!-- 主页按钮消失 -->
+	<min></min>
+	
+	
+</div>
+<script type="text/javascript">
+	Vue.component("cookie",{
+		template:`
+			<div>
+				<span style="background-color: aliceblue;">{{name}} === {{myname}}</span>
+				<p>{{word}}</p>
+				<button v-show="myshow">主页</button>
+			</div>
+			`,
+			// props:["myname","word","myshow"],
+			// 属性验证
+			props:{
+				myname:String,
+				word:String,
+				myshow:Boolean
+			},
+		data(){
+			return {
+				name: "全局组件卖座"
+			}
+		}
+	})
+	
+	var vm = new Vue({
+		el:"#app",
+		data:{
+			show: "big 来自父组件的叮嘱 属性传值加冒号 ：",
+			
+		},
+		components:{
+			min:{
+				template:`
+				<div>{{name}}</div>
+				`,
+			// data必须写成函数 
+			data(){
+				return {
+					name: "局部组件卖座"
+				}
+			}
+			}
+			
+		}
+	})
+</script>
+</head>
+<body>
+</body>
+</html>

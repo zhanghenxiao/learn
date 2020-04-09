@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+<body>
+<!-- jQuery 效果隐藏hide和显示show -->
+<script>
+	$(document).ready(function(){
+	  $("#hidep").click(function(){
+		 $(".showdiv").hide(1000)
+		 })
+	  $("#showp").click(function(){
+		  $(".showdiv").show(1000)
+	  })
+	});
+</script>
+<button id="hidep">隐藏</button><br>
+<button id="showp" >显示</button>
+<div class= "showdiv" style="background-color: bisque;height: 100px;width: 300px;">这是一个div</div>
+<hr>
+
+<!-- jQuery 效果 - 淡入fadeIn淡出fadeout -->
+<script>
+	$(document).ready(function(){
+	  $("button").click(function(){
+		 $("#div1").fadeOut()
+		 $("#div2").fadeOut("slow")
+		 // $("#div3").fadeOut(2000)
+		 })
+	})
+</script>
+<button>淡出fadein</button>
+<br><br>
+<!-- display: none不在当前页面显示   -->
+<div id ="div1" style="background-color: firebrick;height: 30px;width: 30px;"></div><br>
+<div id ="div2" style="background-color: greenyellow;height: 30px;width: 30px;"></div><br>
+<!-- <div id ="div3" style="background-color: blue;height: 30px;width: 30px;display: none;"></div> -->
+<hr>
+
+<!-- fadeToggle() 方法可以在 fadeIn() 与 fadeOut() 方法之间进行切换 -->
+<script>
+	$(document).ready(function(){
+	  $("#tbutton").click(function(){
+		 $("#tdiv1").fadeToggle()
+		 $("#tdiv2").fadeToggle("slow")
+		 $("#tdiv3").fadeToggle(2000)
+		 })
+	})
+</script>
+<button id="tbutton">淡出和淡入fadein</button>
+<br><br>
+<!-- display: none不在当前页面显示   -->
+<div id ="tdiv1" style="background-color: firebrick;height: 30px;width: 30px;"></div><br>
+<div id ="tdiv2" style="background-color: greenyellow;height: 30px;width: 30px;"></div><br>
+<div id ="tdiv3" style="background-color: blue;height: 30px;width: 30px;"></div>
+<hr>
+
+ <!-- fadeTo() 方法允许渐变为给定的不透明度（值介于 0 与 1 之间） -->
+<script>
+	$(document).ready(function(){
+	  $("#tobutton").click(function(){
+		 $("#todiv1").fadeTo("slow",0.15)
+		 $("#todiv2").fadeTo("slow",0.3)
+		 $("#todiv3").fadeTo("slow",0.9)
+		 })
+	})
+</script>
+<button id="tobutton">渐变fadeTo</button>
+<br><br>
+<!-- display: none不在当前页面显示   -->
+<div id ="todiv1" style="background-color: firebrick;height: 30px;width: 30px;"></div><br>
+<div id ="todiv2" style="background-color: greenyellow;height: 30px;width: 30px;"></div><br>
+<div id ="todiv3" style="background-color: blue;height: 30px;width: 30px;"></div>
+<hr>
+
+ <!-- slideDown() 方法用于向下滑动元素。 -->
+ <script>
+	$(document).ready(function(){
+	  $("#slidediv1").click(function(){
+		 // $("#slidediv2").slideDown("slow")
+		 $("#slidediv2").slideToggle("slow")
+		 })
+	})
+ </script>
+ <style>
+/* 共同属性 */
+#slidediv1,#slidediv2
+	 {
+		/* 上下边距都为5px,左右边距3px */
+		padding: 5px;
+		text-align: center;
+		background-color: aquamarine;
+		border: solid 1px black ;
+	 }
+/* 重写属性 */
+#slidediv2{
+	padding: 50px;
+	background-color: aliceblue;
+	display: none;
+}
+ </style>
+<div id="slidediv1">点我向下滑动slidedown</div>
+<div id="slidediv2">hello</div>
+<hr>
+
+<!-- Query 效果- 动画 animate -->
+<script>
+	$(document).ready(function(){
+	  $("#anp").click(function(){
+		 // $("#andiv1").animate({left:"500px"})
+		 // animate操作多个属性
+		 $("#andiv1").animate({
+			 left:"500px",
+			 width :"+=200px",
+			 height:"+=200px",
+			 })
+		 })
+	})
+</script>
+<style>
+	#andiv1{
+		height: 50px;
+		width: 50px;
+		background-color: antiquewhite;
+		border: solid 2px #000000;
+		/* 定位元素 */
+		position:absolute;
+	}
+</style>
+<p id="anp">点击移动</p><br>
+<div id="andiv1">animate</div><br><br><br><br><br><br>
+<hr>
+
+<!-- jQuery animate() - 使用预定义的值  "show"、"hide" 或 "toggle"-->
+<script>
+	$(document).ready(function(){
+	  $("#toanp").click(function(){
+		 $("#toandiv1").animate({
+			 height:"toggle"
+			 })
+		 })
+	})
+</script>
+<style>
+	#toandiv1{
+		height: 50px;
+		width: 50px;
+		background-color: antiquewhite;
+		border: solid 2px #000000;
+		/* 定位元素 */
+		position:absolute;
+	}
+</style>
+<p id="toanp">点击移动</p>
+<div id="toandiv1">animate</div><br><br><br><br>
+<hr>
+
+<!-- jQuery animate() - 使用队列功能 -->
+<script>
+	$(document).ready(function(){
+	  $("#duianp").click(function(){
+		 var div=$("#duiandiv1")
+			div.animate({height:"100px"})
+			div.animate({width:"300px"})
+			div.animate({height:"400px"})
+			div.animate({width:"500px"})
+			div.animate({fontSize:'10em'})
+			 })
+	})
+</script>
+<style>
+	#duiandiv1{
+		height: 50px;
+		width: 50px;
+		background-color: darkred;
+		border: solid 2px #000000;
+		position:absolute;
+	}
+</style>
+<p id="duianp">开始动画队列</p>
+<div id="duiandiv1">animate</div>
+
+
+</body>
+</html>

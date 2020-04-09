@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="../vue.js"></script>
+<div id="app">
+	<input type="checkbox" name="favor" id="" value="" />vue 
+	<input type="checkbox" name="favor" id="" value="" />recact
+	<input type="checkbox" name="favor" id="" value="" />jquery
+	<input type="text" v-model.lazy="mytext" />
+	{{mytext}}
+</div>
+
+<script type="text/javascript">
+	var vm = new Vue({
+		el: "#app",
+		data:{
+			mytext:""
+		}
+	})
+</script>
+</head>
+<body>
+</body>
+</html>

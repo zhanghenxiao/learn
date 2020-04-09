@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="../vue.js"></script>
+<!--需求 1：动态生成div并且渲染 2：在输入框输入信息点击添加并且在页面渲染 
+		 3：点击对应位置并且删除 4：高亮显示点击位置
+-->
+<!-- 实现 1.使用列表渲染 2.v-model数据双向绑定 获取用户输入框的值再点击事件添加 
+		  3.通过列表索引值传行参至函数点击事件删除 4.状态栏定义一个状态并通过索引值记录当前点击位置节点
+-->
+
+<div id="app">
+	<!-- v-model 数据双向绑定 NB-->
+	<input type="text" v-model="mytext"/>
+	<button @click="add">添加信息</button>
+	<ul>
+		<!-- v-if 限定空值不添加 ,index行参方式传入函数-->
+		<!-- 三目运算，点击当前节点得到索引并让当前节点显示高亮 -->
+		<li v-for="(mydata,index) in datalist" v-if="mydata"
+		:class="now === index?'active':''" @click="changecolor(index)">
+			{{mydata}}   --<button @click="del(index)">删除信息</button>
+		</li>
+	</ul>
+</div>
+<script type="text/javascript">
+	var vm = new Vue({
+		el: "#app",
+		data:{
+			datalist : ["1111","2222"],
+			mytext : "1000w",
+			now : 0  //记录当前节点状态
+		},
+		methods:{
+			add(){
+				this.datalist.push(this.mytext)
+			},
+			del(index){
+				// 删除列表元素  从这个索引位置删除当前这个元素
+				this.datalist.splice(index,1)
+			},
+			changecolor(index){
+				//this.now是变量名 index是值
+				this.now = index  
+				console.log(this.now)
+			}
+			
+		}
+	})
+</script>
+<style>
+	/* 注意写法 */
+	.active{
+		background-color: #FFFF00;
+	}
+</style>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<!-- 对象 -->
+<script>
+	test = {test:"zhang",old:"20"}
+	document.write(test.test + test.old)
+</script>
+<hr>
+
+<!-- 对象构造器 且加入函数 -->
+<script>
+	function per(name,sex,old){
+		this.name = name;
+		this.sex = sex;
+		this.old = old ;
+		function old(str){
+			this.name = str
+		}
+	}
+	newper = new per("zhang","boy","22")
+	newper.old("sheng")
+	document.write(newper.name)
+</script>
+<hr>
+
+<button onclick="forvalue()">循环文本</button>
+<p id="value"></p>
+<script>
+	function forvalue(){
+		// 细节处理
+		txt = " " 
+		var per = {name:"cookie",height:"176",weight:"130"}
+		// 记住条件写在循环内
+		for (x in per){
+			txt += per[x]	
+			// txt = txt + per[x]
+		}	
+		document.getElementById("value").innerHTML = txt
+		}
+</script>
+<hr>
+
+<!-- 你可以使用 toString() 方法 输出16进制、8进制、2进制。 -->
+<script>
+	var jingzhi = 200;
+	document.write(jingzhi.toString(16)+'<br>')
+	document.write(jingzhi.toString(8))
+</script>
+<hr>
+
+<!-- 使用 isNaN() 全局函数来判断一个值是否是 NaN 值。 -->
+<script>
+	var x =100 /"100"
+	document.write(isNaN(x))
+</script>
+<hr>
+
+<!-- 使用 indexOf() 来定位字符串中某一个指定的字符首次出现的位置 -->
+<script>
+	var str = "my name is cookie"
+	var y = str.indexOf("name")
+	document.write(y)
+</script>
+<hr>
+
+<!-- JavaScript Date（日期） 对象 -->
+<script>
+	document.write(Date()+"<br>");
+	d = new Date();
+	document.write(d.getFullYear())
+</script>
+<hr>
+
+<!-- 创建一个数组 -->
+<script>
+	var num = ["cookie","boy"]
+	document.write(num[1])
+</script>
+<hr>
+
+<!-- JavaScript Boolean（布尔） 对象 -->
+<script>
+	var a  = new Boolean(1)
+	document.write(a)
+</script>
+<hr>
+
+<!-- JavaScript Math（算数） 对象 -->
+<script>
+	var x = Math.PI
+	document.write(x + "<br>")
+	document.write(Math.floor(Math.random()*7))
+</script>
+<hr>
+
+<!-- JavaScript RegExp 对象 -->
+<script>
+	var x = "hEllo world"
+	var ma = /hello/i
+	document.write(x.match(ma))
+</script>
+<hr>
+
+<!-- JavaScripy execCommand函数 -->
+<script>
+	// document.execCommand("2D-Position","false","true");
+	function fn_creatlink()
+	{
+	  // document.execCommand('CreateLink',true,'true');//弹出一个对话框输入URL
+	  document.execCommand('CreateLink',false,'http://www.51js.com');
+	}
+	fn_creatlink()
+</script>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

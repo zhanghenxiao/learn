@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="../vue.js"></script>
+<!-- 需求百度搜索栏 1. 再输入框输入值提取匹配值信息，并同时删除不匹配值得div 2.在输入框删除一个值或多个值时，div重新显示 -->
+<!-- 实现 1.使用数据双向绑定获取用户输入信息，并使用filter过滤及indexOf判断是否存在列表中，再用列表渲染至前端
+		  2.使用二个相同列表，一个列表做前端渲染 一个列表做业务逻-->
+<div id="app">
+	<ul>
+		<input type="text" @input="search()" v-model="mytext">
+		<li v-for="mydata in datalist">
+			{{mydata}}
+		</li>
+		
+	</ul>
+</div>
+<script>
+	var vm = new Vue({
+		el: "#app",
+		mytext: "",
+		data:{
+			datalist:["aa","bb","ccc","aba","bbaa","ababa"],
+			list:["aa","bb","ccc","aba","bbaa","ababa"]
+		},
+		methods:{
+			search(){
+				// console.log(this.mytext)
+				this.datalist = this.list.filter(item=>item.indexOf(this.mytext)>-1)	
+			}
+		}
+	})
+	
+	
+</script>
+</head>
+<body>
+</body>
+</html>

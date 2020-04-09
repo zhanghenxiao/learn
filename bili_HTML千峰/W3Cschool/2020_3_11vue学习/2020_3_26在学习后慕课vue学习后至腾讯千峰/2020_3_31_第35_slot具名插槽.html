@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="../vue.js"></script>
+<div id="app"> 
+	<cookie>
+		<!-- ul 这块为父组件区域   -->
+		<ul>
+			<li>qqq</li>
+			<li>www</li>
+			<li>eee</li>
+		</ul>
+		<!-- ul 这块为父组件区域   -->
+		<ul>
+			<li v-for="data in datalist">{{data}}</li>
+		</ul>
+		<div slot="a">
+		具名插槽slot
+		</div>
+		<li slot="a">
+		具名插槽slot
+		</li>
+	</cookie>
+	<name></name>
+	
+	
+
+</div>
+<script>
+	// 全局组件 注意加模板template 及 大写键盘``
+	Vue.component("cookie",{
+		template:`
+		<div>
+			
+			<div style="background-color: #A52A2A;">第一部分
+				<slot name="a"></slot>
+			</div>
+		<div>
+		`
+	})
+	var vm = new Vue({
+		el: "#app",
+		data:{
+			datalist:["11","22"]
+		},
+		components:{
+			name:{
+				template:`<div>name局部组件<div>`
+			}
+		}
+		
+	})
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -95,12 +95,114 @@
 
 <!--onmouseover 和 onmouseout 事件-->
 <!---->
-<div style="background-color: royalblue;
+<div onmouseover="mover(this)" onmouseout="mout(this)"
+        style="background-color: royalblue;
     width: 200px; height: 200px;font-style: italic;
-    font-size: 5px;margin:0 auto;text-align: center">mouse over me
+    font-size: 40px;margin:0 auto;text-align: center">mouse over me
 
 </div>
+<script>
+	function mover(obj){
+	obj.innerHTML="Thank You"
+    }
+    function mout(obj){
+        obj.innerHTML="Mouse Over Me"
+    }
+</script>
+<hr>
 
+<!--onmousedown、onmouseup 以及 onclick 事件  -->
+<div onmousedown="down(this)" onmouseup="up(this)"
+	style="background-color: cadetblue;height: 300px;width: 300px;
+	font-size:30px;font-family: arial;text-align: center;">
+	点击
+</div>
+<script>
+	function down(obj){
+		obj.style.backgroundColor="#D94A38";
+		obj.innerHTML="I LOVE YOU"
+	}
+	function up(obj){
+		obj.style.backgroundColor="blue";
+		obj.innerHTML="up"
+	}
+</script>
+<hr>
+
+<!-- 向原元素添加事件句柄 -->
+<button id="ss">点我</button>
+<script>
+	document.getElementById("ss").addEventListener("click", function(){
+		alert("hello");
+	});
+</script>
+<hr>
+
+<!-- 向同一个元素中添加多个事件句柄 -->
+<button id ="all">点击一下</button>
+<script>
+	var x = document.getElementById("all")
+	x.addEventListener('click',one)
+	x.addEventListener('click',two)
+	function one(){
+		alert("1")
+	}
+	function two(){
+		alert("2")
+	}
+</script>
+<hr>
+
+<!-- 你可以向同个元素添加不同类型的事件： -->
+<button id ="alls">点击一下</button>
+<p id="log"></p>
+<script>
+	var x = document.getElementById("alls")
+	x.addEventListener('mouseover',out)
+	x.addEventListener('click',click)
+	x.addEventListener('mousemove',move)
+	function out(){
+		document.getElementById("log").innerHTML += "out <br>" 
+	}
+	function click(){
+		document.getElementById("log").innerHTML += "click<br>" 
+	}
+	function move(){
+		document.getElementById("log").innerHTML += "move<br>"
+	}	
+</script>
+<hr>
+
+<!-- 向 Window 对象添加事件句柄 -->
+<p id="new">窗口刷新时间 方法失败</p>
+<script>
+	window.addEventListener('resize',test
+	function test(){
+		document.getElementById("new").innerHTML=Math.random()
+	})
+</script>
+<hr>
+
+<!-- 在冒泡中，内部元素的事件会先被触发，然后再触发外部元素，即： <p> 元素的点击事件先触发，然后会触发 <div> 元素的点击事件。
+在捕获中，外部元素的事件会先被触发，然后才会触发内部元素的事件，即： <div> 元素的点击事件先触发 ，然后再触发 <p> 元素的点击事件。
+ -->
+ <!-- removeEventListener() 方法 -->
+<div id = "move" style="background-color:rosybrown;height: 300px;width: 100px;">
+	<p>点击取消事件</p>
+	<button onclick="remove()" >点我</button>
+</div>
+<p id="show">显示随机数</p>
+ <script>
+	 document.getElementById("move").addEventListener("mousemove",binding)
+	 function binding(){
+		 document.getElementById('show').innerHTML = Math.random()
+	 }
+	// 事件移除事件时,元素id 需一致
+	 function remove(){
+		  document.getElementById("move").removeEventListener("mousemove",binding)
+	 }
+ </script>
+ <hr>
 
 
 </body>

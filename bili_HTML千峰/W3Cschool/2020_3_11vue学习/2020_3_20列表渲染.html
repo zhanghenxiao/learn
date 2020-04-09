@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<!--  "https://router.vuejs.org/zh/"-->
+<script src="vue.js"></script>
+<div id="app">
+	<div v-for="item ,index in items">
+		{{item.message}}{{index}}
+	</div>
+	<div v-for="vaulue,key in object">
+		{{key}} : {{vaulue}}
+	</div>
+	
+</div>
+<script>
+	var vm = new Vue({
+		el : "#app",
+		data:{
+			items:[
+				{ message: 'Foo' },
+				{ message: 'Bar' }
+			],
+			object: {
+				  title: 'How to do lists in Vue',
+				  author: 'Jane Doe',
+				  publishedAt: '2016-04-10'
+				}
+		}
+	})
+		
+</script>
+
+</head>
+<body>
+</body>
+</html>

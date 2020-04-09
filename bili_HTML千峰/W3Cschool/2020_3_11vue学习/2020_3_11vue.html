@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="vue.js"></script>
+<!-- 创建第一个Vue应用 -->
+<script type="text/javascript">
+	window.onload =function(){
+		new Vue({
+			el:"#test",
+			data:{
+				msg:"nice"
+			}
+		})
+	}
+</script>
+<div id="test">
+	{{msg}}
+</div>
+<hr>
+
+<!-- 数据和方法 -->
+<div id="app">
+	{{a}} {{b}}
+</div>
+<script>
+	var data = { 
+		a : 1,
+		b: "cookie"
+	 };
+	var vm = new Vue({
+		el : "#app",
+		data : data
+	});
+data.a = "hi.....new"
+// vm.freeze 阻止属性得修改
+// vm.freeze()  
+vm.a = "hi...."
+vm.$data.a = " $ hi"
+data.a == vm.a  //true
+// 记录值得变化
+vm.$watch('a',function(newVal,oldVal){
+	console.log(newVal,oldVal);
+})
+vm.a = 1000
+</script>
+<hr>
+
+<h3 style="color: crimson;">模块语法 -指令 </h3>
+<h4>v-once 指令，只能能执行一次性地插值（修改值）</h4>
+<div id="template" v-once>
+	{{te}}
+</div>
+<div id="originally">
+	<p v-html="rawhtml"></p>
+	<!-- 动态绑定 -->
+	<p v-bind:class="color">test...</p>
+	<!-- javascript语法 -->
+	<p>{{number + 1 }}</p>
+	<p>{{on?'yes':'N'}}</p>
+	<p>{{messge.split('')}}</p>
+	
+	<p v-if="seen">"你现在看到我吗"</p>
+	<a v-bind:href="url">this is href</a>
+	<!-- 事件监听 -->
+	<div @click="click1">
+		<div @click="click2">
+			click me
+		</div>
+	</div>
+</div>
+<script>
+	var vm = new Vue({
+		el : "#template",
+		data: {
+			te:"v-once"
+			}
+	})
+vm.te = "chage"
+	var vm = new Vue({
+		el : "#originally",
+		data:{
+			rawhtml: '<span style="color: blue;">this is originally html</span>',
+			color: 'red',
+			number : 10,
+			on : true,
+			messge : 'cookie',
+			run : "runscript",
+			seen : true,
+			url : "http://www.baidu.com"
+		},
+		// 事件绑定事件
+		methods:{
+			click1:function(){
+				console.log("this click1");
+			},
+			click2:function(){
+				console.log("this click2");
+			}
+		}
+	})
+</script>	
+<style>
+	/* 应class = red 故用' . '*/
+	.red{color: brown;}
+	.red{color:yellow;font-size: 30px;}
+</style>
+
+	
+
+
+
+
+
+</head>
+<body>
+</body>
+</html>

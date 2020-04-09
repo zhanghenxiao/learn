@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="vue.js"></script>
+<!-- 计算属性  computed -->
+<div id="getter">
+	<p>{{message}}</p>
+	<p>{{reversedmessage}}</p>
+</div>
+<script>
+	var vm = new Vue({
+		el:"#getter",
+		data:{
+			message:"hello"
+		},
+		computed:{
+			// 计算属性的 getter
+			reversedmessage:function() {
+				// `this` 指向 vm 实例
+				return this.message.split("").reverse().join()
+			}
+		}
+	})
+vm.message = "goole"
+console.log(vm.reversedmessage)
+</script>
+
+
+
+</head>
+<body>
+</body>
+</html>

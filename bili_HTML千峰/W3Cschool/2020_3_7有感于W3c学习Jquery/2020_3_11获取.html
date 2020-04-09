@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<!-- 获取  几乎都有回调函数
+text() - 设置或返回所选元素的文本内容
+html() - 设置或返回所选元素的内容（包括 HTML 标记）
+val() - 设置或返回表单字段的值
+attr() 方法用于获取属性值。 -->	
+	
+	<!-- 设置 -->
+<!-- 设置属性 - attr()	 -->
+<script>
+	$(document).ready(function(){
+	  $("#change").click(function(){
+		 $("#http").attr({
+			 'href':"https://github.com/",
+			 'title':"cookie github"
+			 })
+		 })
+	})
+</script>
+<p><a href="http://www.baidu.com" id="http">百度</a></p>
+<button type="button" id="change">点击能修改链接</button>	
+<hr>	
+	
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#w3cschool").attr("href", function(i, Value){
+            return Value + "/jquery";
+        });
+    });
+});
+</script>
+</head>
+
+<body>
+<p><a href="http://www.w3cschool.cn" id="w3cschool">W3Cschool教程</a></p>
+<button>修改 href值</button>
+<p>点击按钮修改后，可以点击链接查看 href 属性是否变化。</p>	
+	
+	
+	
+	
+</body>
+</html>

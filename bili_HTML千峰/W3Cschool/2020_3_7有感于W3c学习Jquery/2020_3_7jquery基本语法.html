@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>	
+<!-- 建议多写demo  模仿别人的网站 -->
+<!-- 学习 mysql的各种 dorp语句 和linux的 rm语句 -->
+
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+</script>
+<!-- 选取当前 HTML 元素 --> 
+<!-- 感悟如何当前元素有id 或者class 会优先掩藏。。。 -->
+<!-- 案列A -->
+<script>
+	$(document).ready(function(){
+	  $("button").click(function(){
+	    $("p:first").hide();
+	  });
+	});
+</script>
+<h>标题</h>
+<p >这是第一个段落</p>
+<p>这是第二个段落</p>
+<button>点我</button>
+<hr>
+
+<!-- 常用的 jQuery 事件方法 click -->
+<script>
+	$(document).ready(function(){
+		$('p').click(function(){
+			$(this).hide()
+		})
+	})
+</script>
+<p>单击点我会消失</p>
+<p>单击点我也会消失</p>
+<hr>
+
+<script>
+	$(document).ready(function(){
+	  $("p").dblclick(function(){
+	    $(this).hide();
+	  });
+	});
+</script>
+<p>双击点我会消失</p>
+<p>双击点我也会消失</p>
+<hr>
+
+<!-- 当鼠标指针穿过元素时，会发生 mouseenter 事件。 -->
+<!-- 当鼠标指针离开元素时，会发生 mouseleave 事件。 -->
+<!-- 当鼠标指针移动到元素上方，并按下鼠标按键时，会发生 mousedown 事件。 -->
+<script>
+	$(document).ready(function(){
+	  $("#enterp").mouseenter(function(){
+	    alert("已触发mouseenter 事件")
+	  });
+	});
+</script>
+<p id = "enterp" >双击点我会消失</p>
+<hr>
+
+<!-- 当通过鼠标点击选中元素或通过 tab 键定位到元素时，该元素就会获得焦点。元素获得焦点时，发生 focus 事件。 -->
+<script>
+	$(document).ready(function(){
+	  $("input").focus(function(){
+		  $(this).css("background-color","aquamarine")
+	  })
+	  $("input").blur(function(){
+	  		  $(this).css("background-color","red")
+	  })
+	});
+</script>
+name: <input type="text" /><br>
+email: <input type="text" />
+<hr>
+
+<!-- keydown：在键盘上按下某键时发生 -->
+<!-- keypress、keydown与keyup -->
+<script>
+	$(document).ready(function(){
+	  $(this).keydown(function(){
+		  alert("做了按键动作")
+	  })
+	});
+</script>
+<hr>
+
+<!-- jQuery 效果隐藏hide和显示show -->
+<script>
+	$(document).ready(function(){
+	  $("#hidep").click(function(){
+		 $(".showdiv").hide()
+		 })
+	  $("#showp").click(function(){
+		  $(".showdiv").show()
+	  })
+	});
+</script>
+<button id="hidep">隐藏</button><br>
+<button id="showp" >显示</button>
+<div class= "showdiv" style="background-color: bisque;height: 100px;width: 300px;">这是一个div</div>
+<hr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="vue.js"></script>
+<div id="app">
+	<!-- 总结 单纯的css属性绑定只需在vm中写入，v-bind绑定动态属性需加入条件在data 数据中  -->
+	<!-- 这里二种 属性绑定需要注意。。 -->
+	<p v-bind:class="dan">test...</p>
+	<!-- 动态绑定class也可绑定多个class -->
+	<!-- 加个静态绑定方法test -->	
+	<div 
+		class = "test"
+		v-bind:class="{active:isactive,green:isgreen}"
+		style = "width:400px; height: 400px;text-align: center;line-height: 400px;">
+		"绑定动态class class样式"
+	</div>
+	<!-- 绑定内联样式 -->
+	<!-- color 为style属性  color是变量-->
+	<div
+		:style="{color:color}">
+		"绑定内联样式"
+	</div>
+	<!-- 绑定style 动态属性 -->
+	<div 
+		:style="{color:color,background : isyes ? '#A52A2A':''}">
+		"绑定动态内联样式"
+	</div>
+</div>
+<script>
+	var vm = new Vue({
+		el : "#app",
+		data :{
+			// isactive:flase
+			isactive:true,
+			isgreen:true,
+			dan : "cc",
+			color : "red",
+			isyes :true,
+			// isyes : false
+		}
+	})
+
+</script>
+<style type="text/css">
+	/* 注意书写格式 */
+.active{background-color: #A52A2A;}
+.green{font-size: 30px;}
+.test{font-family: "agency fb";}
+.cc {color: #FFFF00;}
+</style>
+
+
+
+
+</head>
+<body>
+</body>
+</html>
