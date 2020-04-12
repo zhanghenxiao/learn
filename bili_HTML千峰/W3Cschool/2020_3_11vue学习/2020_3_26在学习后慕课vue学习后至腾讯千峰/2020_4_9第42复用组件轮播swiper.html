@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">   
+<script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+<script src="../vue.js"></script>
+</head>
+<div id="app">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">Slide 1</div>
+			<div class="swiper-slide">Slide 2</div>
+			<div class="swiper-slide">Slide 3</div>
+		</div>
+		<!-- 如果需要分页器 -->
+		<div class="swiper-pagination"></div>
+		
+		<!-- 如果需要导航按钮 -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		
+		<!-- 如果需要滚动条 -->
+		<div class="swiper-scrollbar"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	Vue.component('swiper',{
+		template:`<div></div>`
+	}),
+	var vm = Vue({
+		el:"#app",
+		data:{
+			
+		}
+	})
+</script>
+<body>
+</body>
+</html>

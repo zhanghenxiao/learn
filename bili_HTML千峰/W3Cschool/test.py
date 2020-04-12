@@ -1,4 +1,5 @@
 import time, configparser
+from W3Cschool import cl
 
 conf = configparser.ConfigParser()
 path = r'D:\LATTE_Project_3\core\test_cases\section4\NB_hdd_ssd_test_plan\cookie.ini'
@@ -35,4 +36,26 @@ def set_ini(name, values):
     conf.read(path)
     conf.set("section1", name, values)
     conf.write(open(path, 'w+'))
-print(1)
+
+c = cl.win()
+c.text()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
