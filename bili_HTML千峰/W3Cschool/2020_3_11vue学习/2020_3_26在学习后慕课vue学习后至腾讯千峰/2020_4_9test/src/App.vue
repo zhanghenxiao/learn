@@ -22,7 +22,7 @@
 
 <script>
 // import Vue from 'vue'
-import child1 from './components/child1'
+import child1 from '@/components/child1'
 	export default {
 		data() {
 			return {
@@ -45,11 +45,11 @@ import child1 from './components/child1'
 	}
 </script>
 
-<style scoped>
+<style lang="css" scoped>
     li{
       list-style: none;
     }
-    div{
+    p{
       background-color: red;
     }
-</style>
+</style>                                                                                                               
