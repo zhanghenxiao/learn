@@ -3,11 +3,11 @@
 # @Date    : 2019-05-28
 # @Author  : Zhang.Cookie
 
-import requests
+import requestes
 from bs4 import BeautifulSoup
 url = "https://travel.qunar.com/p-cs299878-shanghai-jingdian-1-"
 
-ur = requests.get(url)
+ur = requestes.get(url)
 soup = BeautifulSoup(ur.text,'lxml')
 tex = soup.find_all('span',class_='cn_tit')  #获取该页面的所有景区，特别注意text别乱加
 print(type(tex))  #<class 'bs4.element.ResultSet'>

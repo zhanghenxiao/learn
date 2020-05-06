@@ -5,11 +5,6 @@
         child1 -- {{myname}}
         <slot></slot>
         <slot> </slot>
-        <!-- <ul>
-            <li v-for="data in list" :key="data">
-                {{data}}
-            </li>
-        </ul> -->
        {{name}}
     </div>
 </template>
@@ -19,9 +14,6 @@ import axios from 'axios'
 export default {
     // 组件间的通信
     props:["myname"],
-    // list : 10,
-    img : "",
-    name:"cookie",
     mounted() {
         // https://maoyan.com/#movie/.f-hot
         axios.get("/ajax/mostExpected?ci=55&limit=10&offset=0&token=").then(res=>{

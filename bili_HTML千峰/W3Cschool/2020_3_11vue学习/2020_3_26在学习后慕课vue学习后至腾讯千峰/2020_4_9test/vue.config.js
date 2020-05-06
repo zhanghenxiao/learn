@@ -39,7 +39,13 @@ module.exports = {
         entry: 'src/cookie.js',
         // 模板来源
         template: 'public/cookie.html',
-      }
+      },
+      axios_cookie: {
+        // page 的入口
+      entry: 'src/axios_cookie.js',
+      // 模板来源
+      template: 'public/axios_cookie.html',
+    }
     }
   }
   

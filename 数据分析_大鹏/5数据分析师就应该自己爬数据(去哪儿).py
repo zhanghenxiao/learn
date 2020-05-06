@@ -3,7 +3,7 @@
 # @Date    : 2019-05-17
 # @Author  : Zhang.Cookie
 
-import requests
+import requestes
 from bs4 import BeautifulSoup
 import pandas as pd
 
